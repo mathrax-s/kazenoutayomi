@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CyXmlSerializer>
+<!--This file is machine generated and read. It is not intended to be edited by hand.-->
+<!--Due to this, there is no schema for this file.-->
+<CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21 type_name="CyDesigner.Common.ProjMgmt.Model.CyPrjMgmtWrkspcCustomData" version="4">
+<CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997 type_name="CyDesigner.Common.Base.CyCustomData" version="2">
+<userData>
+<dataGuid v="5f2be1a5-0687-4501-bb8c-cf21cb8211bf">
+<CyGuid_5f2be1a5-0687-4501-bb8c-cf21cb8211bf type_name="CyDesigner.Common.ProjMgmt.GUI.CyBookmarkData" version="1">
+<indicators />
+</CyGuid_5f2be1a5-0687-4501-bb8c-cf21cb8211bf>
+</dataGuid>
+<dataGuid v="1b906a0f-a7b6-4e4d-a428-82f98b53cb35">
+<CyGuid_1b906a0f-a7b6-4e4d-a428-82f98b53cb35 type_name="CyDesigner.Common.ProjMgmt.GUI.CyExplorerWindow+CyExplorerWindowState" version="3" SelectedTab="Source">
+<TreeKeys>
+<v>Source</v>
+<v>Components</v>
+<v>Output</v>
+</TreeKeys>
+<TreeStates>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<ExpandedNodeIds>
+<v>RHINON_Calion_Slider-001</v>
+<v>RHINON_Calion_Slider-001\ROKKO_Slider_12sensor</v>
+<v>RHINON_Calion_Slider-001\ROKKO_Slider_12sensor\TopDesign</v>
+<v>RHINON_Calion_Slider-001\ROKKO_Slider_12sensor\ROKKO_Slider_12sensor.cydwr</v>
+<v>RHINON_Calion_Slider-001\ROKKO_Slider_12sensor\ROKKO_Slider_12sensor.cydwr\Pins</v>
+<v>RHINON_Calion_Slider-001\ROKKO_Slider_12sensor\ROKKO_Slider_12sensor.cydwr\Analog</v>
+<v>RHINON_Calion_Slider-001\ROKKO_Slider_12sensor\ROKKO_Slider_12sensor.cydwr\Clocks</v>
+<v>RHINON_Calion_Slider-001\ROKKO_Slider_12sensor\ROKKO_Slider_12sensor.cydwr\Interrupts</v>
+<v>RHINON_Calion_Slider-001\ROKKO_Slider_12sensor\ROKKO_Slider_12sensor.cydwr\System</v>
+<v>RHINON_Calion_Slider-001\ROKKO_Slider_12sensor\ROKKO_Slider_12sensor.cydwr\Directives</v>
+<v>RHINON_Calion_Slider-001\ROKKO_Slider_12sensor\ROKKO_Slider_12sensor.cydwr\Flash Security</v>
+<v>RHINON_Calion_Slider-001\ROKKO_Slider_12sensor\Header Files</v>
+<v>RHINON_Calion_Slider-001\ROKKO_Slider_12sensor\Header Files\cyapicallbacks.h</v>
+<v>RHINON_Calion_Slider-001\ROKKO_Slider_12sensor\Source Files</v>
+<v>RHINON_Calion_Slider-001\ROKKO_Slider_12sensor\Source Files\main.c</v>
+<v>RHINON_Calion_Slider-001\ROKKO_Slider_12sensor\Generated_Source</v>
+<v>RHINON_Calion_Slider-001\ROKKO_Slider_12sensor\Generated_Source\PSoC4</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>RHINON_Calion_Slider-001</v>
+<v>RHINON_Calion_Slider-001\ROKKO_Slider_12sensor</v>
+<v>RHINON_Calion_Slider-001\ROKKO_Slider_12sensor\TopDesign</v>
+<v>RHINON_Calion_Slider-001\ROKKO_Slider_12sensor\ROKKO_Slider_12sensor.cydwr</v>
+<v>RHINON_Calion_Slider-001\ROKKO_Slider_12sensor\ROKKO_Slider_12sensor.cydwr\Pins</v>
+<v>RHINON_Calion_Slider-001\ROKKO_Slider_12sensor\ROKKO_Slider_12sensor.cydwr\Analog</v>
+<v>RHINON_Calion_Slider-001\ROKKO_Slider_12sensor\ROKKO_Slider_12sensor.cydwr\Clocks</v>
+<v>RHINON_Calion_Slider-001\ROKKO_Slider_12sensor\ROKKO_Slider_12sensor.cydwr\Interrupts</v>
+<v>RHINON_Calion_Slider-001\ROKKO_Slider_12sensor\ROKKO_Slider_12sensor.cydwr\System</v>
+<v>RHINON_Calion_Slider-001\ROKKO_Slider_12sensor\ROKKO_Slider_12sensor.cydwr\Directives</v>
+<v>RHINON_Calion_Slider-001\ROKKO_Slider_12sensor\ROKKO_Slider_12sensor.cydwr\Flash Security</v>
+<v>RHINON_Calion_Slider-001\ROKKO_Slider_12sensor\Header Files</v>
+<v>RHINON_Calion_Slider-001\ROKKO_Slider_12sensor\Header Files\cyapicallbacks.h</v>
+<v>RHINON_Calion_Slider-001\ROKKO_Slider_12sensor\Source Files</v>
+<v>RHINON_Calion_Slider-001\ROKKO_Slider_12sensor\Source Files\main.c</v>
+<v>RHINON_Calion_Slider-001\ROKKO_Slider_12sensor\Generated_Source</v>
+<v>RHINON_Calion_Slider-001\ROKKO_Slider_12sensor\Generated_Source\PSoC4</v>
+<v>RHINON_Calion_Slider-001\ROKKO_Slider_12sensor\Generated_Source\PSoC4\CapSense</v>
+<v>RHINON_Calion_Slider-001\ROKKO_Slider_12sensor\Generated_Source\PSoC4\CapSense_SampleClk</v>
+<v>RHINON_Calion_Slider-001\ROKKO_Slider_12sensor\Generated_Source\PSoC4\CapSense_SenseClk</v>
+<v>RHINON_Calion_Slider-001\ROKKO_Slider_12sensor\Generated_Source\PSoC4\CapSense_Sns</v>
+<v>RHINON_Calion_Slider-001\ROKKO_Slider_12sensor\Generated_Source\PSoC4\cy_boot</v>
+<v>RHINON_Calion_Slider-001\ROKKO_Slider_12sensor\Generated_Source\PSoC4\cy_lfclk</v>
+<v>RHINON_Calion_Slider-001\ROKKO_Slider_12sensor\Generated_Source\PSoC4\Em_EEPROM_Dynamic</v>
+<v>RHINON_Calion_Slider-001\ROKKO_Slider_12sensor\Generated_Source\PSoC4\LED</v>
+<v>RHINON_Calion_Slider-001\ROKKO_Slider_12sensor\Generated_Source\PSoC4\cycodeshareexport.ld</v>
+<v>RHINON_Calion_Slider-001\ROKKO_Slider_12sensor\Generated_Source\PSoC4\cycodeshareimport.ld</v>
+<v>RHINON_Calion_Slider-001\ROKKO_Slider_12sensor\Generated_Source\PSoC4\cycodeshareimport.scat</v>
+<v>RHINON_Calion_Slider-001\ROKKO_Slider_12sensor\Generated_Source\PSoC4\cydevice_trm.h</v>
+<v>RHINON_Calion_Slider-001\ROKKO_Slider_12sensor\Generated_Source\PSoC4\cydevicegnu_trm.inc</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<ExpandedNodeIds>
+<v>RHINON_Calion_Slider-001</v>
+<v>RHINON_Calion_Slider-001\ROKKO_Slider_12sensor</v>
+<v>RHINON_Calion_Slider-001\ROKKO_Slider_12sensor\TopDesign</v>
+<v>RHINON_Calion_Slider-001\ROKKO_Slider_12sensor\TopDesign\TopDesign.cysch</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>RHINON_Calion_Slider-001</v>
+<v>RHINON_Calion_Slider-001\ROKKO_Slider_12sensor</v>
+<v>RHINON_Calion_Slider-001\ROKKO_Slider_12sensor\TopDesign</v>
+<v>RHINON_Calion_Slider-001\ROKKO_Slider_12sensor\TopDesign\TopDesign.cysch</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<ExpandedNodeIds>
+<v>RHINON_Calion_Slider-001</v>
+<v>RHINON_Calion_Slider-001\ROKKO_Slider_12sensor</v>
+<v>RHINON_Calion_Slider-001\ROKKO_Slider_12sensor\CortexM0</v>
+<v>RHINON_Calion_Slider-001\ROKKO_Slider_12sensor\CortexM0\ARM_GCC_541</v>
+<v>RHINON_Calion_Slider-001\ROKKO_Slider_12sensor\CortexM0\ARM_GCC_541\Debug</v>
+<v>RHINON_Calion_Slider-001\ROKKO_Slider_12sensor\CortexM0\ARM_GCC_541\Debug\Listing Files</v>
+<v>RHINON_Calion_Slider-001\ROKKO_Slider_12sensor\CortexM0\ARM_GCC_541\Debug\Listing Files\CapSense.lst</v>
+<v>RHINON_Calion_Slider-001\ROKKO_Slider_12sensor\CortexM0\ARM_GCC_541\Debug\Listing Files\CapSense_CSHL.lst</v>
+<v>RHINON_Calion_Slider-001\ROKKO_Slider_12sensor\CortexM0\ARM_GCC_541\Debug\Listing Files\CapSense_INT.lst</v>
+<v>RHINON_Calion_Slider-001\ROKKO_Slider_12sensor\CortexM0\ARM_GCC_541\Debug\Listing Files\CapSense_PM.lst</v>
+<v>RHINON_Calion_Slider-001\ROKKO_Slider_12sensor\CortexM0\ARM_GCC_541\Debug\Listing Files\CapSense_SampleClk.lst</v>
+<v>RHINON_Calion_Slider-001\ROKKO_Slider_12sensor\CortexM0\ARM_GCC_541\Debug\Listing Files\CapSense_SenseClk.lst</v>
+<v>RHINON_Calion_Slider-001\ROKKO_Slider_12sensor\CortexM0\ARM_GCC_541\Debug\Listing Files\CapSense_SMS.lst</v>
+<v>RHINON_Calion_Slider-001\ROKKO_Slider_12sensor\CortexM0\ARM_GCC_541\Debug\Listing Files\CapSense_Sns.lst</v>
+<v>RHINON_Calion_Slider-001\ROKKO_Slider_12sensor\CortexM0\ARM_GCC_541\Debug\Listing Files\CapSense_Sns_PM.lst</v>
+<v>RHINON_Calion_Slider-001\ROKKO_Slider_12sensor\CortexM0\ARM_GCC_541\Debug\Listing Files\CapSense_TunerHelper.lst</v>
+<v>RHINON_Calion_Slider-001\ROKKO_Slider_12sensor\CortexM0\ARM_GCC_541\Debug\Listing Files\Cm0Start.lst</v>
+<v>RHINON_Calion_Slider-001\ROKKO_Slider_12sensor\CortexM0\ARM_GCC_541\Debug\Listing Files\cy_em_eeprom.lst</v>
+<v>RHINON_Calion_Slider-001\ROKKO_Slider_12sensor\CortexM0\ARM_GCC_541\Debug\Listing Files\CyBootAsmGnu.lst</v>
+<v>RHINON_Calion_Slider-001\ROKKO_Slider_12sensor\CortexM0\ARM_GCC_541\Debug\Listing Files\cyfitter_cfg.lst</v>
+<v>RHINON_Calion_Slider-001\ROKKO_Slider_12sensor\CortexM0\ARM_GCC_541\Debug\Listing Files\CyFlash.lst</v>
+<v>RHINON_Calion_Slider-001\ROKKO_Slider_12sensor\CortexM0\ARM_GCC_541\Debug\Listing Files\CyLFClk.lst</v>
+<v>RHINON_Calion_Slider-001\ROKKO_Slider_12sensor\CortexM0\ARM_GCC_541\Debug\Listing Files\CyLib.lst</v>
+<v>RHINON_Calion_Slider-001\ROKKO_Slider_12sensor\CortexM0\ARM_GCC_541\Debug\Listing Files\cymetadata.lst</v>
+<v>RHINON_Calion_Slider-001\ROKKO_Slider_12sensor\CortexM0\ARM_GCC_541\Debug\Listing Files\cyPm.lst</v>
+<v>RHINON_Calion_Slider-001\ROKKO_Slider_12sensor\CortexM0\ARM_GCC_541\Debug\Listing Files\cyutils.lst</v>
+<v>RHINON_Calion_Slider-001\ROKKO_Slider_12sensor\CortexM0\ARM_GCC_541\Debug\Listing Files\LED.lst</v>
+<v>RHINON_Calion_Slider-001\ROKKO_Slider_12sensor\CortexM0\ARM_GCC_541\Debug\Listing Files\LED_PM.lst</v>
+<v>RHINON_Calion_Slider-001\ROKKO_Slider_12sensor\CortexM0\ARM_GCC_541\Debug\Listing Files\main.lst</v>
+<v>RHINON_Calion_Slider-001\ROKKO_Slider_12sensor\CortexM0\ARM_GCC_541\Debug\ROKKO_Slider_12sensor.elf</v>
+<v>RHINON_Calion_Slider-001\ROKKO_Slider_12sensor\CortexM0\ARM_GCC_541\Debug\ROKKO_Slider_12sensor.hex</v>
+<v>RHINON_Calion_Slider-001\ROKKO_Slider_12sensor\CortexM0\ARM_GCC_541\Debug\ROKKO_Slider_12sensor.map</v>
+<v>RHINON_Calion_Slider-001\ROKKO_Slider_12sensor\ROKKO_Slider_12sensor.gpdsc</v>
+<v>RHINON_Calion_Slider-001\ROKKO_Slider_12sensor\ROKKO_Slider_12sensor.rpt</v>
+<v>RHINON_Calion_Slider-001\ROKKO_Slider_12sensor\ROKKO_Slider_12sensor_timing.html</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>RHINON_Calion_Slider-001</v>
+<v>RHINON_Calion_Slider-001\ROKKO_Slider_12sensor</v>
+<v>RHINON_Calion_Slider-001\ROKKO_Slider_12sensor\CortexM0</v>
+<v>RHINON_Calion_Slider-001\ROKKO_Slider_12sensor\CortexM0\ARM_GCC_541</v>
+<v>RHINON_Calion_Slider-001\ROKKO_Slider_12sensor\CortexM0\ARM_GCC_541\Debug</v>
+<v>RHINON_Calion_Slider-001\ROKKO_Slider_12sensor\CortexM0\ARM_GCC_541\Debug\Listing Files</v>
+<v>RHINON_Calion_Slider-001\ROKKO_Slider_12sensor\CortexM0\ARM_GCC_541\Debug\Listing Files\CapSense.lst</v>
+<v>RHINON_Calion_Slider-001\ROKKO_Slider_12sensor\CortexM0\ARM_GCC_541\Debug\Listing Files\CapSense_CSHL.lst</v>
+<v>RHINON_Calion_Slider-001\ROKKO_Slider_12sensor\CortexM0\ARM_GCC_541\Debug\Listing Files\CapSense_INT.lst</v>
+<v>RHINON_Calion_Slider-001\ROKKO_Slider_12sensor\CortexM0\ARM_GCC_541\Debug\Listing Files\CapSense_PM.lst</v>
+<v>RHINON_Calion_Slider-001\ROKKO_Slider_12sensor\CortexM0\ARM_GCC_541\Debug\Listing Files\CapSense_SampleClk.lst</v>
+<v>RHINON_Calion_Slider-001\ROKKO_Slider_12sensor\CortexM0\ARM_GCC_541\Debug\Listing Files\CapSense_SenseClk.lst</v>
+<v>RHINON_Calion_Slider-001\ROKKO_Slider_12sensor\CortexM0\ARM_GCC_541\Debug\Listing Files\CapSense_SMS.lst</v>
+<v>RHINON_Calion_Slider-001\ROKKO_Slider_12sensor\CortexM0\ARM_GCC_541\Debug\Listing Files\CapSense_Sns.lst</v>
+<v>RHINON_Calion_Slider-001\ROKKO_Slider_12sensor\CortexM0\ARM_GCC_541\Debug\Listing Files\CapSense_Sns_PM.lst</v>
+<v>RHINON_Calion_Slider-001\ROKKO_Slider_12sensor\CortexM0\ARM_GCC_541\Debug\Listing Files\CapSense_TunerHelper.lst</v>
+<v>RHINON_Calion_Slider-001\ROKKO_Slider_12sensor\CortexM0\ARM_GCC_541\Debug\Listing Files\Cm0Start.lst</v>
+<v>RHINON_Calion_Slider-001\ROKKO_Slider_12sensor\CortexM0\ARM_GCC_541\Debug\Listing Files\cy_em_eeprom.lst</v>
+<v>RHINON_Calion_Slider-001\ROKKO_Slider_12sensor\CortexM0\ARM_GCC_541\Debug\Listing Files\CyBootAsmGnu.lst</v>
+<v>RHINON_Calion_Slider-001\ROKKO_Slider_12sensor\CortexM0\ARM_GCC_541\Debug\Listing Files\cyfitter_cfg.lst</v>
+<v>RHINON_Calion_Slider-001\ROKKO_Slider_12sensor\CortexM0\ARM_GCC_541\Debug\Listing Files\CyFlash.lst</v>
+<v>RHINON_Calion_Slider-001\ROKKO_Slider_12sensor\CortexM0\ARM_GCC_541\Debug\Listing Files\CyLFClk.lst</v>
+<v>RHINON_Calion_Slider-001\ROKKO_Slider_12sensor\CortexM0\ARM_GCC_541\Debug\Listing Files\CyLib.lst</v>
+<v>RHINON_Calion_Slider-001\ROKKO_Slider_12sensor\CortexM0\ARM_GCC_541\Debug\Listing Files\cymetadata.lst</v>
+<v>RHINON_Calion_Slider-001\ROKKO_Slider_12sensor\CortexM0\ARM_GCC_541\Debug\Listing Files\cyPm.lst</v>
+<v>RHINON_Calion_Slider-001\ROKKO_Slider_12sensor\CortexM0\ARM_GCC_541\Debug\Listing Files\cyutils.lst</v>
+<v>RHINON_Calion_Slider-001\ROKKO_Slider_12sensor\CortexM0\ARM_GCC_541\Debug\Listing Files\LED.lst</v>
+<v>RHINON_Calion_Slider-001\ROKKO_Slider_12sensor\CortexM0\ARM_GCC_541\Debug\Listing Files\LED_PM.lst</v>
+<v>RHINON_Calion_Slider-001\ROKKO_Slider_12sensor\CortexM0\ARM_GCC_541\Debug\Listing Files\main.lst</v>
+<v>RHINON_Calion_Slider-001\ROKKO_Slider_12sensor\CortexM0\ARM_GCC_541\Debug\ROKKO_Slider_12sensor.elf</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+</TreeStates>
+<TreeKeysV2>
+<v>Datasheet</v>
+</TreeKeysV2>
+<TreeStatesV2>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<ExpandedNodeIds>
+<v>RHINON_Calion_Slider-001</v>
+<v>RHINON_Calion_Slider-001\ROKKO_Slider_12sensor</v>
+<v>RHINON_Calion_Slider-001\ROKKO_Slider_12sensor\PSoC 4 Architecture TRM</v>
+<v>RHINON_Calion_Slider-001\ROKKO_Slider_12sensor\PSoC 4200 Family Datasheet</v>
+<v>RHINON_Calion_Slider-001\ROKKO_Slider_12sensor\System Reference Guides</v>
+<v>RHINON_Calion_Slider-001\ROKKO_Slider_12sensor\System Reference Guides\cy_boot_v5_80</v>
+<v>RHINON_Calion_Slider-001\ROKKO_Slider_12sensor\System Reference Guides\cy_lfclk_v1_20</v>
+<v>RHINON_Calion_Slider-001\ROKKO_Slider_12sensor\CapSense_CSD_P4_v2_60.pdf</v>
+<v>RHINON_Calion_Slider-001\ROKKO_Slider_12sensor\cy_pins_v2_20.pdf</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>RHINON_Calion_Slider-001</v>
+<v>RHINON_Calion_Slider-001\ROKKO_Slider_12sensor</v>
+<v>RHINON_Calion_Slider-001\ROKKO_Slider_12sensor\PSoC 4 Architecture TRM</v>
+<v>RHINON_Calion_Slider-001\ROKKO_Slider_12sensor\PSoC 4200 Family Datasheet</v>
+<v>RHINON_Calion_Slider-001\ROKKO_Slider_12sensor\System Reference Guides</v>
+<v>RHINON_Calion_Slider-001\ROKKO_Slider_12sensor\System Reference Guides\cy_boot_v5_80</v>
+<v>RHINON_Calion_Slider-001\ROKKO_Slider_12sensor\System Reference Guides\cy_lfclk_v1_20</v>
+<v>RHINON_Calion_Slider-001\ROKKO_Slider_12sensor\CapSense_CSD_P4_v2_60.pdf</v>
+<v>RHINON_Calion_Slider-001\ROKKO_Slider_12sensor\cy_pins_v2_20.pdf</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+</TreeStatesV2>
+</CyGuid_1b906a0f-a7b6-4e4d-a428-82f98b53cb35>
+</dataGuid>
+</userData>
+</CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997>
+<Unloaded />
+<OpenDocs>
+<name v="..\ROKKO_Slider_12sensor.cydsn\TopDesign\TopDesign.cysch" />
+<name v="..\ROKKO_Slider_12sensor.cydsn\ROKKO_Slider_12sensor.cydwr" />
+</OpenDocs>
+<OpenDocsLayout><![CDATA[<?xml version="1.0"?><!--
+
+  Actipro Docking/MDI for WinForms
+  Copyright (c) 2001-2016 Actipro Software LLC.  All rights reserved.
+  http://www.actiprosoftware.com
+
+--><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="978, 399" SelectedTabbedMdiWindow="3a5d7060-b1ef-42f9-954f-39d0828aa9ae"><DocumentWindow Key="G:\STONE_TOUCH.cydsn-20200206T103938Z-001\ROKKO_Slider_12sensor.cydsn\TopDesign\TopDesign.cysch" Guid="3a5d7060-b1ef-42f9-954f-39d0828aa9ae" /><DocumentWindow Key="G:\STONE_TOUCH.cydsn-20200206T103938Z-001\ROKKO_Slider_12sensor.cydsn\ROKKO_Slider_12sensor.cydwr" Guid="7662821e-7472-4390-a457-de4a74744641" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
+<config v="" />
+<AutoUpdate v="true" />
+</CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>
+</CyXmlSerializer>

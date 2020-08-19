@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CyXmlSerializer>
+<!--This file is machine generated and read. It is not intended to be edited by hand.-->
+<!--Due to this, there is no schema for this file.-->
+<CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21 type_name="CyDesigner.Common.ProjMgmt.Model.CyPrjMgmtWrkspcCustomData" version="4">
+<CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997 type_name="CyDesigner.Common.Base.CyCustomData" version="2">
+<userData>
+<dataGuid v="1b906a0f-a7b6-4e4d-a428-82f98b53cb35">
+<CyGuid_1b906a0f-a7b6-4e4d-a428-82f98b53cb35 type_name="CyDesigner.Common.ProjMgmt.GUI.CyExplorerWindow+CyExplorerWindowState" version="3" SelectedTab="Source">
+<TreeKeys>
+<v>Source</v>
+<v>Components</v>
+<v>Output</v>
+</TreeKeys>
+<TreeStates>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="STONE_TOUCH-001\ROKKO_Slider">
+<ExpandedNodeIds>
+<v>STONE_TOUCH-001</v>
+<v>STONE_TOUCH-001\ROKKO_Slider\TopDesign</v>
+<v>STONE_TOUCH-001\ROKKO_Slider\ROKKO_Slider.cydwr</v>
+<v>STONE_TOUCH-001\ROKKO_Slider\ROKKO_Slider.cydwr\Pins</v>
+<v>STONE_TOUCH-001\ROKKO_Slider\ROKKO_Slider.cydwr\Analog</v>
+<v>STONE_TOUCH-001\ROKKO_Slider\ROKKO_Slider.cydwr\Clocks</v>
+<v>STONE_TOUCH-001\ROKKO_Slider\ROKKO_Slider.cydwr\Interrupts</v>
+<v>STONE_TOUCH-001\ROKKO_Slider\ROKKO_Slider.cydwr\System</v>
+<v>STONE_TOUCH-001\ROKKO_Slider\ROKKO_Slider.cydwr\Directives</v>
+<v>STONE_TOUCH-001\ROKKO_Slider\ROKKO_Slider.cydwr\Flash Security</v>
+<v>STONE_TOUCH-001\ROKKO_Slider\Header Files</v>
+<v>STONE_TOUCH-001\ROKKO_Slider\Header Files\cyapicallbacks.h</v>
+<v>STONE_TOUCH-001\ROKKO_Slider\Source Files</v>
+<v>STONE_TOUCH-001\ROKKO_Slider\Source Files\main.c</v>
+<v>STONE_TOUCH-001\ROKKO_Slider\Generated_Source</v>
+<v>STONE_TOUCH-001\ROKKO_Slider\Generated_Source\PSoC4</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>STONE_TOUCH-001</v>
+<v>STONE_TOUCH-001\ROKKO_Slider</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<ExpandedNodeIds>
+<v>STONE_TOUCH-001</v>
+<v>STONE_TOUCH-001\ROKKO_Slider</v>
+<v>STONE_TOUCH-001\ROKKO_Slider\TopDesign</v>
+<v>STONE_TOUCH-001\ROKKO_Slider\TopDesign\TopDesign.cysch</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>STONE_TOUCH-001</v>
+<v>STONE_TOUCH-001\ROKKO_Slider</v>
+<v>STONE_TOUCH-001\ROKKO_Slider\TopDesign</v>
+<v>STONE_TOUCH-001\ROKKO_Slider\TopDesign\TopDesign.cysch</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<ExpandedNodeIds>
+<v>STONE_TOUCH-001</v>
+<v>STONE_TOUCH-001\ROKKO_Slider</v>
+<v>STONE_TOUCH-001\ROKKO_Slider\CortexM0</v>
+<v>STONE_TOUCH-001\ROKKO_Slider\CortexM0\ARM_GCC_541</v>
+<v>STONE_TOUCH-001\ROKKO_Slider\CortexM0\ARM_GCC_541\Debug</v>
+<v>STONE_TOUCH-001\ROKKO_Slider\CortexM0\ARM_GCC_541\Debug\Listing Files</v>
+<v>STONE_TOUCH-001\ROKKO_Slider\CortexM0\ARM_GCC_541\Debug\Listing Files\CapSense.lst</v>
+<v>STONE_TOUCH-001\ROKKO_Slider\CortexM0\ARM_GCC_541\Debug\Listing Files\CapSense_CSHL.lst</v>
+<v>STONE_TOUCH-001\ROKKO_Slider\CortexM0\ARM_GCC_541\Debug\Listing Files\CapSense_INT.lst</v>
+<v>STONE_TOUCH-001\ROKKO_Slider\CortexM0\ARM_GCC_541\Debug\Listing Files\CapSense_PM.lst</v>
+<v>STONE_TOUCH-001\ROKKO_Slider\CortexM0\ARM_GCC_541\Debug\Listing Files\CapSense_SampleClk.lst</v>
+<v>STONE_TOUCH-001\ROKKO_Slider\CortexM0\ARM_GCC_541\Debug\Listing Files\CapSense_SenseClk.lst</v>
+<v>STONE_TOUCH-001\ROKKO_Slider\CortexM0\ARM_GCC_541\Debug\Listing Files\CapSense_TunerHelper.lst</v>
+<v>STONE_TOUCH-001\ROKKO_Slider\CortexM0\ARM_GCC_541\Debug\Listing Files\Clock_PWM.lst</v>
+<v>STONE_TOUCH-001\ROKKO_Slider\CortexM0\ARM_GCC_541\Debug\Listing Files\Cm0Start.lst</v>
+<v>STONE_TOUCH-001\ROKKO_Slider\CortexM0\ARM_GCC_541\Debug\Listing Files\cy_em_eeprom.lst</v>
+<v>STONE_TOUCH-001\ROKKO_Slider\CortexM0\ARM_GCC_541\Debug\Listing Files\CyBootAsmGnu.lst</v>
+<v>STONE_TOUCH-001\ROKKO_Slider\CortexM0\ARM_GCC_541\Debug\Listing Files\cyfitter_cfg.lst</v>
+<v>STONE_TOUCH-001\ROKKO_Slider\CortexM0\ARM_GCC_541\Debug\Listing Files\CyFlash.lst</v>
+<v>STONE_TOUCH-001\ROKKO_Slider\CortexM0\ARM_GCC_541\Debug\Listing Files\CyLFClk.lst</v>
+<v>STONE_TOUCH-001\ROKKO_Slider\CortexM0\ARM_GCC_541\Debug\Listing Files\CyLib.lst</v>
+<v>STONE_TOUCH-001\ROKKO_Slider\CortexM0\ARM_GCC_541\Debug\Listing Files\cymetadata.lst</v>
+<v>STONE_TOUCH-001\ROKKO_Slider\CortexM0\ARM_GCC_541\Debug\Listing Files\cyPm.lst</v>
+<v>STONE_TOUCH-001\ROKKO_Slider\CortexM0\ARM_GCC_541\Debug\Listing Files\cyutils.lst</v>
+<v>STONE_TOUCH-001\ROKKO_Slider\CortexM0\ARM_GCC_541\Debug\Listing Files\LED_1.lst</v>
+<v>STONE_TOUCH-001\ROKKO_Slider\CortexM0\ARM_GCC_541\Debug\Listing Files\LED_1_PM.lst</v>
+<v>STONE_TOUCH-001\ROKKO_Slider\CortexM0\ARM_GCC_541\Debug\Listing Files\LED_CONTROL.lst</v>
+<v>STONE_TOUCH-001\ROKKO_Slider\CortexM0\ARM_GCC_541\Debug\Listing Files\LED_CONTROL_PM.lst</v>
+<v>STONE_TOUCH-001\ROKKO_Slider\CortexM0\ARM_GCC_541\Debug\Listing Files\main.lst</v>
+<v>STONE_TOUCH-001\ROKKO_Slider\CortexM0\ARM_GCC_541\Debug\Listing Files\UART_1.lst</v>
+<v>STONE_TOUCH-001\ROKKO_Slider\CortexM0\ARM_GCC_541\Debug\Listing Files\UART_1_BOOT.lst</v>
+<v>STONE_TOUCH-001\ROKKO_Slider\CortexM0\ARM_GCC_541\Debug\Listing Files\UART_1_PM.lst</v>
+<v>STONE_TOUCH-001\ROKKO_Slider\CortexM0\ARM_GCC_541\Debug\Listing Files\UART_1_rx.lst</v>
+<v>STONE_TOUCH-001\ROKKO_Slider\CortexM0\ARM_GCC_541\Debug\Listing Files\UART_1_rx_PM.lst</v>
+<v>STONE_TOUCH-001\ROKKO_Slider\CortexM0\ARM_GCC_541\Debug\Listing Files\UART_1_SCBCLK.lst</v>
+<v>STONE_TOUCH-001\ROKKO_Slider\CortexM0\ARM_GCC_541\Debug\Listing Files\UART_1_SPI_UART.lst</v>
+<v>STONE_TOUCH-001\ROKKO_Slider\CortexM0\ARM_GCC_541\Debug\Listing Files\UART_1_SPI_UART_INT.lst</v>
+<v>STONE_TOUCH-001\ROKKO_Slider\CortexM0\ARM_GCC_541\Debug\Listing Files\UART_1_tx.lst</v>
+<v>STONE_TOUCH-001\ROKKO_Slider\CortexM0\ARM_GCC_541\Debug\Listing Files\UART_1_tx_PM.lst</v>
+<v>STONE_TOUCH-001\ROKKO_Slider\CortexM0\ARM_GCC_541\Debug\Listing Files\UART_1_UART.lst</v>
+<v>STONE_TOUCH-001\ROKKO_Slider\CortexM0\ARM_GCC_541\Debug\Listing Files\UART_1_UART_BOOT.lst</v>
+<v>STONE_TOUCH-001\ROKKO_Slider\CortexM0\ARM_GCC_541\Debug\ROKKO_Slider.elf</v>
+<v>STONE_TOUCH-001\ROKKO_Slider\CortexM0\ARM_GCC_541\Debug\ROKKO_Slider.hex</v>
+<v>STONE_TOUCH-001\ROKKO_Slider\CortexM0\ARM_GCC_541\Debug\ROKKO_Slider.map</v>
+<v>STONE_TOUCH-001\ROKKO_Slider\ROKKO_Slider.gpdsc</v>
+<v>STONE_TOUCH-001\ROKKO_Slider\ROKKO_Slider.rpt</v>
+<v>STONE_TOUCH-001\ROKKO_Slider\ROKKO_Slider_timing.html</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>STONE_TOUCH-001</v>
+<v>STONE_TOUCH-001\ROKKO_Slider</v>
+<v>STONE_TOUCH-001\ROKKO_Slider\CortexM0</v>
+<v>STONE_TOUCH-001\ROKKO_Slider\CortexM0\ARM_GCC_541</v>
+<v>STONE_TOUCH-001\ROKKO_Slider\CortexM0\ARM_GCC_541\Debug</v>
+<v>STONE_TOUCH-001\ROKKO_Slider\CortexM0\ARM_GCC_541\Debug\Listing Files</v>
+<v>STONE_TOUCH-001\ROKKO_Slider\CortexM0\ARM_GCC_541\Debug\Listing Files\CapSense.lst</v>
+<v>STONE_TOUCH-001\ROKKO_Slider\CortexM0\ARM_GCC_541\Debug\Listing Files\CapSense_CSHL.lst</v>
+<v>STONE_TOUCH-001\ROKKO_Slider\CortexM0\ARM_GCC_541\Debug\Listing Files\CapSense_INT.lst</v>
+<v>STONE_TOUCH-001\ROKKO_Slider\CortexM0\ARM_GCC_541\Debug\Listing Files\CapSense_PM.lst</v>
+<v>STONE_TOUCH-001\ROKKO_Slider\CortexM0\ARM_GCC_541\Debug\Listing Files\CapSense_SampleClk.lst</v>
+<v>STONE_TOUCH-001\ROKKO_Slider\CortexM0\ARM_GCC_541\Debug\Listing Files\CapSense_SenseClk.lst</v>
+<v>STONE_TOUCH-001\ROKKO_Slider\CortexM0\ARM_GCC_541\Debug\Listing Files\CapSense_TunerHelper.lst</v>
+<v>STONE_TOUCH-001\ROKKO_Slider\CortexM0\ARM_GCC_541\Debug\Listing Files\Clock_PWM.lst</v>
+<v>STONE_TOUCH-001\ROKKO_Slider\CortexM0\ARM_GCC_541\Debug\Listing Files\Cm0Start.lst</v>
+<v>STONE_TOUCH-001\ROKKO_Slider\CortexM0\ARM_GCC_541\Debug\Listing Files\cy_em_eeprom.lst</v>
+<v>STONE_TOUCH-001\ROKKO_Slider\CortexM0\ARM_GCC_541\Debug\Listing Files\CyBootAsmGnu.lst</v>
+<v>STONE_TOUCH-001\ROKKO_Slider\CortexM0\ARM_GCC_541\Debug\Listing Files\cyfitter_cfg.lst</v>
+<v>STONE_TOUCH-001\ROKKO_Slider\CortexM0\ARM_GCC_541\Debug\Listing Files\CyFlash.lst</v>
+<v>STONE_TOUCH-001\ROKKO_Slider\CortexM0\ARM_GCC_541\Debug\Listing Files\CyLFClk.lst</v>
+<v>STONE_TOUCH-001\ROKKO_Slider\CortexM0\ARM_GCC_541\Debug\Listing Files\CyLib.lst</v>
+<v>STONE_TOUCH-001\ROKKO_Slider\CortexM0\ARM_GCC_541\Debug\Listing Files\cymetadata.lst</v>
+<v>STONE_TOUCH-001\ROKKO_Slider\CortexM0\ARM_GCC_541\Debug\Listing Files\cyPm.lst</v>
+<v>STONE_TOUCH-001\ROKKO_Slider\CortexM0\ARM_GCC_541\Debug\Listing Files\cyutils.lst</v>
+<v>STONE_TOUCH-001\ROKKO_Slider\CortexM0\ARM_GCC_541\Debug\Listing Files\LED_1.lst</v>
+<v>STONE_TOUCH-001\ROKKO_Slider\CortexM0\ARM_GCC_541\Debug\Listing Files\LED_1_PM.lst</v>
+<v>STONE_TOUCH-001\ROKKO_Slider\CortexM0\ARM_GCC_541\Debug\Listing Files\LED_CONTROL.lst</v>
+<v>STONE_TOUCH-001\ROKKO_Slider\CortexM0\ARM_GCC_541\Debug\Listing Files\LED_CONTROL_PM.lst</v>
+<v>STONE_TOUCH-001\ROKKO_Slider\CortexM0\ARM_GCC_541\Debug\Listing Files\main.lst</v>
+<v>STONE_TOUCH-001\ROKKO_Slider\CortexM0\ARM_GCC_541\Debug\Listing Files\UART_1.lst</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+</TreeStates>
+<TreeKeysV2>
+<v>Datasheet</v>
+</TreeKeysV2>
+<TreeStatesV2>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<ExpandedNodeIds>
+<v>STONE_TOUCH-001</v>
+<v>STONE_TOUCH-001\ROKKO_Slider</v>
+<v>STONE_TOUCH-001\ROKKO_Slider\PSoC 4 Architecture TRM</v>
+<v>STONE_TOUCH-001\ROKKO_Slider\PSoC 4200 Family Datasheet</v>
+<v>STONE_TOUCH-001\ROKKO_Slider\System Reference Guides</v>
+<v>STONE_TOUCH-001\ROKKO_Slider\System Reference Guides\cy_boot_v5_80</v>
+<v>STONE_TOUCH-001\ROKKO_Slider\System Reference Guides\cy_lfclk_v1_20</v>
+<v>STONE_TOUCH-001\ROKKO_Slider\CapSense_CSD_P4_v2_60.pdf</v>
+<v>STONE_TOUCH-001\ROKKO_Slider\cy_clock_v2_20.pdf</v>
+<v>STONE_TOUCH-001\ROKKO_Slider\cy_pins_v2_20.pdf</v>
+<v>STONE_TOUCH-001\ROKKO_Slider\SCB_P4_v4_0.pdf</v>
+<v>STONE_TOUCH-001\ROKKO_Slider\TCPWM_P4_v2_10.pdf</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>STONE_TOUCH-001</v>
+<v>STONE_TOUCH-001\ROKKO_Slider</v>
+<v>STONE_TOUCH-001\ROKKO_Slider\PSoC 4 Architecture TRM</v>
+<v>STONE_TOUCH-001\ROKKO_Slider\PSoC 4200 Family Datasheet</v>
+<v>STONE_TOUCH-001\ROKKO_Slider\System Reference Guides</v>
+<v>STONE_TOUCH-001\ROKKO_Slider\System Reference Guides\cy_boot_v5_80</v>
+<v>STONE_TOUCH-001\ROKKO_Slider\System Reference Guides\cy_lfclk_v1_20</v>
+<v>STONE_TOUCH-001\ROKKO_Slider\CapSense_CSD_P4_v2_60.pdf</v>
+<v>STONE_TOUCH-001\ROKKO_Slider\cy_clock_v2_20.pdf</v>
+<v>STONE_TOUCH-001\ROKKO_Slider\cy_pins_v2_20.pdf</v>
+<v>STONE_TOUCH-001\ROKKO_Slider\SCB_P4_v4_0.pdf</v>
+<v>STONE_TOUCH-001\ROKKO_Slider\TCPWM_P4_v2_10.pdf</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+</TreeStatesV2>
+</CyGuid_1b906a0f-a7b6-4e4d-a428-82f98b53cb35>
+</dataGuid>
+<dataGuid v="5f2be1a5-0687-4501-bb8c-cf21cb8211bf">
+<CyGuid_5f2be1a5-0687-4501-bb8c-cf21cb8211bf type_name="CyDesigner.Common.ProjMgmt.GUI.CyBookmarkData" version="1">
+<indicators />
+</CyGuid_5f2be1a5-0687-4501-bb8c-cf21cb8211bf>
+</dataGuid>
+</userData>
+</CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997>
+<Unloaded />
+<OpenDocs>
+<name v="..\ROKKO_Slider.cydsn\TopDesign\TopDesign.cysch" />
+<name v="..\ROKKO_Slider.cydsn\ROKKO_Slider.cydwr" />
+</OpenDocs>
+<OpenDocsLayout><![CDATA[<?xml version="1.0"?><!--
+
+  Actipro Docking/MDI for WinForms
+  Copyright (c) 2001-2016 Actipro Software LLC.  All rights reserved.
+  http://www.actiprosoftware.com
+
+--><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="733, 399" SelectedTabbedMdiWindow="606e7f19-29df-4553-ac5e-e5a0b6bb7693"><DocumentWindow Key="G:\STONE_TOUCH.cydsn-20200206T103938Z-001\ROKKO_Slider.cydsn\TopDesign\TopDesign.cysch" Guid="b2f283bb-672e-48ed-a8a7-684b6f014439" /><DocumentWindow Key="G:\STONE_TOUCH.cydsn-20200206T103938Z-001\ROKKO_Slider.cydsn\ROKKO_Slider.cydwr" Guid="606e7f19-29df-4553-ac5e-e5a0b6bb7693" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
+<config v="" />
+<AutoUpdate v="true" />
+</CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>
+</CyXmlSerializer>

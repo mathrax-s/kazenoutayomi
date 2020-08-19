@@ -1,0 +1,1476 @@
+Archive member included to satisfy reference by file (symbol)
+
+.\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense.o)
+                              .\CortexM0\ARM_GCC_541\Debug\main.o (CapSense_IsBusy)
+.\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_CSHL.o)
+                              .\CortexM0\ARM_GCC_541\Debug\main.o (CapSense_InitializeAllBaselines)
+.\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_INT.o)
+                              .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense.o) (CapSense_ISR)
+.\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_SMS.o)
+                              .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_CSHL.o) (CapSense_UpdateThresholds)
+.\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_SampleClk.o)
+                              .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense.o) (CapSense_SampleClk_Start)
+.\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_SenseClk.o)
+                              .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense.o) (CapSense_SenseClk_Start)
+.\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CyLib.o)
+                              .\CortexM0\ARM_GCC_541\Debug\cyfitter_cfg.o (CyIntEnable)
+.\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CyLFClk.o)
+                              .\CortexM0\ARM_GCC_541\Debug\cyfitter_cfg.o (CySysWdtIsr)
+.\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(LED_CONTROL.o)
+                              .\CortexM0\ARM_GCC_541\Debug\main.o (LED_CONTROL_WriteCompare)
+.\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(UART_1.o)
+                              .\CortexM0\ARM_GCC_541\Debug\main.o (UART_1_Start)
+.\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(UART_1_SPI_UART.o)
+                              .\CortexM0\ARM_GCC_541\Debug\main.o (UART_1_SpiUartWriteTxData)
+.\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(UART_1_UART.o)
+                              .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(UART_1.o) (UART_1_UartInit)
+.\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CyBootAsmGnu.o)
+                              .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense.o) (CyDelayCycles)
+C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\CapSense_CSD_P4_v2_60\PSoC4\Library\CapsenseP4Library_GCC.a(CSD_P4_SmartSense_v2_60.o)
+                              .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_SMS.o) (CalibrateSensors_P4_v2_60)
+c:/program files (x86)/cypress/psoc creator/4.3/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(_udivsi3.o)
+                              .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_SMS.o) (__aeabi_uidiv)
+c:/program files (x86)/cypress/psoc creator/4.3/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(_divsi3.o)
+                              .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_CSHL.o) (__aeabi_idiv)
+c:/program files (x86)/cypress/psoc creator/4.3/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(_dvmd_tls.o)
+                              c:/program files (x86)/cypress/psoc creator/4.3/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(_udivsi3.o) (__aeabi_idiv0)
+c:/program files (x86)/cypress/psoc creator/4.3/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-errno.o)
+                              .\CortexM0\ARM_GCC_541\Debug\Cm0Start.o (__errno)
+c:/program files (x86)/cypress/psoc creator/4.3/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-exit.o)
+                              c:/program files (x86)/cypress/psoc creator/4.3/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/crt0.o (exit)
+c:/program files (x86)/cypress/psoc creator/4.3/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-impure.o)
+                              c:/program files (x86)/cypress/psoc creator/4.3/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-exit.o) (_global_impure_ptr)
+c:/program files (x86)/cypress/psoc creator/4.3/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-init.o)
+                              c:/program files (x86)/cypress/psoc creator/4.3/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/crt0.o (__libc_init_array)
+c:/program files (x86)/cypress/psoc creator/4.3/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-memset.o)
+                              c:/program files (x86)/cypress/psoc creator/4.3/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/crt0.o (memset)
+
+Allocating common symbols
+Common symbol       size              file
+
+CapSense_noiseThreshold
+                    0x1               .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_CSHL.o)
+CapSense_csdTrim1   0x1               .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense.o)
+CapSense_scanSpeedTbl
+                    0x2               .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense.o)
+CapSense_lowBaselineResetCnt
+                    0xc               .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_CSHL.o)
+CapSense_runningDifferenceTbl
+                    0xc               .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_SMS.o)
+CapSense_sensorEnableMaskBackup
+                    0x2               .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense.o)
+CapSense_senseClkDividerVal
+                    0xc               .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense.o)
+CapSense_negativeNoiseThreshold
+                    0x1               .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_CSHL.o)
+CapSense_signRegisterTbl
+                    0xc               .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_SMS.o)
+CapSense_modulationIDAC
+                    0xc               .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense.o)
+CapSense_compensationIDAC
+                    0xc               .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense.o)
+CapSense_sampleMaxTbl
+                    0x18              .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_SMS.o)
+slider_start_pos    0x4               .\CortexM0\ARM_GCC_541\Debug\main.o
+CapSense_noiseEnvelopeTbl
+                    0xc               .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_SMS.o)
+CapSense_unscannedSnsDriveMode
+                    0xc               .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense.o)
+CapSense_sampleClkDividerVal
+                    0xc               .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense.o)
+CapSense_previousSampleTbl
+                    0x18              .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_SMS.o)
+CapSense_sampleMinTbl
+                    0x18              .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_SMS.o)
+preCnt              0x4               .\CortexM0\ARM_GCC_541\Debug\main.o
+prev_sensor         0x4               .\CortexM0\ARM_GCC_541\Debug\main.o
+CapSense_config     0xc               .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_SMS.o)
+CapSense_rawFilterData1
+                    0x18              .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_CSHL.o)
+current_sensor      0x4               .\CortexM0\ARM_GCC_541\Debug\main.o
+CapSense_kValueTbl  0xc               .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_SMS.o)
+CapSense_hysteresis
+                    0x1               .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_CSHL.o)
+prev_sound          0x4               .\CortexM0\ARM_GCC_541\Debug\main.o
+CapSense_fingerThreshold
+                    0x1               .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_CSHL.o)
+bright              0x4               .\CortexM0\ARM_GCC_541\Debug\main.o
+
+Discarded input sections
+
+ .text          0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.3/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/crti.o
+ .data          0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.3/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/crti.o
+ .bss           0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.3/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/crti.o
+ .data          0x00000000        0x4 c:/program files (x86)/cypress/psoc creator/4.3/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/crtbegin.o
+ .text          0x00000000       0x78 c:/program files (x86)/cypress/psoc creator/4.3/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/crt0.o
+ .data          0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.3/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/crt0.o
+ .bss           0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.3/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/crt0.o
+ .ARM.extab     0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.3/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/crt0.o
+ .ARM.exidx     0x00000000        0x8 c:/program files (x86)/cypress/psoc creator/4.3/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/crt0.o
+ .text          0x00000000        0x0 .\CortexM0\ARM_GCC_541\Debug\main.o
+ .data          0x00000000        0x0 .\CortexM0\ARM_GCC_541\Debug\main.o
+ .text          0x00000000        0x0 .\CortexM0\ARM_GCC_541\Debug\cyfitter_cfg.o
+ .data          0x00000000        0x0 .\CortexM0\ARM_GCC_541\Debug\cyfitter_cfg.o
+ .bss           0x00000000        0x0 .\CortexM0\ARM_GCC_541\Debug\cyfitter_cfg.o
+ .text          0x00000000        0x0 .\CortexM0\ARM_GCC_541\Debug\cymetadata.o
+ .data          0x00000000        0x0 .\CortexM0\ARM_GCC_541\Debug\cymetadata.o
+ .bss           0x00000000        0x0 .\CortexM0\ARM_GCC_541\Debug\cymetadata.o
+ .text          0x00000000        0x0 .\CortexM0\ARM_GCC_541\Debug\Cm0Start.o
+ .data          0x00000000        0x4 .\CortexM0\ARM_GCC_541\Debug\Cm0Start.o
+ .bss           0x00000000        0x0 .\CortexM0\ARM_GCC_541\Debug\Cm0Start.o
+ .text._exit    0x00000000        0xc .\CortexM0\ARM_GCC_541\Debug\Cm0Start.o
+ .text._sbrk    0x00000000       0x30 .\CortexM0\ARM_GCC_541\Debug\Cm0Start.o
+ .text          0x00000000        0x0 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense.o)
+ .text.CapSense_Stop
+                0x00000000       0x2c .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense.o)
+ .text.CapSense_WriteSensorRaw
+                0x00000000       0x10 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense.o)
+ .text.CapSense_SetScanResolution
+                0x00000000        0xc .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense.o)
+ .text.CapSense_GetScanResolution
+                0x00000000        0xc .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense.o)
+ .text.CapSense_SetPinDriveMode
+                0x00000000       0x24 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense.o)
+ .text.CapSense_SetDriveModeAllPins
+                0x00000000       0x30 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense.o)
+ .text.CapSense_RestoreDriveModeAllPins
+                0x00000000       0x24 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense.o)
+ .text.CapSense_EnableShieldElectrode
+                0x00000000       0x34 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense.o)
+ .text.CapSense_ReadCurrentScanningSensor
+                0x00000000       0x1c .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense.o)
+ .text.CapSense_ScanWidget
+                0x00000000       0x8c .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense.o)
+ .text.CapSense_GetSenseClkDivider
+                0x00000000        0xc .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense.o)
+ .text.CapSense_SetSenseClkDivider
+                0x00000000        0xc .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense.o)
+ .text.CapSense_GetModulatorClkDivider
+                0x00000000        0xc .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense.o)
+ .text.CapSense_SetModulatorClkDivider
+                0x00000000        0xc .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense.o)
+ .text.CapSense_GetModulationIDAC
+                0x00000000        0xc .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense.o)
+ .text.CapSense_SetModulationIDAC
+                0x00000000        0xc .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense.o)
+ .text.CapSense_GetCompensationIDAC
+                0x00000000        0xc .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense.o)
+ .text.CapSense_SetCompensationIDAC
+                0x00000000        0xc .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense.o)
+ .text.CapSense_GetIDACRange
+                0x00000000       0x14 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense.o)
+ .text.CapSense_SetIDACRange
+                0x00000000       0x28 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense.o)
+ .text          0x00000000        0x0 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_CSHL.o)
+ .text.CapSense_InitializeEnabledBaselines
+                0x00000000       0x30 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_CSHL.o)
+ .text.CapSense_GetBaselineData
+                0x00000000        0xc .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_CSHL.o)
+ .text.CapSense_SetBaselineData
+                0x00000000        0xc .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_CSHL.o)
+ .text.CapSense_GetDiffCountData
+                0x00000000       0x10 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_CSHL.o)
+ .text.CapSense_SetDiffCountData
+                0x00000000       0x10 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_CSHL.o)
+ .text.CapSense_GetFingerThreshold
+                0x00000000        0xc .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_CSHL.o)
+ .text.CapSense_GetNoiseThreshold
+                0x00000000        0xc .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_CSHL.o)
+ .text.CapSense_GetFingerHysteresis
+                0x00000000        0xc .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_CSHL.o)
+ .text.CapSense_GetNegativeNoiseThreshold
+                0x00000000        0xc .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_CSHL.o)
+ .text.CapSense_SetFingerThreshold
+                0x00000000        0xc .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_CSHL.o)
+ .text.CapSense_SetNoiseThreshold
+                0x00000000        0xc .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_CSHL.o)
+ .text.CapSense_SetFingerHysteresis
+                0x00000000        0xc .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_CSHL.o)
+ .text.CapSense_SetNegativeNoiseThreshold
+                0x00000000        0xc .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_CSHL.o)
+ .text.CapSense_SetDebounce
+                0x00000000        0xc .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_CSHL.o)
+ .text.CapSense_SetLowBaselineReset
+                0x00000000        0xc .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_CSHL.o)
+ .text.CapSense_CheckIsSensorActive
+                0x00000000       0xa4 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_CSHL.o)
+ .text.CapSense_CheckIsWidgetActive
+                0x00000000       0x1c .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_CSHL.o)
+ .text.CapSense_CheckIsAnyWidgetActive
+                0x00000000       0x20 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_CSHL.o)
+ .text.CapSense_EnableWidget
+                0x00000000       0x1c .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_CSHL.o)
+ .text.CapSense_DisableWidget
+                0x00000000       0x1c .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_CSHL.o)
+ .text.CapSense_GetRadialCentroidPos
+                0x00000000       0x40 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_CSHL.o)
+ .text.CapSense_MedianFilter
+                0x00000000       0x1c .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_CSHL.o)
+ .text.CapSense_UpdateWidgetBaseline
+                0x00000000       0x24 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_CSHL.o)
+ .text.CapSense_GetWidgetNumber
+                0x00000000        0xc .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_CSHL.o)
+ .text.CapSense_GetLowBaselineReset
+                0x00000000        0xc .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_CSHL.o)
+ .text.CapSense_GetDebounce
+                0x00000000        0xc .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_CSHL.o)
+ .text.CapSense_EnableRawDataFilters
+                0x00000000        0xc .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_CSHL.o)
+ .text.CapSense_DisableRawDataFilters
+                0x00000000        0xc .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_CSHL.o)
+ .text          0x00000000        0x0 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_INT.o)
+ .data          0x00000000        0x0 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_INT.o)
+ .text          0x00000000        0x0 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_SMS.o)
+ .bss           0x00000000        0x0 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_SMS.o)
+ .text.CapSense_SetSensitivity
+                0x00000000       0x1c .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_SMS.o)
+ .text.CapSense_GetSensitivityCoefficient
+                0x00000000        0xc .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_SMS.o)
+ .text.CapSense_GetNoiseEnvelope
+                0x00000000       0x10 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_SMS.o)
+ .text.CapSense_GetNormalizedDiffCountData
+                0x00000000       0x20 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_SMS.o)
+ .text          0x00000000        0x0 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_SampleClk.o)
+ .data          0x00000000        0x0 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_SampleClk.o)
+ .bss           0x00000000        0x0 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_SampleClk.o)
+ .text.CapSense_SampleClk_GetDividerRegister
+                0x00000000        0xc .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_SampleClk.o)
+ .text.CapSense_SampleClk_GetFractionalDividerRegister
+                0x00000000        0x4 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_SampleClk.o)
+ .text          0x00000000        0x0 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_SenseClk.o)
+ .data          0x00000000        0x0 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_SenseClk.o)
+ .bss           0x00000000        0x0 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_SenseClk.o)
+ .text.CapSense_SenseClk_GetDividerRegister
+                0x00000000        0xc .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_SenseClk.o)
+ .text.CapSense_SenseClk_GetFractionalDividerRegister
+                0x00000000        0x4 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_SenseClk.o)
+ .text          0x00000000        0x0 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CyLib.o)
+ .bss           0x00000000       0x18 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CyLib.o)
+ .text.CySysClkImoStart
+                0x00000000       0x14 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CyLib.o)
+ .text.CySysClkImoStop
+                0x00000000       0x10 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CyLib.o)
+ .text.CySysClkWriteHfclkDirect
+                0x00000000       0x20 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CyLib.o)
+ .text.CySysEnablePumpClock
+                0x00000000       0x38 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CyLib.o)
+ .text.CySysClkGetSysclkSource
+                0x00000000       0x1c .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CyLib.o)
+ .text.CySysClkWriteSysclkDiv
+                0x00000000       0x30 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CyLib.o)
+ .text.CySysLvdDisable
+                0x00000000       0x20 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CyLib.o)
+ .text.CySysLvdGetInterruptSource
+                0x00000000       0x10 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CyLib.o)
+ .text.CySysLvdClearInterrupt
+                0x00000000        0xc .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CyLib.o)
+ .text.CySysGetResetReason
+                0x00000000       0x14 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CyLib.o)
+ .text.CyDisableInts
+                0x00000000       0x10 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CyLib.o)
+ .text.CyEnableInts
+                0x00000000        0xc .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CyLib.o)
+ .text.CyIntGetState
+                0x00000000       0x18 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CyLib.o)
+ .text.CyIntSetPending
+                0x00000000       0x14 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CyLib.o)
+ .text.CyIntClearPending
+                0x00000000       0x14 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CyLib.o)
+ .text.CyIntSetSysVector
+                0x00000000       0x20 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CyLib.o)
+ .text.CyIntGetSysVector
+                0x00000000       0x1c .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CyLib.o)
+ .text.CyIntGetVector
+                0x00000000       0x20 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CyLib.o)
+ .text.CyIntGetPriority
+                0x00000000       0x2c .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CyLib.o)
+ .text.CySoftwareReset
+                0x00000000       0x18 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CyLib.o)
+ .text.CyDelay  0x00000000       0x30 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CyLib.o)
+ .text.CySysLvdEnable
+                0x00000000       0x44 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CyLib.o)
+ .text.CyDelayFreq
+                0x00000000       0x4c .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CyLib.o)
+ .text.CySysTickStop
+                0x00000000       0x10 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CyLib.o)
+ .text.CySysTickEnableInterrupt
+                0x00000000       0x10 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CyLib.o)
+ .text.CySysTickEnable
+                0x00000000       0x18 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CyLib.o)
+ .text.CySysTickDisableInterrupt
+                0x00000000       0x10 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CyLib.o)
+ .text.CySysTickSetReload
+                0x00000000       0x10 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CyLib.o)
+ .text.CySysTickGetReload
+                0x00000000       0x10 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CyLib.o)
+ .text.CySysTickGetValue
+                0x00000000       0x10 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CyLib.o)
+ .text.CySysTickGetCountFlag
+                0x00000000       0x10 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CyLib.o)
+ .text.CySysTickServiceCallbacks
+                0x00000000       0x28 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CyLib.o)
+ .text.CySysTickClear
+                0x00000000        0xc .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CyLib.o)
+ .text.CySysTickInit
+                0x00000000       0x40 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CyLib.o)
+ .text.CySysTickStart
+                0x00000000       0x20 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CyLib.o)
+ .text.CySysTickSetCallback
+                0x00000000       0x10 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CyLib.o)
+ .text.CySysTickGetCallback
+                0x00000000        0xc .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CyLib.o)
+ .text.CyGetUniqueId
+                0x00000000       0x70 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CyLib.o)
+ .text          0x00000000        0x0 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CyLFClk.o)
+ .text.CySysClkIloEnabled
+                0x00000000       0x14 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CyLFClk.o)
+ .text.CySysClkIloStart
+                0x00000000       0x14 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CyLFClk.o)
+ .text.CySysClkIloStartMeasurement
+                0x00000000       0x34 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CyLFClk.o)
+ .text.CySysClkIloStopMeasurement
+                0x00000000       0x14 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CyLFClk.o)
+ .text.CySysClkIloCompensate
+                0x00000000      0x104 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CyLFClk.o)
+ .text.CySysWdtGetEnabledStatus
+                0x00000000       0x24 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CyLFClk.o)
+ .text.CySysWdtSetMode
+                0x00000000       0x38 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CyLFClk.o)
+ .text.CySysClkLfclkPosedgeRestore
+                0x00000000       0x2c .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CyLFClk.o)
+ .text.CySysWdtGetMode
+                0x00000000       0x14 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CyLFClk.o)
+ .text.CySysWdtSetClearOnMatch
+                0x00000000       0x34 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CyLFClk.o)
+ .text.CySysWdtGetClearOnMatch
+                0x00000000       0x24 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CyLFClk.o)
+ .text.CySysWdtEnable
+                0x00000000       0x40 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CyLFClk.o)
+ .text.CySysWdtDisable
+                0x00000000       0x44 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CyLFClk.o)
+ .text.CySysWdtSetCascade
+                0x00000000       0x34 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CyLFClk.o)
+ .text.CySysWdtGetCascade
+                0x00000000       0x14 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CyLFClk.o)
+ .text.CySysWdtSetMatch
+                0x00000000       0x38 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CyLFClk.o)
+ .text.CySysWdtSetToggleBit
+                0x00000000       0x30 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CyLFClk.o)
+ .text.CySysWdtGetToggleBit
+                0x00000000       0x10 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CyLFClk.o)
+ .text.CySysWdtGetMatch
+                0x00000000       0x20 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CyLFClk.o)
+ .text.CySysWdtGetCount
+                0x00000000       0x3c .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CyLFClk.o)
+ .text.CySysClkLfclkPosedgeCatch
+                0x00000000       0x74 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CyLFClk.o)
+ .text.CySysClkIloStop
+                0x00000000       0x38 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CyLFClk.o)
+ .text.CySysWdtGetInterruptSource
+                0x00000000       0x14 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CyLFClk.o)
+ .text.CySysWdtResetCounters
+                0x00000000       0x20 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CyLFClk.o)
+ .text.CySysWdtSetInterruptCallback
+                0x00000000       0x20 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CyLFClk.o)
+ .text.CySysWdtGetInterruptCallback
+                0x00000000       0x20 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CyLFClk.o)
+ .text.CySysWdtEnableCounterIsr
+                0x00000000       0x34 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CyLFClk.o)
+ .text.CySysWdtDisableCounterIsr
+                0x00000000       0x28 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CyLFClk.o)
+ .text.CySysWatchdogFeed
+                0x00000000       0x60 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CyLFClk.o)
+ .text.CySysTimerDelayUntilMatch
+                0x00000000       0x6c .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CyLFClk.o)
+ .text.CySysTimerDelay
+                0x00000000       0x3c .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CyLFClk.o)
+ .rodata        0x00000000        0xc .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CyLFClk.o)
+ .text          0x00000000        0x0 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(LED_CONTROL.o)
+ .data          0x00000000        0x0 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(LED_CONTROL.o)
+ .text.LED_CONTROL_Stop
+                0x00000000       0x1c .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(LED_CONTROL.o)
+ .text.LED_CONTROL_SetMode
+                0x00000000       0x28 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(LED_CONTROL.o)
+ .text.LED_CONTROL_SetQDMode
+                0x00000000       0x28 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(LED_CONTROL.o)
+ .text.LED_CONTROL_SetPrescaler
+                0x00000000       0x28 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(LED_CONTROL.o)
+ .text.LED_CONTROL_SetOneShot
+                0x00000000       0x30 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(LED_CONTROL.o)
+ .text.LED_CONTROL_SetPWMMode
+                0x00000000       0x10 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(LED_CONTROL.o)
+ .text.LED_CONTROL_SetPWMSyncKill
+                0x00000000       0x28 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(LED_CONTROL.o)
+ .text.LED_CONTROL_SetPWMStopOnKill
+                0x00000000       0x28 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(LED_CONTROL.o)
+ .text.LED_CONTROL_SetPWMDeadTime
+                0x00000000       0x2c .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(LED_CONTROL.o)
+ .text.LED_CONTROL_SetPWMInvert
+                0x00000000       0x28 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(LED_CONTROL.o)
+ .text.LED_CONTROL_ReadCounter
+                0x00000000       0x10 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(LED_CONTROL.o)
+ .text.LED_CONTROL_SetCounterMode
+                0x00000000       0x28 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(LED_CONTROL.o)
+ .text.LED_CONTROL_ReadPeriod
+                0x00000000       0x10 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(LED_CONTROL.o)
+ .text.LED_CONTROL_SetCompareSwap
+                0x00000000       0x24 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(LED_CONTROL.o)
+ .text.LED_CONTROL_WritePeriodBuf
+                0x00000000       0x10 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(LED_CONTROL.o)
+ .text.LED_CONTROL_ReadPeriodBuf
+                0x00000000       0x10 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(LED_CONTROL.o)
+ .text.LED_CONTROL_SetPeriodSwap
+                0x00000000       0x28 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(LED_CONTROL.o)
+ .text.LED_CONTROL_ReadCompare
+                0x00000000       0x10 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(LED_CONTROL.o)
+ .text.LED_CONTROL_WriteCompareBuf
+                0x00000000       0x10 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(LED_CONTROL.o)
+ .text.LED_CONTROL_ReadCompareBuf
+                0x00000000       0x10 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(LED_CONTROL.o)
+ .text.LED_CONTROL_ReadCapture
+                0x00000000       0x10 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(LED_CONTROL.o)
+ .text.LED_CONTROL_ReadCaptureBuf
+                0x00000000       0x10 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(LED_CONTROL.o)
+ .text.LED_CONTROL_SetCaptureMode
+                0x00000000       0x24 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(LED_CONTROL.o)
+ .text.LED_CONTROL_SetReloadMode
+                0x00000000       0x24 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(LED_CONTROL.o)
+ .text.LED_CONTROL_SetStartMode
+                0x00000000       0x28 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(LED_CONTROL.o)
+ .text.LED_CONTROL_SetStopMode
+                0x00000000       0x24 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(LED_CONTROL.o)
+ .text.LED_CONTROL_SetCountMode
+                0x00000000       0x24 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(LED_CONTROL.o)
+ .text.LED_CONTROL_ReadStatus
+                0x00000000       0x14 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(LED_CONTROL.o)
+ .text.LED_CONTROL_GetInterruptSourceMasked
+                0x00000000        0xc .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(LED_CONTROL.o)
+ .text.LED_CONTROL_GetInterruptSource
+                0x00000000        0xc .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(LED_CONTROL.o)
+ .text.LED_CONTROL_ClearInterrupt
+                0x00000000        0xc .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(LED_CONTROL.o)
+ .text.LED_CONTROL_SetInterrupt
+                0x00000000        0xc .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(LED_CONTROL.o)
+ .text          0x00000000        0x0 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(UART_1.o)
+ .data          0x00000000        0x0 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(UART_1.o)
+ .text.UART_1_ScbModeStop
+                0x00000000        0x8 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(UART_1.o)
+ .text.UART_1_Stop
+                0x00000000       0x20 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(UART_1.o)
+ .text.UART_1_SetRxFifoLevel
+                0x00000000       0x14 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(UART_1.o)
+ .text.UART_1_SetTxFifoLevel
+                0x00000000       0x14 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(UART_1.o)
+ .text.UART_1_I2CSlaveNackGeneration
+                0x00000000       0x3c .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(UART_1.o)
+ .text          0x00000000        0x0 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(UART_1_SPI_UART.o)
+ .data          0x00000000        0x0 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(UART_1_SPI_UART.o)
+ .bss           0x00000000        0x0 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(UART_1_SPI_UART.o)
+ .text.UART_1_SpiUartReadRxData
+                0x00000000        0xc .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(UART_1_SPI_UART.o)
+ .text.UART_1_SpiUartGetRxBufferSize
+                0x00000000       0x10 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(UART_1_SPI_UART.o)
+ .text.UART_1_SpiUartClearRxBuffer
+                0x00000000       0x20 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(UART_1_SPI_UART.o)
+ .text.UART_1_SpiUartPutArray
+                0x00000000       0x18 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(UART_1_SPI_UART.o)
+ .text.UART_1_SpiUartGetTxBufferSize
+                0x00000000       0x10 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(UART_1_SPI_UART.o)
+ .text.UART_1_SpiUartClearTxBuffer
+                0x00000000       0x20 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(UART_1_SPI_UART.o)
+ .text.UART_1_SpiUartDisableIntRx
+                0x00000000       0x10 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(UART_1_SPI_UART.o)
+ .text.UART_1_SpiUartDisableIntTx
+                0x00000000       0x10 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(UART_1_SPI_UART.o)
+ .text          0x00000000        0x0 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(UART_1_UART.o)
+ .data          0x00000000        0x0 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(UART_1_UART.o)
+ .bss           0x00000000        0x0 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(UART_1_UART.o)
+ .text.UART_1_UartStop
+                0x00000000       0x28 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(UART_1_UART.o)
+ .text.UART_1_UartSetRxAddress
+                0x00000000       0x14 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(UART_1_UART.o)
+ .text.UART_1_UartSetRxAddressMask
+                0x00000000       0x18 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(UART_1_UART.o)
+ .text.UART_1_UartGetChar
+                0x00000000       0x2c .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(UART_1_UART.o)
+ .text.UART_1_UartGetByte
+                0x00000000       0x34 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(UART_1_UART.o)
+ .text.UART_1_UartPutString
+                0x00000000       0x18 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(UART_1_UART.o)
+ .text.UART_1_UartPutCRLF
+                0x00000000       0x14 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(UART_1_UART.o)
+ .text.UART_1_UartSendBreakBlocking
+                0x00000000       0x58 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(UART_1_UART.o)
+ .data          0x00000000        0x0 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CyBootAsmGnu.o)
+ .bss           0x00000000        0x0 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CyBootAsmGnu.o)
+ .text          0x00000000        0x0 C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\CapSense_CSD_P4_v2_60\PSoC4\Library\CapsenseP4Library_GCC.a(CSD_P4_SmartSense_v2_60.o)
+ .data          0x00000000        0x0 C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\CapSense_CSD_P4_v2_60\PSoC4\Library\CapsenseP4Library_GCC.a(CSD_P4_SmartSense_v2_60.o)
+ .bss           0x00000000        0x0 C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\CapSense_CSD_P4_v2_60\PSoC4\Library\CapsenseP4Library_GCC.a(CSD_P4_SmartSense_v2_60.o)
+ .data          0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.3/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(_udivsi3.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.3/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(_udivsi3.o)
+ .data          0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.3/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(_divsi3.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.3/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(_divsi3.o)
+ .data          0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.3/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(_dvmd_tls.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.3/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(_dvmd_tls.o)
+ .text          0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.3/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-errno.o)
+ .data          0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.3/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-errno.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.3/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-errno.o)
+ .text          0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.3/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-exit.o)
+ .data          0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.3/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-exit.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.3/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-exit.o)
+ .text.exit     0x00000000       0x2c c:/program files (x86)/cypress/psoc creator/4.3/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-exit.o)
+ .text          0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.3/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-impure.o)
+ .data          0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.3/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-impure.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.3/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-impure.o)
+ .rodata._global_impure_ptr
+                0x00000000        0x4 c:/program files (x86)/cypress/psoc creator/4.3/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-impure.o)
+ .text          0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.3/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-init.o)
+ .data          0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.3/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-init.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.3/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-init.o)
+ .text          0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.3/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-memset.o)
+ .data          0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.3/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-memset.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.3/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-memset.o)
+ .text          0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.3/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/crtend.o
+ .data          0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.3/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/crtend.o
+ .bss           0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.3/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/crtend.o
+ .text          0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.3/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/crtn.o
+ .data          0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.3/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/crtn.o
+ .bss           0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.3/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+rom              0x00000000         0x00008000         xr
+ram              0x20000000         0x00001000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD c:/program files (x86)/cypress/psoc creator/4.3/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/crti.o
+LOAD c:/program files (x86)/cypress/psoc creator/4.3/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/crtbegin.o
+LOAD c:/program files (x86)/cypress/psoc creator/4.3/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/crt0.o
+START GROUP
+LOAD .\CortexM0\ARM_GCC_541\Debug\main.o
+LOAD .\CortexM0\ARM_GCC_541\Debug\cyfitter_cfg.o
+LOAD .\CortexM0\ARM_GCC_541\Debug\cymetadata.o
+LOAD .\CortexM0\ARM_GCC_541\Debug\Cm0Start.o
+LOAD .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a
+LOAD C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\CapSense_CSD_P4_v2_60\PSoC4\Library\CapsenseP4Library_GCC.a
+END GROUP
+START GROUP
+LOAD c:/program files (x86)/cypress/psoc creator/4.3/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a
+LOAD c:/program files (x86)/cypress/psoc creator/4.3/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a
+LOAD c:/program files (x86)/cypress/psoc creator/4.3/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libc_nano.a
+END GROUP
+START GROUP
+LOAD c:/program files (x86)/cypress/psoc creator/4.3/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a
+LOAD c:/program files (x86)/cypress/psoc creator/4.3/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libc_nano.a
+END GROUP
+LOAD c:/program files (x86)/cypress/psoc creator/4.3/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/crtend.o
+LOAD c:/program files (x86)/cypress/psoc creator/4.3/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/crtn.o
+START GROUP
+LOAD c:/program files (x86)/cypress/psoc creator/4.3/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a
+LOAD c:/program files (x86)/cypress/psoc creator/4.3/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libc.a
+LOAD c:/program files (x86)/cypress/psoc creator/4.3/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libnosys.a
+END GROUP
+                0x00000000                CY_APPL_ORIGIN = 0x0
+                0x00000080                CY_FLASH_ROW_SIZE = 0x80
+                0x00000001                CY_APPL_NUM = 0x1
+                0x00000001                CY_APPL_MAX = 0x1
+                0x00000040                CY_METADATA_SIZE = 0x40
+                0x00000000                CY_APPL_LOADABLE = 0x0
+                0x00000000                CY_CHECKSUM_EXCLUDE_SIZE = ALIGN (0x0, CY_FLASH_ROW_SIZE)
+                0x00000000                CY_APP_FOR_STACK_AND_COPIER = 0x0
+                [!provide]                PROVIDE (__cy_heap_start, _end)
+                0x00000001                PROVIDE (__cy_region_num, ((__cy_regions_end - __cy_regions) / 0x10))
+                0x20001000                PROVIDE (__cy_stack, (ORIGIN (ram) + LENGTH (ram)))
+                [!provide]                PROVIDE (__cy_heap_end, (__cy_stack - 0x400))
+
+.cybootloader   0x00000000        0x0
+ *(.cybootloader)
+                0x00000000                appl1_start = CY_APPL_ORIGIN?CY_APPL_ORIGIN:ALIGN (CY_FLASH_ROW_SIZE)
+                0x00003f80                appl2_start = (appl1_start + ALIGN ((((LENGTH (rom) - appl1_start) - (0x2 * CY_FLASH_ROW_SIZE)) / 0x2), CY_FLASH_ROW_SIZE))
+                0x00000000                appl_start = (CY_APPL_NUM == 0x1)?appl1_start:appl2_start
+                0x00000001                cy_project_type_bootloader = (appl_start == 0x0)?0x1:0x0
+                0x00000000                cy_project_type_app_for_stack_and_copier = (CY_APP_FOR_STACK_AND_COPIER == 0x1)?0x1:0x0
+
+.text           0x00000000     0x1ae4
+ CREATE_OBJECT_SYMBOLS
+                0x00000000                PROVIDE (__cy_interrupt_vector, RomVectors)
+ *(.romvectors)
+ .romvectors    0x00000000       0x10 .\CortexM0\ARM_GCC_541\Debug\Cm0Start.o
+                0x00000000                RomVectors
+                0x00000001                ASSERT ((. != __cy_interrupt_vector), No interrupt vector)
+                0x00000001                ASSERT (CY_APPL_ORIGIN?(SIZEOF (.cybootloader) <= CY_APPL_ORIGIN):0x1, Wrong image location)
+                0x00000010                PROVIDE (__cy_reset, Reset)
+ *(.text.Reset)
+ .text.Reset    0x00000010        0x8 .\CortexM0\ARM_GCC_541\Debug\Cm0Start.o
+                0x00000010                Reset
+                0x00000001                ASSERT ((. != __cy_reset), No reset code)
+ *(.psocinit)
+ .psocinit      0x00000018      0x204 .\CortexM0\ARM_GCC_541\Debug\cyfitter_cfg.o
+                0x000000d8                cyfitter_cfg
+                0x0000021c                . = MAX (., 0x100)
+ *(.text .text.* .gnu.linkonce.t.*)
+ .text          0x0000021c       0x60 c:/program files (x86)/cypress/psoc creator/4.3/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/crtbegin.o
+ .text.main     0x0000027c       0xb4 .\CortexM0\ARM_GCC_541\Debug\main.o
+                0x0000027c                main
+ .text.cfg_write_bytes32
+                0x00000330       0x34 .\CortexM0\ARM_GCC_541\Debug\cyfitter_cfg.o
+ .text.CYMEMZERO
+                0x00000364        0xc .\CortexM0\ARM_GCC_541\Debug\cyfitter_cfg.o
+ .text.SetAnalogRoutingPumps
+                0x00000370       0x40 .\CortexM0\ARM_GCC_541\Debug\cyfitter_cfg.o
+                0x00000370                SetAnalogRoutingPumps
+ .text.AnalogSetDefault
+                0x000003b0        0xc .\CortexM0\ARM_GCC_541\Debug\cyfitter_cfg.o
+ .text.IntDefaultHandler
+                0x000003bc       0x10 .\CortexM0\ARM_GCC_541\Debug\Cm0Start.o
+                0x000003bc                IntDefaultHandler
+ .text.Start_c  0x000003cc       0x48 .\CortexM0\ARM_GCC_541\Debug\Cm0Start.o
+                0x000003cc                Start_c
+ .text.initialize_psoc
+                0x00000414       0x40 .\CortexM0\ARM_GCC_541\Debug\Cm0Start.o
+                0x00000414                initialize_psoc
+ .text.CapSense_CsdHwBlockInit
+                0x00000454       0x84 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense.o)
+                0x00000454                CapSense_CsdHwBlockInit
+ .text.CapSense_Enable
+                0x000004d8       0x3c .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense.o)
+                0x000004d8                CapSense_Enable
+ .text.CapSense_IsBusy
+                0x00000514       0x10 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense.o)
+                0x00000514                CapSense_IsBusy
+ .text.CapSense_ReadSensorRaw
+                0x00000524       0x10 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense.o)
+                0x00000524                CapSense_ReadSensorRaw
+ .text.CapSense_EnableSensor
+                0x00000534       0x48 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense.o)
+                0x00000534                CapSense_EnableSensor
+ .text.CapSense_DisableSensor
+                0x0000057c       0x70 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense.o)
+                0x0000057c                CapSense_DisableSensor
+ .text.CapSense_ClearSensors
+                0x000005ec       0x14 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense.o)
+                0x000005ec                CapSense_ClearSensors
+ .text.CapSense_SetShieldDelay
+                0x00000600       0x18 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense.o)
+                0x00000600                CapSense_SetShieldDelay
+ .text.CapSense_GetBitValue
+                0x00000618       0x18 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense.o)
+                0x00000618                CapSense_GetBitValue
+ .text.CapSense_FindNextSensor
+                0x00000630       0x24 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense.o)
+                0x00000630                CapSense_FindNextSensor
+ .text.CapSense_PreScan
+                0x00000654      0x118 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense.o)
+                0x00000654                CapSense_PreScan
+ .text.CapSense_ScanSensor
+                0x0000076c       0x1c .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense.o)
+                0x0000076c                CapSense_ScanSensor
+ .text.CapSense_ScanEnabledWidgets
+                0x00000788       0x38 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense.o)
+                0x00000788                CapSense_ScanEnabledWidgets
+ .text.CapSense_PostScan
+                0x000007c0       0x90 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense.o)
+                0x000007c0                CapSense_PostScan
+ .text.CapSense_SetBitValue
+                0x00000850       0x28 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense.o)
+                0x00000850                CapSense_SetBitValue
+ .text.CapSense_GetSensorRaw
+                0x00000878       0x2c .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense.o)
+                0x00000878                CapSense_GetSensorRaw
+ .text.CapSense_SetUnscannedSensorState
+                0x000008a4        0xc .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense.o)
+                0x000008a4                CapSense_SetUnscannedSensorState
+ .text.CapSense_Init
+                0x000008b0       0x24 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense.o)
+                0x000008b0                CapSense_Init
+ .text.CapSense_Start
+                0x000008d4       0x38 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense.o)
+                0x000008d4                CapSense_Start
+ .text.CapSense_NormalizeWidgets
+                0x0000090c       0x40 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense.o)
+                0x0000090c                CapSense_NormalizeWidgets
+ .text.CapSense_BaseInit
+                0x0000094c       0x28 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_CSHL.o)
+                0x0000094c                CapSense_BaseInit
+ .text.CapSense_InitializeSensorBaseline
+                0x00000974       0x18 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_CSHL.o)
+                0x00000974                CapSense_InitializeSensorBaseline
+ .text.CapSense_InitializeAllBaselines
+                0x0000098c       0x14 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_CSHL.o)
+                0x0000098c                CapSense_InitializeAllBaselines
+ .text.CapSense_FindMaximum
+                0x000009a0       0x2c .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_CSHL.o)
+                0x000009a0                CapSense_FindMaximum
+ .text.CapSense_CalcCentroid
+                0x000009cc       0xe4 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_CSHL.o)
+                0x000009cc                CapSense_CalcCentroid
+ .text.CapSense_JitterFilter
+                0x00000ab0       0x14 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_CSHL.o)
+                0x00000ab0                CapSense_JitterFilter
+ .text.CapSense_UpdateBaselineNoThreshold
+                0x00000ac4      0x114 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_CSHL.o)
+                0x00000ac4                CapSense_UpdateBaselineNoThreshold
+ .text.CapSense_UpdateSensorBaseline
+                0x00000bd8       0x10 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_CSHL.o)
+                0x00000bd8                CapSense_UpdateSensorBaseline
+ .text.CapSense_UpdateEnabledBaselines
+                0x00000be8       0x24 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_CSHL.o)
+                0x00000be8                CapSense_UpdateEnabledBaselines
+ .text.CapSense_GetCentroidPos
+                0x00000c0c       0x7c .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_CSHL.o)
+                0x00000c0c                CapSense_GetCentroidPos
+ .text.CapSense_ISR
+                0x00000c88       0x9c .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_INT.o)
+                0x00000c88                CapSense_ISR
+ .text.CapSense_UpdateThresholds
+                0x00000d24       0x74 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_SMS.o)
+                0x00000d24                CapSense_UpdateThresholds
+ .text.CapSense_SetAnalogSwitchesSrcDirect
+                0x00000d98       0x10 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_SMS.o)
+                0x00000d98                CapSense_SetAnalogSwitchesSrcDirect
+ .text.CapSense_DisableBaselineIDAC
+                0x00000da8       0x1c .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_SMS.o)
+                0x00000da8                CapSense_DisableBaselineIDAC
+ .text.CapSense_EnableBaselineIDAC
+                0x00000dc4       0x50 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_SMS.o)
+                0x00000dc4                CapSense_EnableBaselineIDAC
+ .text.CapSense_AutoTune
+                0x00000e14       0xc8 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_SMS.o)
+                0x00000e14                CapSense_AutoTune
+ .text.CapSense_SampleClk_Start
+                0x00000edc       0x14 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_SampleClk.o)
+                0x00000edc                CapSense_SampleClk_Start
+ .text.CapSense_SampleClk_Stop
+                0x00000ef0       0x10 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_SampleClk.o)
+                0x00000ef0                CapSense_SampleClk_Stop
+ .text.CapSense_SampleClk_SetFractionalDividerRegister
+                0x00000f00       0x14 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_SampleClk.o)
+                0x00000f00                CapSense_SampleClk_SetFractionalDividerRegister
+ .text.CapSense_SenseClk_Start
+                0x00000f14       0x14 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_SenseClk.o)
+                0x00000f14                CapSense_SenseClk_Start
+ .text.CapSense_SenseClk_Stop
+                0x00000f28       0x10 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_SenseClk.o)
+                0x00000f28                CapSense_SenseClk_Stop
+ .text.CapSense_SenseClk_SetFractionalDividerRegister
+                0x00000f38       0x14 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_SenseClk.o)
+                0x00000f38                CapSense_SenseClk_SetFractionalDividerRegister
+ .text.CyIntEnable
+                0x00000f4c       0x14 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CyLib.o)
+                0x00000f4c                CyIntEnable
+ .text.CyIntDisable
+                0x00000f60       0x14 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CyLib.o)
+                0x00000f60                CyIntDisable
+ .text.CyHalt   0x00000f74        0x4 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CyLib.o)
+                0x00000f74                CyHalt
+ .text.CyIntSetVector
+                0x00000f78       0x24 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CyLib.o)
+                0x00000f78                CyIntSetVector
+ .text.CyIntSetPriority
+                0x00000f9c       0x4c .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CyLib.o)
+                0x00000f9c                CyIntSetPriority
+ .text.CyDelayUs
+                0x00000fe8       0x14 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CyLib.o)
+                0x00000fe8                CyDelayUs
+ .text.CySysClkWriteImoFreq
+                0x00000ffc      0x164 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CyLib.o)
+                0x00000ffc                CySysClkWriteImoFreq
+ .text.CySysWdtLocked
+                0x00001160       0x14 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CyLFClk.o)
+ .text.CySysWdtLock
+                0x00001174       0x1c .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CyLFClk.o)
+                0x00001174                CySysWdtLock
+ .text.CySysWdtUnlock
+                0x00001190       0x30 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CyLFClk.o)
+                0x00001190                CySysWdtUnlock
+ .text.CySysWdtClearInterrupt
+                0x000011c0       0x4c .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CyLFClk.o)
+                0x000011c0                CySysWdtClearInterrupt
+ .text.CySysWdtIsr
+                0x0000120c       0xa4 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CyLFClk.o)
+                0x0000120c                CySysWdtIsr
+ .text.LED_CONTROL_WriteCounter
+                0x000012b0       0x10 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(LED_CONTROL.o)
+                0x000012b0                LED_CONTROL_WriteCounter
+ .text.LED_CONTROL_WritePeriod
+                0x000012c0       0x10 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(LED_CONTROL.o)
+                0x000012c0                LED_CONTROL_WritePeriod
+ .text.LED_CONTROL_WriteCompare
+                0x000012d0       0x10 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(LED_CONTROL.o)
+                0x000012d0                LED_CONTROL_WriteCompare
+ .text.LED_CONTROL_TriggerCommand
+                0x000012e0       0x1c .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(LED_CONTROL.o)
+                0x000012e0                LED_CONTROL_TriggerCommand
+ .text.LED_CONTROL_Enable
+                0x000012fc       0x24 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(LED_CONTROL.o)
+                0x000012fc                LED_CONTROL_Enable
+ .text.LED_CONTROL_SetInterruptMode
+                0x00001320        0xc .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(LED_CONTROL.o)
+                0x00001320                LED_CONTROL_SetInterruptMode
+ .text.LED_CONTROL_Init
+                0x0000132c       0x48 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(LED_CONTROL.o)
+                0x0000132c                LED_CONTROL_Init
+ .text.LED_CONTROL_Start
+                0x00001374       0x20 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(LED_CONTROL.o)
+                0x00001374                LED_CONTROL_Start
+ .text.UART_1_ScbModePostEnable
+                0x00001394        0x8 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(UART_1.o)
+ .text.UART_1_Init
+                0x0000139c        0x8 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(UART_1.o)
+                0x0000139c                UART_1_Init
+ .text.UART_1_Enable
+                0x000013a4       0x18 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(UART_1.o)
+                0x000013a4                UART_1_Enable
+ .text.UART_1_Start
+                0x000013bc       0x20 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(UART_1.o)
+                0x000013bc                UART_1_Start
+ .text.UART_1_SpiUartWriteTxData
+                0x000013dc       0x1c .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(UART_1_SPI_UART.o)
+                0x000013dc                UART_1_SpiUartWriteTxData
+ .text.UART_1_UartInit
+                0x000013f8       0x9c .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(UART_1_UART.o)
+                0x000013f8                UART_1_UartInit
+ .text.UART_1_UartPostEnable
+                0x00001494       0x24 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(UART_1_UART.o)
+                0x00001494                UART_1_UartPostEnable
+ .text          0x000014b8       0x24 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CyBootAsmGnu.o)
+                0x000014b8                CyDelayCycles
+                0x000014cc                CyEnterCriticalSection
+                0x000014d4                CyExitCriticalSection
+ .text.CalibrateOneDAC_P4_v2_60
+                0x000014dc       0x40 C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\CapSense_CSD_P4_v2_60\PSoC4\Library\CapsenseP4Library_GCC.a(CSD_P4_SmartSense_v2_60.o)
+                0x000014dc                CalibrateOneDAC_P4_v2_60
+ .text.CalibrateSensors_P4_v2_60
+                0x0000151c       0x22 C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\CapSense_CSD_P4_v2_60\PSoC4\Library\CapsenseP4Library_GCC.a(CSD_P4_SmartSense_v2_60.o)
+                0x0000151c                CalibrateSensors_P4_v2_60
+ .text.TunePrescalers_P4_v2_60
+                0x0000153e       0x42 C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\CapSense_CSD_P4_v2_60\PSoC4\Library\CapsenseP4Library_GCC.a(CSD_P4_SmartSense_v2_60.o)
+                0x0000153e                TunePrescalers_P4_v2_60
+ .text.TuneSensitivity_P4_v2_60
+                0x00001580       0xdc C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\CapSense_CSD_P4_v2_60\PSoC4\Library\CapsenseP4Library_GCC.a(CSD_P4_SmartSense_v2_60.o)
+                0x00001580                TuneSensitivity_P4_v2_60
+ .text.MeasureNoiseEnvelope_P4_v2_60
+                0x0000165c       0xfc C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\CapSense_CSD_P4_v2_60\PSoC4\Library\CapsenseP4Library_GCC.a(CSD_P4_SmartSense_v2_60.o)
+                0x0000165c                MeasureNoiseEnvelope_P4_v2_60
+ .text.CalculateThresholds_P4_v2_60
+                0x00001758       0x36 C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\CapSense_CSD_P4_v2_60\PSoC4\Library\CapsenseP4Library_GCC.a(CSD_P4_SmartSense_v2_60.o)
+                0x00001758                CalculateThresholds_P4_v2_60
+ *fill*         0x0000178e        0x2 
+ .text          0x00001790      0x114 c:/program files (x86)/cypress/psoc creator/4.3/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(_udivsi3.o)
+                0x00001790                __aeabi_uidiv
+                0x00001790                __udivsi3
+                0x0000189c                __aeabi_uidivmod
+ .text          0x000018a4      0x1d4 c:/program files (x86)/cypress/psoc creator/4.3/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(_divsi3.o)
+                0x000018a4                __divsi3
+                0x000018a4                __aeabi_idiv
+                0x00001a70                __aeabi_idivmod
+ .text          0x00001a78        0x4 c:/program files (x86)/cypress/psoc creator/4.3/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(_dvmd_tls.o)
+                0x00001a78                __aeabi_idiv0
+                0x00001a78                __aeabi_ldiv0
+ .text.__errno  0x00001a7c        0xc c:/program files (x86)/cypress/psoc creator/4.3/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-errno.o)
+                0x00001a7c                __errno
+ .text.__libc_init_array
+                0x00001a88       0x4c c:/program files (x86)/cypress/psoc creator/4.3/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-init.o)
+                0x00001a88                __libc_init_array
+ .text.memset   0x00001ad4       0x10 c:/program files (x86)/cypress/psoc creator/4.3/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-memset.o)
+                0x00001ad4                memset
+ *(.plt)
+ *(.gnu.warning)
+ *(.glue_7t)
+ .glue_7t       0x00001ae4        0x0 linker stubs
+ *(.glue_7)
+ .glue_7        0x00001ae4        0x0 linker stubs
+ *(.vfp11_veneer)
+ .vfp11_veneer  0x00001ae4        0x0 linker stubs
+ *(.bootloader)
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+ *(.gcc_except_table)
+
+.v4_bx          0x00001ae4        0x0
+ .v4_bx         0x00001ae4        0x0 linker stubs
+
+.iplt           0x00001ae4        0x0
+ .iplt          0x00001ae4        0x0 c:/program files (x86)/cypress/psoc creator/4.3/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/crtbegin.o
+
+.eh_frame_hdr
+ *(.eh_frame_hdr)
+
+.eh_frame       0x00001ae4        0x4
+ *(.eh_frame)
+ .eh_frame      0x00001ae4        0x0 c:/program files (x86)/cypress/psoc creator/4.3/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/crtbegin.o
+ .eh_frame      0x00001ae4        0x4 c:/program files (x86)/cypress/psoc creator/4.3/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/crtend.o
+                [!provide]                PROVIDE (__exidx_start, .)
+
+.ARM.exidx
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+                0x00001ae8                __exidx_end = .
+
+.rodata         0x00001ae8      0x1c0
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata        0x00001ae8       0x58 .\CortexM0\ARM_GCC_541\Debug\cyfitter_cfg.o
+ .rodata        0x00001b40       0x90 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense.o)
+                0x00001b40                CapSense_portTable
+                0x00001b4c                CapSense_pinShiftTbl
+                0x00001b58                CapSense_prtSelTbl
+                0x00001b6c                CapSense_prtCfgTbl
+                0x00001b80                CapSense_prtDRTbl
+                0x00001b94                CapSense_widgetNumber
+                0x00001ba0                CapSense_maskTable
+ .rodata        0x00001bd0        0x5 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_CSHL.o)
+                0x00001bd0                CapSense_numberOfSensors
+                0x00001bd4                CapSense_rawDataIndex
+ *fill*         0x00001bd5        0x3 
+ .rodata        0x00001bd8       0x6c .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_SMS.o)
+                0x00001bd8                CapSense_configPointers
+                0x00001c34                CapSense_prescalerTable
+ .rodata        0x00001c44       0x2e .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CyLib.o)
+                0x00001c44                cyImoFreqMhz2Reg
+ .rodata.str1.1
+                0x00001c72        0x2 c:/program files (x86)/cypress/psoc creator/4.3/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-impure.o)
+                0x00001c74                . = ALIGN (0x4)
+ *(.init)
+ .init          0x00001c74        0x4 c:/program files (x86)/cypress/psoc creator/4.3/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/crti.o
+                0x00001c74                _init
+ .init          0x00001c78        0x8 c:/program files (x86)/cypress/psoc creator/4.3/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/crtn.o
+                0x00001c80                . = ALIGN (0x4)
+                0x00001c80                __preinit_array_start = .
+ *(.preinit_array)
+                0x00001c80                __preinit_array_end = .
+                0x00001c80                . = ALIGN (0x4)
+                0x00001c80                __init_array_start = .
+ *(SORT(.init_array.*))
+ *(.init_array)
+ .init_array    0x00001c80        0x4 c:/program files (x86)/cypress/psoc creator/4.3/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/crtbegin.o
+ .init_array    0x00001c84        0x4 .\CortexM0\ARM_GCC_541\Debug\Cm0Start.o
+                0x00001c88                __init_array_end = .
+                0x00001c88                . = ALIGN (0x4)
+ *(.fini)
+ .fini          0x00001c88        0x4 c:/program files (x86)/cypress/psoc creator/4.3/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/crti.o
+                0x00001c88                _fini
+ .fini          0x00001c8c        0x8 c:/program files (x86)/cypress/psoc creator/4.3/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/crtn.o
+                0x00001c94                . = ALIGN (0x4)
+                0x00001c94                __fini_array_start = .
+ *(.fini_array)
+ .fini_array    0x00001c94        0x4 c:/program files (x86)/cypress/psoc creator/4.3/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/crtbegin.o
+ *(SORT(.fini_array.*))
+                0x00001c98                __fini_array_end = .
+                0x00001c98                . = ALIGN (0x4)
+ *crtbegin.o(.ctors)
+ *(EXCLUDE_FILE(*crtend.o) .ctors)
+ *(SORT(.ctors.*))
+ *crtend.o(.ctors)
+                0x00001c98                . = ALIGN (0x4)
+ *crtbegin.o(.dtors)
+ *(EXCLUDE_FILE(*crtend.o) .dtors)
+ *(SORT(.dtors.*))
+ *crtend.o(.dtors)
+                0x00001c98                . = ALIGN (0x4)
+                0x00001c98                __cy_regions = .
+                0x00001c98        0x4 LONG 0x1ca8 __cy_region_init_ram
+                0x00001c9c        0x4 LONG 0x200000c0 __cy_region_start_data
+                0x00001ca0        0x4 LONG 0xe0 __cy_region_init_size_ram
+                0x00001ca4        0x4 LONG 0x1c0 __cy_region_zero_size_ram
+                0x00001ca8                __cy_regions_end = .
+                0x00001ca8                . = ALIGN (0x8)
+                0x00001ca8                _etext = .
+
+.cy_checksum_exclude
+                0x00001ca8        0x0
+ *(.cy_checksum_exclude)
+
+.ramvectors     0x20000000       0xc0
+                0x20000000                __cy_region_start_ram = .
+ *(.ramvectors)
+ .ramvectors    0x20000000       0xc0 .\CortexM0\ARM_GCC_541\Debug\Cm0Start.o
+                0x20000000                CyRamVectors
+
+.noinit
+ *(.noinit)
+
+.data           0x200000c0       0xe0 load address 0x00001ca8
+                0x200000c0                __cy_region_start_data = .
+ *(.jcr)
+ .jcr           0x200000c0        0x0 c:/program files (x86)/cypress/psoc creator/4.3/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/crtbegin.o
+ .jcr           0x200000c0        0x4 c:/program files (x86)/cypress/psoc creator/4.3/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/crtend.o
+ *(.got.plt)
+ *(.got)
+ *(.shdata)
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x200000c4       0x38 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense.o)
+                0x200000c4                CapSense_widgetResolution
+                0x200000c8                CapSense_sensorEnableMask
+                0x200000cc                CapSense_pcTable
+ .data          0x200000fc       0x17 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_CSHL.o)
+                0x200000fc                CapSense_debounce
+                0x20000100                CapSense_lowBaselineReset
+                0x2000010c                CapSense_enableRawFilters
+ *fill*         0x20000113        0x1 
+ .data          0x20000114        0xc .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_SMS.o)
+                0x20000114                CapSense_sensorSensitivity
+ .data          0x20000120       0x14 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CyLib.o)
+                0x20000120                CySysClkPumpConfig
+                0x20000124                cydelay32kMs
+                0x20000128                cydelayFreqKhz
+                0x2000012c                cydelayFreqMhz
+                0x20000130                cydelayFreqHz
+ .data          0x20000134        0x4 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CyLFClk.o)
+ .data.impure_data
+                0x20000138       0x60 c:/program files (x86)/cypress/psoc creator/4.3/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-impure.o)
+ .data._impure_ptr
+                0x20000198        0x4 c:/program files (x86)/cypress/psoc creator/4.3/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-impure.o)
+                0x20000198                _impure_ptr
+                0x200001a0                . = ALIGN (0x8)
+ *fill*         0x2000019c        0x4 
+ *(.ram)
+                0x200001a0                _edata = .
+
+.igot.plt       0x200001a0        0x0 load address 0x00001d88
+ .igot.plt      0x200001a0        0x0 c:/program files (x86)/cypress/psoc creator/4.3/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/crtbegin.o
+
+.bss            0x200001a0      0x1c0 load address 0x00001d88
+                0x200001a0                PROVIDE (__bss_start__, .)
+ *(.shbss)
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x200001a0       0x1c c:/program files (x86)/cypress/psoc creator/4.3/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/crtbegin.o
+ .bss           0x200001bc        0x4 .\CortexM0\ARM_GCC_541\Debug\main.o
+                0x200001bc                slider_pos
+ .bss           0x200001c0       0x20 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense.o)
+                0x200001c0                CapSense_csdStatusVar
+                0x200001c4                CapSense_sensorRaw
+                0x200001dc                CapSense_sensorIndex
+                0x200001dd                CapSense_prescalersTuningDone
+                0x200001df                CapSense_lowLevelTuningDone
+ .bss           0x200001e0       0x3b .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_CSHL.o)
+                0x200001e0                CapSense_sensorBaseline
+                0x200001f8                CapSense_sensorBaselineLow
+                0x20000204                CapSense_sensorSignal
+                0x20000214                CapSense_sensorOnMask
+ .bss           0x2000021b        0x1 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_INT.o)
+ .bss           0x2000021c       0x20 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CyLFClk.o)
+ .bss           0x2000023c        0x1 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(LED_CONTROL.o)
+                0x2000023c                LED_CONTROL_initVar
+ *fill*         0x2000023d        0x1 
+ .bss           0x2000023e        0x4 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(UART_1.o)
+                0x2000023e                UART_1_initVar
+                0x20000240                UART_1_IntrTxMask
+ *(COMMON)
+ *fill*         0x20000242        0x2 
+ COMMON         0x20000244       0x18 .\CortexM0\ARM_GCC_541\Debug\main.o
+                0x20000244                slider_start_pos
+                0x20000248                preCnt
+                0x2000024c                prev_sensor
+                0x20000250                current_sensor
+                0x20000254                prev_sound
+                0x20000258                bright
+ COMMON         0x2000025c       0x48 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense.o)
+                0x2000025c                CapSense_csdTrim1
+                0x20000260                CapSense_scanSpeedTbl
+                0x20000264                CapSense_sensorEnableMaskBackup
+                0x20000268                CapSense_senseClkDividerVal
+                0x20000274                CapSense_modulationIDAC
+                0x20000280                CapSense_compensationIDAC
+                0x2000028c                CapSense_unscannedSnsDriveMode
+                0x20000298                CapSense_sampleClkDividerVal
+ COMMON         0x200002a4       0x31 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_CSHL.o)
+                0x200002a4                CapSense_noiseThreshold
+                0x200002a8                CapSense_lowBaselineResetCnt
+                0x200002b4                CapSense_negativeNoiseThreshold
+                0x200002b8                CapSense_rawFilterData1
+                0x200002d0                CapSense_hysteresis
+                0x200002d4                CapSense_fingerThreshold
+ *fill*         0x200002d5        0x3 
+ COMMON         0x200002d8       0x84 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_SMS.o)
+                0x200002d8                CapSense_runningDifferenceTbl
+                0x200002e4                CapSense_signRegisterTbl
+                0x200002f0                CapSense_sampleMaxTbl
+                0x20000308                CapSense_noiseEnvelopeTbl
+                0x20000314                CapSense_previousSampleTbl
+                0x2000032c                CapSense_sampleMinTbl
+                0x20000344                CapSense_config
+                0x20000350                CapSense_kValueTbl
+                0x20000360                . = ALIGN (0x8)
+ *fill*         0x2000035c        0x4 
+ *(.ram.b)
+                0x20000360                _end = .
+                0x20000360                __end = .
+                0x20000360                PROVIDE (end, .)
+                0x20000360                PROVIDE (__bss_end__, .)
+                0x00001ca8                __cy_region_init_ram = LOADADDR (.data)
+                0x000000e0                __cy_region_init_size_ram = (_edata - ADDR (.data))
+                0x000001c0                __cy_region_zero_size_ram = (_end - _edata)
+
+.heap           0x20000360       0x80 load address 0x00001d88
+                0x20000360                . = _end
+                0x200003e0                . = (. + 0x80)
+ *fill*         0x20000360       0x80 
+                0x200003e0                __cy_heap_limit = .
+
+.stack          0x20000c00      0x400
+                0x20000c00                __cy_stack_limit = .
+                0x20001000                . = (. + 0x400)
+ *fill*         0x20000c00      0x400 
+                0x00000001                ASSERT ((__cy_stack_limit >= __cy_heap_limit), region RAM overflowed with stack)
+                0x00000000                cy_checksum_exclude_size = (CY_APPL_LOADABLE == 0x1)?SIZEOF (.cy_checksum_exclude):0x0
+                0x00000001                ASSERT ((cy_checksum_exclude_size <= CY_CHECKSUM_EXCLUDE_SIZE), CY_BOOT: Section .cy_checksum_exclude size exceedes specified limit.)
+                0x00007fc0                cyloadermeta_start = (cy_project_type_bootloader || cy_project_type_app_for_stack_and_copier)?(LENGTH (rom) - CY_METADATA_SIZE):0xf0000000
+
+.cyloadermeta
+ *(.cyloadermeta)
+                0x00007fc0                cyloadablemeta_start = cy_project_type_app_for_stack_and_copier?((LENGTH (rom) - CY_FLASH_ROW_SIZE) - CY_METADATA_SIZE):((LENGTH (rom) - (CY_FLASH_ROW_SIZE * (CY_APPL_NUM - 0x1))) - CY_METADATA_SIZE)
+
+.cyloadablemeta
+ *(.cyloadablemeta)
+
+.cyflashprotect
+                0x90400000       0x20
+ *(.cyflashprotect)
+ .cyflashprotect
+                0x90400000       0x20 .\CortexM0\ARM_GCC_541\Debug\cymetadata.o
+                0x90400000                cy_meta_flashprotect
+
+.cymeta         0x90500000        0xc
+ *(.cymeta)
+ .cymeta        0x90500000        0xc .\CortexM0\ARM_GCC_541\Debug\cymetadata.o
+                0x90500000                cy_metadata
+
+.cychipprotect  0x90600000        0x1
+ *(.cychipprotect)
+ .cychipprotect
+                0x90600000        0x1 .\CortexM0\ARM_GCC_541\Debug\cymetadata.o
+                0x90600000                cy_meta_chipprotect
+
+.rel.dyn        0x00001d88        0x0 load address 0x90600004
+ .rel.iplt      0x00001d88        0x0 c:/program files (x86)/cypress/psoc creator/4.3/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/crtbegin.o
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0xa08
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x20 .\CortexM0\ARM_GCC_541\Debug\main.o
+ .debug_aranges
+                0x00000020       0x48 .\CortexM0\ARM_GCC_541\Debug\cyfitter_cfg.o
+ .debug_aranges
+                0x00000068       0x18 .\CortexM0\ARM_GCC_541\Debug\cymetadata.o
+ .debug_aranges
+                0x00000080       0x48 .\CortexM0\ARM_GCC_541\Debug\Cm0Start.o
+ .debug_aranges
+                0x000000c8      0x158 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense.o)
+ .debug_aranges
+                0x00000220      0x148 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_CSHL.o)
+ .debug_aranges
+                0x00000368       0x20 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_INT.o)
+ .debug_aranges
+                0x00000388       0x60 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_SMS.o)
+ .debug_aranges
+                0x000003e8       0x40 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_SampleClk.o)
+ .debug_aranges
+                0x00000428       0x40 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_SenseClk.o)
+ .debug_aranges
+                0x00000468      0x180 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CyLib.o)
+ .debug_aranges
+                0x000005e8      0x138 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CyLFClk.o)
+ .debug_aranges
+                0x00000720      0x158 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(LED_CONTROL.o)
+ .debug_aranges
+                0x00000878       0x60 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(UART_1.o)
+ .debug_aranges
+                0x000008d8       0x60 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(UART_1_SPI_UART.o)
+ .debug_aranges
+                0x00000938       0x68 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(UART_1_UART.o)
+ .debug_aranges
+                0x000009a0       0x20 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CyBootAsmGnu.o)
+ .debug_aranges
+                0x000009c0       0x48 C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\CapSense_CSD_P4_v2_60\PSoC4\Library\CapsenseP4Library_GCC.a(CSD_P4_SmartSense_v2_60.o)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x67a3
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000      0x213 .\CortexM0\ARM_GCC_541\Debug\main.o
+ .debug_info    0x00000213      0x404 .\CortexM0\ARM_GCC_541\Debug\cyfitter_cfg.o
+ .debug_info    0x00000617       0xf8 .\CortexM0\ARM_GCC_541\Debug\cymetadata.o
+ .debug_info    0x0000070f      0x3a2 .\CortexM0\ARM_GCC_541\Debug\Cm0Start.o
+ .debug_info    0x00000ab1     0x10d6 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense.o)
+ .debug_info    0x00001b87     0x1115 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_CSHL.o)
+ .debug_info    0x00002c9c      0x198 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_INT.o)
+ .debug_info    0x00002e34      0x7e6 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_SMS.o)
+ .debug_info    0x0000361a      0x14e .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_SampleClk.o)
+ .debug_info    0x00003768      0x14e .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_SenseClk.o)
+ .debug_info    0x000038b6      0xaed .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CyLib.o)
+ .debug_info    0x000043a3      0xcfe .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CyLFClk.o)
+ .debug_info    0x000050a1      0x909 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(LED_CONTROL.o)
+ .debug_info    0x000059aa      0x24c .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(UART_1.o)
+ .debug_info    0x00005bf6      0x220 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(UART_1_SPI_UART.o)
+ .debug_info    0x00005e16      0x310 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(UART_1_UART.o)
+ .debug_info    0x00006126       0x9b .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CyBootAsmGnu.o)
+ .debug_info    0x000061c1      0x5e2 C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\CapSense_CSD_P4_v2_60\PSoC4\Library\CapsenseP4Library_GCC.a(CSD_P4_SmartSense_v2_60.o)
+
+.debug_abbrev   0x00000000     0x1661
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000       0xab .\CortexM0\ARM_GCC_541\Debug\main.o
+ .debug_abbrev  0x000000ab      0x1cf .\CortexM0\ARM_GCC_541\Debug\cyfitter_cfg.o
+ .debug_abbrev  0x0000027a       0x5d .\CortexM0\ARM_GCC_541\Debug\cymetadata.o
+ .debug_abbrev  0x000002d7      0x1d7 .\CortexM0\ARM_GCC_541\Debug\Cm0Start.o
+ .debug_abbrev  0x000004ae      0x195 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense.o)
+ .debug_abbrev  0x00000643      0x242 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_CSHL.o)
+ .debug_abbrev  0x00000885       0xca .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_INT.o)
+ .debug_abbrev  0x0000094f      0x1d5 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_SMS.o)
+ .debug_abbrev  0x00000b24       0xb7 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_SampleClk.o)
+ .debug_abbrev  0x00000bdb       0xb7 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_SenseClk.o)
+ .debug_abbrev  0x00000c92      0x1d3 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CyLib.o)
+ .debug_abbrev  0x00000e65      0x210 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CyLFClk.o)
+ .debug_abbrev  0x00001075      0x119 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(LED_CONTROL.o)
+ .debug_abbrev  0x0000118e       0xed .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(UART_1.o)
+ .debug_abbrev  0x0000127b      0x14f .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(UART_1_SPI_UART.o)
+ .debug_abbrev  0x000013ca      0x123 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(UART_1_UART.o)
+ .debug_abbrev  0x000014ed       0x14 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CyBootAsmGnu.o)
+ .debug_abbrev  0x00001501      0x160 C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\CapSense_CSD_P4_v2_60\PSoC4\Library\CapsenseP4Library_GCC.a(CSD_P4_SmartSense_v2_60.o)
+
+.debug_line     0x00000000     0x2554
+ *(.debug_line)
+ .debug_line    0x00000000       0xcf .\CortexM0\ARM_GCC_541\Debug\main.o
+ .debug_line    0x000000cf      0x1a0 .\CortexM0\ARM_GCC_541\Debug\cyfitter_cfg.o
+ .debug_line    0x0000026f      0x141 .\CortexM0\ARM_GCC_541\Debug\cymetadata.o
+ .debug_line    0x000003b0      0x235 .\CortexM0\ARM_GCC_541\Debug\Cm0Start.o
+ .debug_line    0x000005e5      0x4fe .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense.o)
+ .debug_line    0x00000ae3      0x46e .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_CSHL.o)
+ .debug_line    0x00000f51       0xac .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_INT.o)
+ .debug_line    0x00000ffd      0x1ac .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_SMS.o)
+ .debug_line    0x000011a9       0xb8 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_SampleClk.o)
+ .debug_line    0x00001261       0xb7 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_SenseClk.o)
+ .debug_line    0x00001318      0x460 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CyLib.o)
+ .debug_line    0x00001778      0x466 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CyLFClk.o)
+ .debug_line    0x00001bde      0x384 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(LED_CONTROL.o)
+ .debug_line    0x00001f62      0x12b .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(UART_1.o)
+ .debug_line    0x0000208d      0x11c .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(UART_1_SPI_UART.o)
+ .debug_line    0x000021a9      0x173 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(UART_1_UART.o)
+ .debug_line    0x0000231c       0x69 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CyBootAsmGnu.o)
+ .debug_line    0x00002385      0x1cf C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\CapSense_CSD_P4_v2_60\PSoC4\Library\CapsenseP4Library_GCC.a(CSD_P4_SmartSense_v2_60.o)
+
+.debug_frame    0x00000000     0x1a34
+ *(.debug_frame)
+ .debug_frame   0x00000000       0x30 .\CortexM0\ARM_GCC_541\Debug\main.o
+ .debug_frame   0x00000030       0xb8 .\CortexM0\ARM_GCC_541\Debug\cyfitter_cfg.o
+ .debug_frame   0x000000e8       0xbc .\CortexM0\ARM_GCC_541\Debug\Cm0Start.o
+ .debug_frame   0x000001a4      0x3cc .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense.o)
+ .debug_frame   0x00000570      0x378 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_CSHL.o)
+ .debug_frame   0x000008e8       0x2c .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_INT.o)
+ .debug_frame   0x00000914       0xec .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_SMS.o)
+ .debug_frame   0x00000a00       0x60 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_SampleClk.o)
+ .debug_frame   0x00000a60       0x60 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_SenseClk.o)
+ .debug_frame   0x00000ac0      0x3e0 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CyLib.o)
+ .debug_frame   0x00000ea0      0x3a8 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CyLFClk.o)
+ .debug_frame   0x00001248      0x3a0 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(LED_CONTROL.o)
+ .debug_frame   0x000015e8       0xe8 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(UART_1.o)
+ .debug_frame   0x000016d0       0xb0 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(UART_1_SPI_UART.o)
+ .debug_frame   0x00001780       0xf4 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(UART_1_UART.o)
+ .debug_frame   0x00001874       0xec C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\CapSense_CSD_P4_v2_60\PSoC4\Library\CapsenseP4Library_GCC.a(CSD_P4_SmartSense_v2_60.o)
+ .debug_frame   0x00001960       0x20 c:/program files (x86)/cypress/psoc creator/4.3/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(_udivsi3.o)
+ .debug_frame   0x00001980       0x20 c:/program files (x86)/cypress/psoc creator/4.3/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(_divsi3.o)
+ .debug_frame   0x000019a0       0x20 c:/program files (x86)/cypress/psoc creator/4.3/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-errno.o)
+ .debug_frame   0x000019c0       0x28 c:/program files (x86)/cypress/psoc creator/4.3/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-exit.o)
+ .debug_frame   0x000019e8       0x2c c:/program files (x86)/cypress/psoc creator/4.3/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-init.o)
+ .debug_frame   0x00001a14       0x20 c:/program files (x86)/cypress/psoc creator/4.3/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-memset.o)
+
+.debug_str      0x00000000     0x2e44
+ *(.debug_str)
+ .debug_str     0x00000000      0x28e .\CortexM0\ARM_GCC_541\Debug\main.o
+                                0x2ce (size before relaxing)
+ .debug_str     0x0000028e      0x158 .\CortexM0\ARM_GCC_541\Debug\cyfitter_cfg.o
+                                0x308 (size before relaxing)
+ .debug_str     0x000003e6       0x63 .\CortexM0\ARM_GCC_541\Debug\cymetadata.o
+                                0x1d3 (size before relaxing)
+ .debug_str     0x00000449      0x13a .\CortexM0\ARM_GCC_541\Debug\Cm0Start.o
+                                0x30c (size before relaxing)
+ .debug_str     0x00000583      0x904 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense.o)
+                                0xb19 (size before relaxing)
+ .debug_str     0x00000e87      0x7e7 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_CSHL.o)
+                                0xbfe (size before relaxing)
+ .debug_str     0x0000166e       0x48 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_INT.o)
+                                0x29a (size before relaxing)
+ .debug_str     0x000016b6      0x25a .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_SMS.o)
+                                0x80e (size before relaxing)
+ .debug_str     0x00001910       0xaa .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_SampleClk.o)
+                                0x296 (size before relaxing)
+ .debug_str     0x000019ba       0x7f .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_SenseClk.o)
+                                0x290 (size before relaxing)
+ .debug_str     0x00001a39      0x462 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CyLib.o)
+                                0x6c1 (size before relaxing)
+ .debug_str     0x00001e9b      0x521 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CyLFClk.o)
+                                0x748 (size before relaxing)
+ .debug_str     0x000023bc      0x4b7 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(LED_CONTROL.o)
+                                0x6b8 (size before relaxing)
+ .debug_str     0x00002873      0x12f .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(UART_1.o)
+                                0x2dc (size before relaxing)
+ .debug_str     0x000029a2      0x12f .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(UART_1_SPI_UART.o)
+                                0x2ed (size before relaxing)
+ .debug_str     0x00002ad1      0x123 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(UART_1_UART.o)
+                                0x365 (size before relaxing)
+ .debug_str     0x00002bf4      0x250 C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\CapSense_CSD_P4_v2_60\PSoC4\Library\CapsenseP4Library_GCC.a(CSD_P4_SmartSense_v2_60.o)
+                                0x59d (size before relaxing)
+
+.debug_loc      0x00000000     0x386e
+ *(.debug_loc)
+ .debug_loc     0x00000000      0x14d .\CortexM0\ARM_GCC_541\Debug\cyfitter_cfg.o
+ .debug_loc     0x0000014d      0x14f .\CortexM0\ARM_GCC_541\Debug\Cm0Start.o
+ .debug_loc     0x0000029c      0xbe9 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense.o)
+ .debug_loc     0x00000e85      0x999 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_CSHL.o)
+ .debug_loc     0x0000181e      0x20f .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_SMS.o)
+ .debug_loc     0x00001a2d       0x13 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_SampleClk.o)
+ .debug_loc     0x00001a40       0x13 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_SenseClk.o)
+ .debug_loc     0x00001a53      0x599 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CyLib.o)
+ .debug_loc     0x00001fec      0x9b5 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CyLFClk.o)
+ .debug_loc     0x000029a1      0x547 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(LED_CONTROL.o)
+ .debug_loc     0x00002ee8       0x7e .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(UART_1.o)
+ .debug_loc     0x00002f66       0x96 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(UART_1_SPI_UART.o)
+ .debug_loc     0x00002ffc      0x1e4 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(UART_1_UART.o)
+ .debug_loc     0x000031e0      0x68e C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\CapSense_CSD_P4_v2_60\PSoC4\Library\CapsenseP4Library_GCC.a(CSD_P4_SmartSense_v2_60.o)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_ranges   0x00000000      0x8d0
+ *(.debug_ranges)
+ .debug_ranges  0x00000000       0x10 .\CortexM0\ARM_GCC_541\Debug\main.o
+ .debug_ranges  0x00000010       0x38 .\CortexM0\ARM_GCC_541\Debug\cyfitter_cfg.o
+ .debug_ranges  0x00000048       0x38 .\CortexM0\ARM_GCC_541\Debug\Cm0Start.o
+ .debug_ranges  0x00000080      0x148 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense.o)
+ .debug_ranges  0x000001c8      0x138 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_CSHL.o)
+ .debug_ranges  0x00000300       0x10 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_INT.o)
+ .debug_ranges  0x00000310       0x50 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_SMS.o)
+ .debug_ranges  0x00000360       0x30 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_SampleClk.o)
+ .debug_ranges  0x00000390       0x30 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_SenseClk.o)
+ .debug_ranges  0x000003c0      0x170 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CyLib.o)
+ .debug_ranges  0x00000530      0x128 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CyLFClk.o)
+ .debug_ranges  0x00000658      0x148 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(LED_CONTROL.o)
+ .debug_ranges  0x000007a0       0x50 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(UART_1.o)
+ .debug_ranges  0x000007f0       0x50 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(UART_1_SPI_UART.o)
+ .debug_ranges  0x00000840       0x58 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(UART_1_UART.o)
+ .debug_ranges  0x00000898       0x38 C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\CapSense_CSD_P4_v2_60\PSoC4\Library\CapsenseP4Library_GCC.a(CSD_P4_SmartSense_v2_60.o)
+
+.comment        0x00000000       0xde
+ .comment       0x00000000       0x6e .\CortexM0\ARM_GCC_541\Debug\main.o
+                                 0x6f (size before relaxing)
+ .comment       0x0000006e       0x6f .\CortexM0\ARM_GCC_541\Debug\cyfitter_cfg.o
+ .comment       0x0000006e       0x6f .\CortexM0\ARM_GCC_541\Debug\cymetadata.o
+ .comment       0x0000006e       0x6f .\CortexM0\ARM_GCC_541\Debug\Cm0Start.o
+ .comment       0x0000006e       0x6f .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense.o)
+ .comment       0x0000006e       0x6f .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_CSHL.o)
+ .comment       0x0000006e       0x6f .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_INT.o)
+ .comment       0x0000006e       0x6f .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_SMS.o)
+ .comment       0x0000006e       0x6f .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_SampleClk.o)
+ .comment       0x0000006e       0x6f .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_SenseClk.o)
+ .comment       0x0000006e       0x6f .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CyLib.o)
+ .comment       0x0000006e       0x6f .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CyLFClk.o)
+ .comment       0x0000006e       0x6f .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(LED_CONTROL.o)
+ .comment       0x0000006e       0x6f .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(UART_1.o)
+ .comment       0x0000006e       0x6f .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(UART_1_SPI_UART.o)
+ .comment       0x0000006e       0x6f .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(UART_1_UART.o)
+ .comment       0x0000006e       0x70 C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\CapSense_CSD_P4_v2_60\PSoC4\Library\CapsenseP4Library_GCC.a(CSD_P4_SmartSense_v2_60.o)
+                                 0x71 (size before relaxing)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+.ARM.attributes
+                0x00000000       0x28
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x1e c:/program files (x86)/cypress/psoc creator/4.3/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/crti.o
+ .ARM.attributes
+                0x0000001e       0x2c c:/program files (x86)/cypress/psoc creator/4.3/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/crtbegin.o
+ .ARM.attributes
+                0x0000004a       0x1b c:/program files (x86)/cypress/psoc creator/4.3/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/crt0.o
+ .ARM.attributes
+                0x00000065       0x31 .\CortexM0\ARM_GCC_541\Debug\main.o
+ .ARM.attributes
+                0x00000096       0x31 .\CortexM0\ARM_GCC_541\Debug\cyfitter_cfg.o
+ .ARM.attributes
+                0x000000c7       0x31 .\CortexM0\ARM_GCC_541\Debug\cymetadata.o
+ .ARM.attributes
+                0x000000f8       0x31 .\CortexM0\ARM_GCC_541\Debug\Cm0Start.o
+ .ARM.attributes
+                0x00000129       0x31 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense.o)
+ .ARM.attributes
+                0x0000015a       0x31 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_CSHL.o)
+ .ARM.attributes
+                0x0000018b       0x31 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_INT.o)
+ .ARM.attributes
+                0x000001bc       0x31 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_SMS.o)
+ .ARM.attributes
+                0x000001ed       0x31 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_SampleClk.o)
+ .ARM.attributes
+                0x0000021e       0x31 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CapSense_SenseClk.o)
+ .ARM.attributes
+                0x0000024f       0x31 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CyLib.o)
+ .ARM.attributes
+                0x00000280       0x31 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CyLFClk.o)
+ .ARM.attributes
+                0x000002b1       0x31 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(LED_CONTROL.o)
+ .ARM.attributes
+                0x000002e2       0x31 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(UART_1.o)
+ .ARM.attributes
+                0x00000313       0x31 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(UART_1_SPI_UART.o)
+ .ARM.attributes
+                0x00000344       0x31 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(UART_1_UART.o)
+ .ARM.attributes
+                0x00000375       0x21 .\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.a(CyBootAsmGnu.o)
+ .ARM.attributes
+                0x00000396       0x31 C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\CapSense_CSD_P4_v2_60\PSoC4\Library\CapsenseP4Library_GCC.a(CSD_P4_SmartSense_v2_60.o)
+ .ARM.attributes
+                0x000003c7       0x1e c:/program files (x86)/cypress/psoc creator/4.3/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(_udivsi3.o)
+ .ARM.attributes
+                0x000003e5       0x1e c:/program files (x86)/cypress/psoc creator/4.3/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(_divsi3.o)
+ .ARM.attributes
+                0x00000403       0x1e c:/program files (x86)/cypress/psoc creator/4.3/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(_dvmd_tls.o)
+ .ARM.attributes
+                0x00000421       0x2c c:/program files (x86)/cypress/psoc creator/4.3/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-errno.o)
+ .ARM.attributes
+                0x0000044d       0x2c c:/program files (x86)/cypress/psoc creator/4.3/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-exit.o)
+ .ARM.attributes
+                0x00000479       0x2c c:/program files (x86)/cypress/psoc creator/4.3/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-impure.o)
+ .ARM.attributes
+                0x000004a5       0x2c c:/program files (x86)/cypress/psoc creator/4.3/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-init.o)
+ .ARM.attributes
+                0x000004d1       0x2c c:/program files (x86)/cypress/psoc creator/4.3/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-memset.o)
+ .ARM.attributes
+                0x000004fd       0x2c c:/program files (x86)/cypress/psoc creator/4.3/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/crtend.o
+ .ARM.attributes
+                0x00000529       0x1e c:/program files (x86)/cypress/psoc creator/4.3/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/crtn.o
+
+/DISCARD/
+ *(.note.GNU-stack)
+OUTPUT(C:\Users\SHOZO\Documents\ROKKO\PSoC\PSOC-20200715\RHINON_Calion_Slider.cydsn\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.elf elf32-littlearm)
