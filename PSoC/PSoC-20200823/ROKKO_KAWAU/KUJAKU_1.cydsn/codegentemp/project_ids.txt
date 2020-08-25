@@ -1,0 +1,8 @@
+C:\Users\SHOZO\Documents\GitHub\rokko2020\PSoC\PSoC-20200823\ROKKO_KAWAU\KAWAU.cydsn\KAWAU.cyprj|0a342677-b925-413c-9da5-a4a81c5f8190
+C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|79168522-af60-4f94-8bdc-b80499d02db0
+C:\Users\SHOZO\Documents\PSoC Creator\4.3\Downloads ( 4.3).cylib\Downloads ( 4.3).cyprj|27fbb93d-8f31-4b28-be08-9d4867bdc41d
+C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|f73d7582-1242-4d2e-9ae1-c1a2d45c2d1a
+C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|257c582f-ab0b-4cc7-9375-a86fdeb0debf
+C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|0691e552-7b03-4369-b42d-d20ff3d3170f
+C:\Users\SHOZO\Documents\GitHub\rokko2020\PSoC\PSoC-20200823\ROKKO_KAWAU\KUJAKU_1.cydsn\KUJAKU_1.cyprj|e3be7acb-9170-4ac9-b4d4-bdb56710452d
+C:\Users\SHOZO\Documents\GitHub\rokko2020\PSoC\PSoC-20200823\ROKKO_KAWAU\KUJAKU_2_3.cydsn\KUJAKU_2_3.cyprj|3220b096-7831-43c2-88d3-e5afdfc144a9

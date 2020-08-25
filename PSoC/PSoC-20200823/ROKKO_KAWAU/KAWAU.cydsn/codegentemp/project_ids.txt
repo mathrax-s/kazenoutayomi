@@ -1,0 +1,7 @@
+C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|afc523b5-74fb-41a3-87b8-66462b6206ad
+C:\Users\SHOZO\Documents\PSoC Creator\4.3\Downloads ( 4.3).cylib\Downloads ( 4.3).cyprj|726b7381-0095-44a1-8cb5-b0b679ae4655
+C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|bb218ded-8778-4a34-8561-94a10785a972
+C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|2168020d-8f53-475b-bba2-e5bb4720f32a
+C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|5cf3a38e-eb8c-47e7-ac45-59885571d4f5
+C:\Users\SHOZO\Documents\PSoC Creator\My Templates\RHINON_Calion_Slider.cydsn\RHINON_Calion_Slider.cyprj|0286c865-e2e9-40ef-94a5-f4038ad48432
+C:\Users\SHOZO\Documents\GitHub\rokko2020\PSoC\PSoC-20200823\ROKKO_KAWAU\RHINON_Calion_Slider_U.cydsn\RHINON_Calion_Slider_U.cyprj|413b845b-1e4c-4347-8754-6acdc23c9149

@@ -1473,4 +1473,4 @@ END GROUP
 
 /DISCARD/
  *(.note.GNU-stack)
-OUTPUT(C:\Users\SHOZO\Documents\ROKKO\PSoC\PSOC-20200715\RHINON_Calion_Slider.cydsn\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.elf elf32-littlearm)
+OUTPUT(C:\Users\SHOZO\Documents\GitHub\rokko2020\PSoC\PSOC-20200715\RHINON_Calion_Slider.cydsn\CortexM0\ARM_GCC_541\Debug\RHINON_Calion_Slider.elf elf32-littlearm)

@@ -1,0 +1,8 @@
+C:/Users/SHOZO/Documents/GitHub/rokko2020/PSoC/PSoC-20200823/ROKKO_KAWAU/KUJAKU.cydsn/CortexM0/ARM_GCC_541/Debug/CyBootAsmGnu.o : C:/Users/SHOZO/Documents/GitHub/rokko2020/PSoC/PSoC-20200823/ROKKO_KAWAU/KUJAKU.cydsn/Generated_Source/PSoC4/CyBootAsmGnu.s C:/Users/SHOZO/Documents/GitHub/rokko2020/PSoC/PSoC-20200823/ROKKO_KAWAU/KUJAKU.cydsn/Generated_Source/PSoC4/cydevicegnu_trm.inc C:/Users/SHOZO/Documents/GitHub/rokko2020/PSoC/PSoC-20200823/ROKKO_KAWAU/KUJAKU.cydsn/Generated_Source/PSoC4/cyfittergnu.inc 
+
+C:/Users/SHOZO/Documents/GitHub/rokko2020/PSoC/PSoC-20200823/ROKKO_KAWAU/KUJAKU.cydsn/Generated_Source/PSoC4/CyBootAsmGnu.s : 
+
+C:/Users/SHOZO/Documents/GitHub/rokko2020/PSoC/PSoC-20200823/ROKKO_KAWAU/KUJAKU.cydsn/Generated_Source/PSoC4/cydevicegnu_trm.inc : 
+
+C:/Users/SHOZO/Documents/GitHub/rokko2020/PSoC/PSoC-20200823/ROKKO_KAWAU/KUJAKU.cydsn/Generated_Source/PSoC4/cyfittergnu.inc : 
+

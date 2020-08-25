@@ -2,7 +2,7 @@
 --	Conversion of RHINON_Calion_Slider.v to vh2:
 --
 --	Cypress Semiconductor - WARP Version 6.3 IR 41
---	Fri Aug 07 16:57:53 2020
+--	Sun Aug 23 15:06:28 2020
 --
 
 USE cypress.cypress.all;

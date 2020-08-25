@@ -18,12 +18,11 @@
 <v>Output</v>
 </TreeKeys>
 <TreeStates>
-<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="RHINON_Calion_Slider-002\RHINON_Calion_Slider\RHINON_Calion_Slider.cydwr\Pins">
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
 <ExpandedNodeIds>
 <v>RHINON_Calion_Slider-002</v>
 <v>RHINON_Calion_Slider-002\RHINON_Calion_Slider</v>
 <v>RHINON_Calion_Slider-002\RHINON_Calion_Slider\TopDesign</v>
-<v>RHINON_Calion_Slider-002\RHINON_Calion_Slider\RHINON_Calion_Slider.cydwr</v>
 <v>RHINON_Calion_Slider-002\RHINON_Calion_Slider\RHINON_Calion_Slider.cydwr\Pins</v>
 <v>RHINON_Calion_Slider-002\RHINON_Calion_Slider\RHINON_Calion_Slider.cydwr\Analog</v>
 <v>RHINON_Calion_Slider-002\RHINON_Calion_Slider\RHINON_Calion_Slider.cydwr\Clocks</v>
@@ -31,11 +30,8 @@
 <v>RHINON_Calion_Slider-002\RHINON_Calion_Slider\RHINON_Calion_Slider.cydwr\System</v>
 <v>RHINON_Calion_Slider-002\RHINON_Calion_Slider\RHINON_Calion_Slider.cydwr\Directives</v>
 <v>RHINON_Calion_Slider-002\RHINON_Calion_Slider\RHINON_Calion_Slider.cydwr\Flash Security</v>
-<v>RHINON_Calion_Slider-002\RHINON_Calion_Slider\Header Files</v>
 <v>RHINON_Calion_Slider-002\RHINON_Calion_Slider\Header Files\cyapicallbacks.h</v>
-<v>RHINON_Calion_Slider-002\RHINON_Calion_Slider\Source Files</v>
 <v>RHINON_Calion_Slider-002\RHINON_Calion_Slider\Source Files\main.c</v>
-<v>RHINON_Calion_Slider-002\RHINON_Calion_Slider\Generated_Source</v>
 <v>RHINON_Calion_Slider-002\RHINON_Calion_Slider\Generated_Source\PSoC4</v>
 </ExpandedNodeIds>
 <VisibleNodeIds>
@@ -43,32 +39,9 @@
 <v>RHINON_Calion_Slider-002\RHINON_Calion_Slider</v>
 <v>RHINON_Calion_Slider-002\RHINON_Calion_Slider\TopDesign</v>
 <v>RHINON_Calion_Slider-002\RHINON_Calion_Slider\RHINON_Calion_Slider.cydwr</v>
-<v>RHINON_Calion_Slider-002\RHINON_Calion_Slider\RHINON_Calion_Slider.cydwr\Pins</v>
-<v>RHINON_Calion_Slider-002\RHINON_Calion_Slider\RHINON_Calion_Slider.cydwr\Analog</v>
-<v>RHINON_Calion_Slider-002\RHINON_Calion_Slider\RHINON_Calion_Slider.cydwr\Clocks</v>
-<v>RHINON_Calion_Slider-002\RHINON_Calion_Slider\RHINON_Calion_Slider.cydwr\Interrupts</v>
-<v>RHINON_Calion_Slider-002\RHINON_Calion_Slider\RHINON_Calion_Slider.cydwr\System</v>
-<v>RHINON_Calion_Slider-002\RHINON_Calion_Slider\RHINON_Calion_Slider.cydwr\Directives</v>
-<v>RHINON_Calion_Slider-002\RHINON_Calion_Slider\RHINON_Calion_Slider.cydwr\Flash Security</v>
 <v>RHINON_Calion_Slider-002\RHINON_Calion_Slider\Header Files</v>
-<v>RHINON_Calion_Slider-002\RHINON_Calion_Slider\Header Files\cyapicallbacks.h</v>
 <v>RHINON_Calion_Slider-002\RHINON_Calion_Slider\Source Files</v>
-<v>RHINON_Calion_Slider-002\RHINON_Calion_Slider\Source Files\main.c</v>
 <v>RHINON_Calion_Slider-002\RHINON_Calion_Slider\Generated_Source</v>
-<v>RHINON_Calion_Slider-002\RHINON_Calion_Slider\Generated_Source\PSoC4</v>
-<v>RHINON_Calion_Slider-002\RHINON_Calion_Slider\Generated_Source\PSoC4\CapSense</v>
-<v>RHINON_Calion_Slider-002\RHINON_Calion_Slider\Generated_Source\PSoC4\CapSense_SampleClk</v>
-<v>RHINON_Calion_Slider-002\RHINON_Calion_Slider\Generated_Source\PSoC4\CapSense_SenseClk</v>
-<v>RHINON_Calion_Slider-002\RHINON_Calion_Slider\Generated_Source\PSoC4\CapSense_Sns</v>
-<v>RHINON_Calion_Slider-002\RHINON_Calion_Slider\Generated_Source\PSoC4\Clock_PWM</v>
-<v>RHINON_Calion_Slider-002\RHINON_Calion_Slider\Generated_Source\PSoC4\cy_boot</v>
-<v>RHINON_Calion_Slider-002\RHINON_Calion_Slider\Generated_Source\PSoC4\cy_lfclk</v>
-<v>RHINON_Calion_Slider-002\RHINON_Calion_Slider\Generated_Source\PSoC4\Em_EEPROM_Dynamic</v>
-<v>RHINON_Calion_Slider-002\RHINON_Calion_Slider\Generated_Source\PSoC4\LED_1</v>
-<v>RHINON_Calion_Slider-002\RHINON_Calion_Slider\Generated_Source\PSoC4\LED_CONTROL</v>
-<v>RHINON_Calion_Slider-002\RHINON_Calion_Slider\Generated_Source\PSoC4\Pin_1</v>
-<v>RHINON_Calion_Slider-002\RHINON_Calion_Slider\Generated_Source\PSoC4\UART_1</v>
-<v>RHINON_Calion_Slider-002\RHINON_Calion_Slider\Generated_Source\PSoC4\UART_1_rx</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 <CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
@@ -169,6 +142,7 @@
 <v>RHINON_Calion_Slider-002\RHINON_Calion_Slider\CortexM0\ARM_GCC_541\Debug\Listing Files\LED_CONTROL.lst</v>
 <v>RHINON_Calion_Slider-002\RHINON_Calion_Slider\CortexM0\ARM_GCC_541\Debug\Listing Files\LED_CONTROL_PM.lst</v>
 <v>RHINON_Calion_Slider-002\RHINON_Calion_Slider\CortexM0\ARM_GCC_541\Debug\Listing Files\main.lst</v>
+<v>RHINON_Calion_Slider-002\RHINON_Calion_Slider\CortexM0\ARM_GCC_541\Debug\Listing Files\Pin_1.lst</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 </TreeStates>
@@ -214,18 +188,14 @@
 </userData>
 </CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997>
 <Unloaded />
-<OpenDocs>
-<name v=".\TopDesign\TopDesign.cysch" />
-<name v=".\RHINON_Calion_Slider.cydwr" />
-<name v=".\main.c" />
-</OpenDocs>
+<OpenDocs />
 <OpenDocsLayout><![CDATA[<?xml version="1.0"?><!--
 
   Actipro Docking/MDI for WinForms
   Copyright (c) 2001-2016 Actipro Software LLC.  All rights reserved.
   http://www.actiprosoftware.com
 
---><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1063, 399" SelectedTabbedMdiWindow="8fffe027-2d89-4e94-8d3f-3e495d9da338"><DocumentWindow Key="C:\Users\SHOZO\Documents\ROKKO\PSoC\PSOC-20200715\RHINON_Calion_Slider.cydsn\TopDesign\TopDesign.cysch" Guid="313eeed7-5998-43a7-80d7-fc43381c8de9" /><DocumentWindow Key="C:\Users\SHOZO\Documents\ROKKO\PSoC\PSOC-20200715\RHINON_Calion_Slider.cydsn\RHINON_Calion_Slider.cydwr" Guid="8fffe027-2d89-4e94-8d3f-3e495d9da338" /><DocumentWindow Key="C:\Users\SHOZO\Documents\ROKKO\PSoC\PSOC-20200715\RHINON_Calion_Slider.cydsn\main.c" Guid="ef181bd8-ca11-4df8-afd7-735658414ab4" /><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="690a5296-dff6-4b1f-a0c2-3370370e0f55" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
+--><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal" /><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
 <config v="" />
 <AutoUpdate v="true" />
 </CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>
