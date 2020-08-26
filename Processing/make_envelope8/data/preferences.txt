@@ -3,4 +3,3 @@
 /Users/MATHRAX/Documents/GitHub/rokko2020/Processing/make_envelope8/data/env_02.raw
 50.505047
 1.1211212
-
