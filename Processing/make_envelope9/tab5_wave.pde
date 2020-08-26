@@ -39,8 +39,8 @@ void make_waveform(float wd, int export) {
 
 
     //ENVELOPE
-    if(env_index >= raw[2].length){
-      env_index =  raw[2].length-1;
+    if(env_index > make_env){
+      env_index =  make_env;
     }
     env_r =abs(raw[2][env_index]);
     inlet1 = env_r;
