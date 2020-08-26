@@ -39,6 +39,9 @@ void make_waveform(float wd, int export) {
 
 
     //ENVELOPE
+    if(env_index > make_env){
+      env_index = make_env;
+    }
     env_r =abs(raw[2][env_index]);
     inlet1 = env_r;
     //サンプルホールド（現在値が以前より大きくなったとき）

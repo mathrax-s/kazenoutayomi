@@ -140,8 +140,8 @@ public void PREVIEW( ) {
   } else {
     player.stop();
     player=null;
-    wavedata = new byte[4000000];
-    make_waveform(4000000, 1);
+    wavedata = new byte[4000];
+    make_waveform(4000, 1);
     wave_export();
     player = minim.loadSample("test.wav", 512);
     sound_preview();
