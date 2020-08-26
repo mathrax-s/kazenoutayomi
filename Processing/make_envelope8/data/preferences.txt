@@ -1,4 +1,6 @@
 /Users/MATHRAX/Documents/GitHub/rokko2020/Processing/make_envelope8/data/aogera-atk-sin8.raw
-/Users/MATHRAX/Documents/GitHub/rokko2020/Processing/make_envelope8/data/aogera-sus-sin8.raw
-/Users/MATHRAX/Documents/GitHub/rokko2020/Processing/make_envelope8/data/aogera-env-sin8.raw
-19.19192
+/Users/MATHRAX/Documents/GitHub/rokko2020/Processing/make_envelope8/data/001_bamboo_sus.raw
+/Users/MATHRAX/Documents/GitHub/rokko2020/Processing/make_envelope8/data/env_02.raw
+50.505047
+1.1211212
+

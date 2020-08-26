@@ -1,6 +1,6 @@
 int bcnt=5;
 byte[][] raw = new byte[bcnt][0];
-int[] envelope = new int[0];
+float[] envelope = new float[0];
 int[] attack = new int[0];
 int[] sustain = new int[0];
 
@@ -31,6 +31,7 @@ color[] wave_color1 = {color(10, 0, 255, 40), color(50, 255, 1, 40), color(200, 
 color[] wave_color2 = {color(10, 0, 255, 80), color(50, 255, 1, 80), color(200, 0, 100, 40)};
 
 float sliderTicks1 = 20;
+float sliderTicks2 = 1.0;
 
 public void ATTAK( ) {
   int ch=0;
@@ -140,8 +141,8 @@ public void PREVIEW( ) {
   } else {
     player.stop();
     player=null;
-    wavedata = new byte[4000000];
-    make_waveform(4000000, 1);
+    wavedata = new byte[4000];
+    make_waveform(4000, 1);
     wave_export();
     player = minim.loadSample("test.wav", 512);
     sound_preview();
@@ -202,7 +203,7 @@ void export() {
 
   //ENV
   int e_length = 1024;
-  envelope = new int[e_length];
+  envelope = new float[e_length];
   int env_index = 0;
 
   int[] envbuf = new int[raw[2].length];
@@ -230,17 +231,16 @@ void export() {
         }
       }
     }
-
     inlet2 = inlet1;
-    ave = ave*(9.0/10.0)+output/10.0;
-    envelope[i] = (int)output;//(int) ave;
+    
+    envelope[i] = output;
   }
   w = e_length;
   s[2][0]="";
-  c[2] = envelope.length  / w ;
+  c[2] = envelope.length / (float)w;;
   
-  int emax = max(envelope);
-  int emin = min(envelope);
+  float emax = max(envelope);
+  float emin = min(envelope);
 
   for (int i=0; i<w; i++) {
     int a = (int)map(envelope[(int)(i*c[2])], emin, emax, 0, 255); 
@@ -252,6 +252,7 @@ void export() {
     s[2][0]+=a+",";//\t";
   }
   s[2][0]+="\r\n";
+  
 }
 
 
