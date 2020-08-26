@@ -22,6 +22,7 @@ float[]average = new float[bcnt];
 int make_atk;
 int make_sus;
 int make_env;
+
 String make_s = null ;
 String make_c ;
 String[] wave_name = {"Attack", "Sustain", "Envelope"};
@@ -29,13 +30,13 @@ color[] wave_text_color = {color(10, 0, 255, 200), color(50, 255, 1, 200), color
 color[] wave_color1 = {color(10, 0, 255, 40), color(50, 255, 1, 40), color(200, 0, 100, 20)};
 color[] wave_color2 = {color(10, 0, 255, 80), color(50, 255, 1, 80), color(200, 0, 100, 40)};
 
-int sliderTicks1 = 20;
+float sliderTicks1 = 20;
 
 public void ATTAK( ) {
   int ch=0;
   if (first[ch]==0) {
     first[ch]=1;
-    raw[ch] = loadBytes("aogera-atk-sin8.raw");
+    raw[ch] = loadBytes(atk_file);
   } else {
     selectInput("Select Raw-Signed 8bit File:", "attak_selected");
 
@@ -52,7 +53,8 @@ void attak_selected(File selection) {
   } else {
     println("User selected " + selection.getAbsolutePath());
     int ch=0;
-    raw[ch] = loadBytes(selection.getAbsolutePath());
+    atk_file = selection.getAbsolutePath();
+    raw[ch] = loadBytes(atk_file);
     d[ch] = (raw[ch] .length/(float)width);
     load_done[ch]=1;
     index[ch]=0;
@@ -64,7 +66,7 @@ public void SUSTAIN( ) {
   int ch=1;
   if (first[ch]==0) {
     first[ch]=1;
-    raw[ch] = loadBytes("aogera-sus-sin8.raw");
+    raw[ch] = loadBytes(sus_file);
   } else {
     selectInput("Select Raw-Signed 8bit File:", "sustain_selected");
 
@@ -81,7 +83,8 @@ void sustain_selected(File selection) {
   } else {
     println("User selected " + selection.getAbsolutePath());
     int ch=1;
-    raw[ch] = loadBytes(selection.getAbsolutePath());
+    sus_file = selection.getAbsolutePath();
+    raw[ch] = loadBytes(sus_file);
     d[ch] = (raw[ch] .length/(float)width);
     load_done[ch]=1;
     index[ch]=0;
@@ -94,7 +97,7 @@ public void ENVELOPE( ) {
   int ch=2;
   if (first[ch]==0) {
     first[ch]=1;
-    raw[ch] = loadBytes("aogera-env-sin8.raw");
+    raw[ch] = loadBytes(env_file);
   } else {
     selectInput("Select Raw-Signed 8bit File:", "envelope_selected");
 
@@ -111,7 +114,8 @@ void envelope_selected(File selection) {
   } else {
     println("User selected " + selection.getAbsolutePath());
     int ch=2;
-    raw[ch] = loadBytes(selection.getAbsolutePath());
+    env_file = selection.getAbsolutePath();
+    raw[ch] = loadBytes(env_file);
     d[ch] = (raw[ch] .length/(float)width);
     load_done[ch]=1;
     index[ch]=0;

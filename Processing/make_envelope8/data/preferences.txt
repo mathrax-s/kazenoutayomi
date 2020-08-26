@@ -1,0 +1,4 @@
+/Users/MATHRAX/Documents/GitHub/rokko2020/Processing/make_envelope8/data/kizi_atk_sin8.raw
+/Users/MATHRAX/Documents/GitHub/rokko2020/Processing/make_envelope8/data/kizi_sus_sin8.raw
+/Users/MATHRAX/Documents/GitHub/rokko2020/Processing/make_envelope8/data/kizi_env_sin8.raw
+40.40404

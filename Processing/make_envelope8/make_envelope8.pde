@@ -1,9 +1,43 @@
 import controlP5.*;
 ControlP5 cp5;
 
+String[] preferences_saved;
+String[] preferences;
+String atk_file;
+String sus_file;
+String env_file;
+
+
+void save_preferences() {
+  preferences_saved[0] = atk_file;
+  preferences_saved[1] = sus_file;
+  preferences_saved[2] = env_file;
+  preferences_saved[3] = str(sliderTicks1);
+  saveStrings("data/preferences.txt", preferences_saved);
+}
+
+void load_preferences() {
+  atk_file = preferences_saved[0];
+  sus_file = preferences_saved[1];
+  env_file = preferences_saved[2];
+  sliderTicks1 = float(preferences_saved[3]);
+}
+
+
 
 void setup() {
   size(700, 768);
+
+  preferences_saved = loadStrings("data/preferences.txt");
+  if (preferences_saved.length<4) {
+    atk_file = "data/atk.raw";
+    sus_file = "data/atk.raw";
+    env_file = "data/atk.raw";
+    sliderTicks1 = 20;
+  } else {
+    load_preferences();
+  }
+
   minim = new Minim(this);
   player = minim.loadSample("test.wav", 512);
 
@@ -42,10 +76,17 @@ void setup() {
   cp5.addSlider("sliderTicks1")
     .setPosition(width/6*5, height/2-50)
     .setSize(20, 100)
-    .setRange(20, 100)
-    .setNumberOfTickMarks(5)
+    .setRange(0, 100)
+    .setNumberOfTickMarks(100)
     ;
 }
+
+
+void dispose() {
+  save_preferences();
+  println("save preferences");
+}
+
 
 void draw() {
   background(255);
