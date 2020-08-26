@@ -23,7 +23,7 @@ void make_waveform(float wd, int export) {
   int wave_status=0;
 
   for (long x=0; x<w; x++) {
-    
+
     float r=0;
     float env_r=0;
 
@@ -39,7 +39,7 @@ void make_waveform(float wd, int export) {
 
 
     //ENVELOPE
-    if(env_index > make_env){
+    if (env_index > make_env) {
       env_index =  make_env;
     }
     env_r =abs(raw[2][env_index]);
@@ -50,7 +50,6 @@ void make_waveform(float wd, int export) {
     } else {
       if (mode==1) {
         mode = -1;  //下降
-
         output = (inlet2);
         if (output<0) {
           output=0;
@@ -69,7 +68,7 @@ void make_waveform(float wd, int export) {
       index_f += d;
       index = (int)index_f;
     }
-    
+
     if (env_index <= (make_env-env_d-1)) {
       env_index_f+=env_d;
       env_index =(int)env_index_f;
@@ -88,14 +87,15 @@ void make_waveform(float wd, int export) {
 
       //WAVE2  
       rectMode(CENTER);
-      stroke(200, 0, 100, 50);
-      strokeWeight(4);
-      point(x, 640-(wave_ave/2));
-
-      rectMode(CENTER);
       noStroke();
       fill(wave_color2[wave_status]);
       rect(x, 640, 1, map( r*wave_ave/128.0, 0, 128, 0, 255));
+
+      rectMode(CENTER);
+      stroke(200, 0, 100, 50);
+      strokeWeight(4);
+      point(x, 640-(wave_ave/2));
+      
       break;
 
 

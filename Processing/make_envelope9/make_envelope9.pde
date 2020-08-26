@@ -14,6 +14,7 @@ void save_preferences() {
   preferences_saved[2] = env_file;
   preferences_saved[3] = str(sliderTicks1);
   preferences_saved[4] = str(div2);
+  preferences_saved[5] = str(sliderTicks2);
   saveStrings("data/preferences.txt", preferences_saved);
 }
 
@@ -23,6 +24,7 @@ void load_preferences() {
   env_file = preferences_saved[2];
   sliderTicks1 = float(preferences_saved[3]);
   div2 = float(preferences_saved[4]);
+  sliderTicks2 = float(preferences_saved[5]);
 }
 
 
@@ -31,12 +33,13 @@ void setup() {
   size(700, 768);
 
   preferences_saved = loadStrings("data/preferences.txt");
-  if (preferences_saved.length<5) {
+  if (preferences_saved.length<6) {
     atk_file = "data/atk.raw";
     sus_file = "data/atk.raw";
     env_file = "data/atk.raw";
     sliderTicks1 = 20;
     div2 = 1.0;
+    sliderTicks2 = 0;
   } else {
     load_preferences();
   }
@@ -80,14 +83,21 @@ void setup() {
     .setPosition(width/6*5, height/2-50)
     .setSize(20, 100)
     .setRange(0, 100)
-    //.setNumberOfTickMarks(100)
+    .setColorValue(0x444488ff)
     ;
 
   cp5.addSlider("div2")
     .setPosition(width/6*5, height/3*2+75)
     .setSize(20, 100)
-    .setRange(0, 2)
-    //.setNumberOfTickMarks(1000)
+    .setRange(1.0, 1.1)
+    .setColorValue(0xffff88ff)
+    ;
+
+  cp5.addSlider("sliderTicks2")
+    .setPosition(width/12, height-55)
+    .setSize(100, 20)
+    .setRange(0, 1.0)
+    .setColorValue(0xffff88ff)
     ;
 }
 

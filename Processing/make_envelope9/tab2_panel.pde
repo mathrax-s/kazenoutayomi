@@ -1,6 +1,7 @@
 int bcnt=5;
 byte[][] raw = new byte[bcnt][0];
 float[] envelope = new float[0];
+float[] envelope_buf = new float[0];
 int[] attack = new int[0];
 int[] sustain = new int[0];
 
@@ -31,7 +32,7 @@ color[] wave_color1 = {color(10, 0, 255, 40), color(50, 255, 1, 40), color(200, 
 color[] wave_color2 = {color(10, 0, 255, 80), color(50, 255, 1, 80), color(200, 0, 100, 40)};
 
 float sliderTicks1 = 20;
-float sliderTicks2 = 1.0;
+float sliderTicks2 = 0;
 
 public void ATTAK( ) {
   int ch=0;
@@ -204,6 +205,7 @@ void export() {
   //ENV
   int e_length = 1024;
   envelope = new float[e_length];
+  envelope_buf = new float[e_length];
   int env_index = 0;
 
   int[] envbuf = new int[raw[2].length];
@@ -324,6 +326,7 @@ void draw_wave() {
         //ATAK , SUSTAIN
         average[i] = r;
         rectMode(CENTER);
+        noStroke();
         fill(wave_color1[i]);
         rect(x/3, 128, 1, (average[i]));
       }
