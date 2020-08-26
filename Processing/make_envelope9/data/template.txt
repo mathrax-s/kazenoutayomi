@@ -1,0 +1,15 @@
+#ifndef WAVETABLE1_H
+#define	WAVETABLE1_H
+
+static const int8_t wt_attak1[] = {
+//wt
+};
+
+static const int8_t wt_sustain1[] = {
+//sus
+};
+
+static const uint8_t envelope_table1[] = {
+//env
+};
+#endif
