@@ -35,8 +35,8 @@ void setup() {
   preferences_saved = loadStrings("data/preferences.txt");
   if (preferences_saved.length<6) {
     atk_file = "data/atk.raw";
-    sus_file = "data/atk.raw";
-    env_file = "data/atk.raw";
+    sus_file = "data/sus.raw";
+    env_file = "data/env.raw";
     sliderTicks1 = 20;
     div2 = 1.0;
     sliderTicks2 = 0;
