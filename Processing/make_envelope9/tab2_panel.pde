@@ -137,6 +137,7 @@ public void EXPORT1( ) {
   } else {
     export();
     loadTemplate(1);
+
   }
 }
 
@@ -147,6 +148,7 @@ public void EXPORT2( ) {
   } else {
     export();
     loadTemplate(2);
+
   }
 }
 
@@ -155,10 +157,11 @@ public void PREVIEW( ) {
   if (first[ch]==0) {
     first[ch]=1;
   } else {
+    
     player.stop();
     player=null;
-    wavedata = new byte[4000];
-    make_waveform(4000, 1);
+    wavedata = new byte[4410];
+    make_waveform(4410, 1);
     wave_export();
     player = minim.loadSample("test.wav", 512);
     sound_preview();
