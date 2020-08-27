@@ -1,6 +1,6 @@
-/Users/mathrax/Documents/GitHub/rokko2020/Processing/make_envelope9/data/korokoro_orgel_ATTACK.raw
-/Users/mathrax/Documents/GitHub/rokko2020/Processing/make_envelope9/data/korokoro_orgel_SUS.raw
-/Users/mathrax/Documents/GitHub/rokko2020/Processing/make_envelope9/data/env_01.raw
-68.0
-1.069
+/Users/mathrax/Documents/GitHub/rokko2020/Processing/make_envelope9/data/aogera-atk-sin8.raw
+/Users/mathrax/Documents/GitHub/rokko2020/Processing/make_envelope9/data/aogera-sus-sin8.raw
+/Users/mathrax/Documents/GitHub/rokko2020/Processing/make_envelope9/data/env.raw
+48.999996
+1.077
 0.37
