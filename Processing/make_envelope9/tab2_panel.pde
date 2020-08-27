@@ -1,4 +1,4 @@
-int bcnt=5;
+int bcnt=6;
 byte[][] raw = new byte[bcnt][0];
 float[] envelope = new float[0];
 float[] envelope_buf = new float[0];
@@ -125,18 +125,28 @@ void envelope_selected(File selection) {
 }
 
 
-public void EXPORT( ) {
+public void EXPORT1( ) {
   int ch=3;
   if (first[ch]==0) {
     first[ch]=1;
   } else {
     export();
-    loadTemplate();
+    loadTemplate(1);
+  }
+}
+
+public void EXPORT2( ) {
+  int ch=4;
+  if (first[ch]==0) {
+    first[ch]=1;
+  } else {
+    export();
+    loadTemplate(2);
   }
 }
 
 public void PREVIEW( ) {
-  int ch=4;
+  int ch=5;
   if (first[ch]==0) {
     first[ch]=1;
   } else {

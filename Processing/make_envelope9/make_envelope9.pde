@@ -68,9 +68,14 @@ void setup() {
     .setPosition(width/6*5-50, 200)
     .setSize(100, 30)
     ;
-  cp5.addButton("EXPORT")
+  cp5.addButton("EXPORT1")
     .setValue(0)
-    .setPosition(width/6*3-50, height-60)
+    .setPosition(width/6*2.5-50, height-60)
+    .setSize(100, 30)
+    ;
+  cp5.addButton("EXPORT2")
+    .setValue(0)
+    .setPosition(width/6*3.5-50, height-60)
     .setSize(100, 30)
     ;
   cp5.addButton("PREVIEW")

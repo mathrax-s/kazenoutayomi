@@ -1,6 +1,9 @@
 #ifndef WAVETABLE1_H
 #define	WAVETABLE1_H
 
+//pot1	
+//envpot1
+
 static const int8_t wt_attak1[] = {
 //wt
 };
