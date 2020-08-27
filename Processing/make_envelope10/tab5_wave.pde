@@ -16,8 +16,8 @@ void make_waveform(float wd, int export) {
 
   float index_f=0;
   int index = 0;
-  int index_atk = 0;
-  int index_sus = 0;
+  //int index_atk = 0;
+  //int index_sus = 0;
   float env_index_f=0;
   int env_index=0;
 

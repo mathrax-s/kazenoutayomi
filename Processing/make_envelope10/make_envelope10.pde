@@ -111,8 +111,6 @@ void setup() {
 
 
 void dispose() {
-  //プログラムの終了処理
-  super.stop();
 
   save_preferences();
   println("save preferences");
