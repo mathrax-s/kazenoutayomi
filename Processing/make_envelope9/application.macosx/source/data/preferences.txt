@@ -1,6 +1,0 @@
-/Users/mathrax/Documents/GitHub/rokko2020/Processing/make_envelope9/data/aogera-atk-sin8.raw
-/Users/mathrax/Documents/GitHub/rokko2020/Processing/make_envelope9/data/aogera-sus-sin8.raw
-/Users/mathrax/Documents/GitHub/rokko2020/Processing/make_envelope9/data/aogera-env-sin8.raw
-9.999999
-1.027
-0.37
