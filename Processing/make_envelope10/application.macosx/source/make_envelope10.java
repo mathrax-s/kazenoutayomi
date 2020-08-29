@@ -593,12 +593,15 @@ public void CopyToClipboard(String s)
   selectOutput("Select a file to write to:", "fileSelected");
 }
 
+String[] exportfile = {""};
+
 public void fileSelected(File selection) {
   if (selection == null) {
     println("Window was closed or the user hit cancel.");
   } else {
     println("User selected " + selection.getAbsolutePath());
-    saveStrings(selection.getAbsolutePath() , outputlines);
+    exportfile[0] = copy;
+    saveStrings(selection.getAbsolutePath() , exportfile);
   }
 }
 byte[] wavedata;

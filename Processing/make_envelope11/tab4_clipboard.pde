@@ -8,8 +8,10 @@ void CopyToClipboard(String s)
   Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
   StringSelection data = new StringSelection(s);
   clipboard.setContents(data, data);
-  
-  selectOutput("Select a file to write to:", "fileSelected");
+
+  if (save_as_file==true) {
+    selectOutput("Select a file to write to:", "fileSelected");
+  }
 }
 
 String[] exportfile = {""};
@@ -20,6 +22,6 @@ void fileSelected(File selection) {
   } else {
     println("User selected " + selection.getAbsolutePath());
     exportfile[0] = copy;
-    saveStrings(selection.getAbsolutePath() , exportfile);
+    saveStrings(selection.getAbsolutePath(), exportfile);
   }
 }

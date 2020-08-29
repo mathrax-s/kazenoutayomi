@@ -3,4 +3,4 @@
 /Users/mathrax/Documents/GitHub/rokko2020/Processing/make_envelope9/data/env.raw
 9.0
 1.077
-0.14999999
+0.59999996
