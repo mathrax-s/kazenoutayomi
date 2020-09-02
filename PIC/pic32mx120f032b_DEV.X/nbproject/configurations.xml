@@ -22,8 +22,13 @@
       <itemPath>wavetable2.h</itemPath>
       <itemPath>scale_table.h</itemPath>
       <itemPath>wavetable3.h</itemPath>
-      <itemPath>wave_orgel.h</itemPath>
       <itemPath>wave_mrk.h</itemPath>
+      <itemPath>wave_korokoro_orgel.h</itemPath>
+      <itemPath>wave_masu.h</itemPath>
+      <itemPath>wave_test2.h</itemPath>
+      <itemPath>wave_test1.h</itemPath>
+      <itemPath>wave_orgel1.h</itemPath>
+      <itemPath>wave_hato1_1.h</itemPath>
     </logicalFolder>
     <logicalFolder name="LinkerScript"
                    displayName="Linker Files"

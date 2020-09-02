@@ -2,13 +2,8 @@
 #define	WAVETABLE1_H
 
 #define POT1 9 // power of two; must match with scale_table values
-#define POT2 10 // power of two; must match with scale_table values
-
 #define ENVPOT1 9
-#define ENVPOT2 8
 
-#define FADEIN 0.25
-#define FADEOUT 0.99999
 
 static const int8_t wt_attak1[] = {
 	-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,-1,-1,-1,-1,

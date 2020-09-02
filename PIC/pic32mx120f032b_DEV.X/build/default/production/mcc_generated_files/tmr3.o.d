@@ -9,7 +9,7 @@ mcc_generated_files/tmr1.h  \
 mcc_generated_files/interrupt_manager.h  \
  mcc_generated_files/oc1.h  \
 mcc_generated_files/i2c1.h  \
- mcc_generated_files/../wave_mrk.h  \
-mcc_generated_files/../wavetable2.h  \
- mcc_generated_files/../scale_table.h  \
-mcc_generated_files/../pitches.h 
+ mcc_generated_files/../wave_hato1_1.h  \
+ mcc_generated_files/../wave_test2.h  \
+mcc_generated_files/../scale_table.h  \
+ mcc_generated_files/../pitches.h 

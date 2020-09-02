@@ -48,10 +48,12 @@
 uint32_t increments_pot1[ OSCILLATOR_COUNT ];
 uint32_t phase_accu_pot1[ OSCILLATOR_COUNT ];
 uint32_t envelope_positions_envpot1[ OSCILLATOR_COUNT ];
+uint32_t env1[ OSCILLATOR_COUNT ];
 
 uint32_t increments_pot2[ OSCILLATOR_COUNT ];
 uint32_t phase_accu_pot2[ OSCILLATOR_COUNT ];
 uint32_t envelope_positions_envpot2[ OSCILLATOR_COUNT ];
+uint32_t env2[ OSCILLATOR_COUNT ];
 
 uint8_t next_osc1 = 0;
 uint8_t next_osc2 = 0;
@@ -78,6 +80,7 @@ float fadein = FADEIN;
 float fadeout = FADEOUT;
 
 uint8_t sensor_data;
+uint8_t transpose= 0;
 /*
                          Main application
  */
@@ -90,9 +93,11 @@ int main(void) {
         increments_pot1[ osc ] = 0;
         phase_accu_pot1[ osc ] = 0;
         envelope_positions_envpot1[ osc ] = 0;
+        env1[ osc ] = 0;
         increments_pot2[ osc ] = 0;
         phase_accu_pot2[ osc ] = 0;
         envelope_positions_envpot2[ osc ] = 0;
+        env2[ osc ] = 0;
     }
 
     LATBbits.LATB5 = 1;
@@ -118,12 +123,9 @@ int main(void) {
         
 		if(UART1_ReceiveBufferIsEmpty() == false){
             receive_num = UART1_Read();
-            if(receive_num>=0 && receive_num<=100){
-                sensor_data = receive_num;
-                my_sound_num = (float) (sizeof (scale)) * (float) (receive_num / 100.0);
-                now_slider = receive_num;
-            }
 		}
+        
+
 
     }
 

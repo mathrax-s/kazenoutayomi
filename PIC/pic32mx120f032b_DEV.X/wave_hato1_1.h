@@ -1,8 +1,8 @@
 #ifndef WAVETABLE1_H
 #define	WAVETABLE1_H
 
-#define POT1	6
-#define ENVPOT1	6
+#define POT1	8
+#define ENVPOT1	8
 
 static const int8_t wt_attak1[] = {
     0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,

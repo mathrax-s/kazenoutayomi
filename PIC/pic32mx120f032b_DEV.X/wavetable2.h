@@ -18,6 +18,9 @@
 #ifndef _WAVETABLE2_H    /* Guard against multiple inclusion */
 #define _WAVETABLE2_H
 
+#define POT2	8
+#define ENVPOT2	8
+
 static const int8_t wt_attak2[] = {
     0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
     0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1,
@@ -478,7 +481,6 @@ static const int8_t wt_sustain2[] = {// 48.5696123989 Hz fundamental frequency a
 
 
 static const uint8_t envelope_table2[] = {
-    
 0,0,0,0,0,1,4,9,11,20,14,4,9,21,24,28,
 29,32,33,36,40,41,36,34,32,32,24,22,36,40,46,48,
 22,7,30,37,42,45,31,23,37,46,43,36,15,4,17,39,

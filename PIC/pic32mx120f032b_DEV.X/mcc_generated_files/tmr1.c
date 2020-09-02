@@ -165,7 +165,8 @@ void __attribute__ ((weak)) TMR1_CallBack(void)
         } else {
             accu = (wt_sustain1[phase_accu]);
         }
-        value1 += envelope_table1[ envelope_positions_envpot1[ osc ] >> ENVPOT1 ] * accu;
+        value1 += (envelope_table1[ envelope_positions_envpot1[ osc ] >> ENVPOT1 ] >> env1[osc]) * accu;
+//        value1 += envelope_table1[ envelope_positions_envpot1[ osc ] >> ENVPOT1 ]  * accu;
         if (phase_accu_pot1[ osc ] >= sizeof_wt1_attack_pot &&
                 envelope_positions_envpot1[ osc ] < sizeof_envelope1_table_envpot - 1) {
             envelope_positions_envpot1[ osc ]++;
@@ -185,7 +186,8 @@ void __attribute__ ((weak)) TMR1_CallBack(void)
         } else {
             accu = (wt_sustain2[phase_accu]);
         }
-        value2 += envelope_table2[ envelope_positions_envpot2[ osc ] >> ENVPOT2 ] * accu;
+        value2 += (envelope_table2[ envelope_positions_envpot2[ osc ] >> ENVPOT2 ] >> env2[osc]) * accu;
+//        value2 += envelope_table2[ envelope_positions_envpot2[ osc ] >> ENVPOT2 ] * accu;
         if (phase_accu_pot2[ osc ] >= sizeof_wt2_attack_pot &&
                 envelope_positions_envpot2[ osc ] < sizeof_envelope2_table_envpot - 1) {
             envelope_positions_envpot2[ osc ]++;
@@ -195,9 +197,7 @@ void __attribute__ ((weak)) TMR1_CallBack(void)
     value2 >>= 10; // envelope_table resolution
 
     //value1..TOUCH, value2..I2C
-    crossfade  *= fadeout;
-    if(crossfade<0)crossfade=0;
-    value = (value1 * crossfade) + value2 * (1.0 - crossfade);
+    value =  value1 * crossfade + value2 * (1.0 - crossfade);
 
     if (value > CLIP) {
         value = CLIP;

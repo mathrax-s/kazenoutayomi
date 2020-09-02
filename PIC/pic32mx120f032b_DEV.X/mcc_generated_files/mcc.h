@@ -56,28 +56,168 @@
 #include "interrupt_manager.h"
 #include "oc1.h"
 #include "i2c1.h"
-#include "../wave_mrk.h"
-#include "../wavetable2.h"
+
+#if I2C1_SLAVE_DEFAULT_ADDRESS == 10
+    //KAWAU onaka
+    #include "../wave_orgel1.h"
+    #include "../wave_test2.h"
+    #define FADEIN 0.25
+    #define FADEOUT 0.9999
+    #define S_MIN   15
+    #define S_MAX   100
+    #define S_REVERSE   0
+
+#elif I2C1_SLAVE_DEFAULT_ADDRESS == 11
+    //KAWAU senaka
+    #include "../wave_orgel1.h"
+    #include "../wave_test2.h"
+    #define FADEIN 0.25
+    #define FADEOUT 0.9999
+    #define S_MIN   0
+    #define S_MAX   75
+    #define S_REVERSE   0
+
+#elif I2C1_SLAVE_DEFAULT_ADDRESS == 12 
+    //HATO 1_mariko
+    #include "../wavetable1.h"
+    #include "../wave_test2.h"
+    #define FADEIN 0.25
+    #define FADEOUT 0.9999
+    #define S_MIN   0
+    #define S_MAX   100
+    #define S_REVERSE   0
+
+#elif I2C1_SLAVE_DEFAULT_ADDRESS == 13
+    //HATO 2_shozo
+    #include "../wave_hato1_1.h"
+    #include "../wave_test2.h"
+    #define FADEIN 0.25
+    #define FADEOUT 0.9999
+    #define S_MIN   30
+    #define S_MAX   90
+    #define S_REVERSE   0
+
+#elif I2C1_SLAVE_DEFAULT_ADDRESS == 14
+    //--
+    #include "../wavetable1.h"
+    #include "../wave_test2.h"
+    #define FADEIN 0.25
+    #define FADEOUT 0.9999
+    #define S_MIN   0
+    #define S_MAX   100
+    #define S_REVERSE   0
+
+#elif I2C1_SLAVE_DEFAULT_ADDRESS == 15
+    //--
+    #include "../wavetable1.h"
+    #include "../wave_test2.h"
+    #define FADEIN 0.25
+    #define FADEOUT 0.9999
+    #define S_MIN   0
+    #define S_MAX   100
+    #define S_REVERSE   0
+
+#elif I2C1_SLAVE_DEFAULT_ADDRESS == 16
+    //--
+    #include "../wavetable1.h"
+    #include "../wave_test2.h"
+    #define FADEIN 0.25
+    #define FADEOUT 0.9999
+    #define S_MIN   0
+    #define S_MAX   100
+    #define S_REVERSE   0
+
+#elif I2C1_SLAVE_DEFAULT_ADDRESS == 20
+    //KUJAKU kata
+    #include "../wave_korokoro_orgel.h"
+    #include "../wave_test2.h"
+    #define FADEIN 0.25
+    #define FADEOUT 0.9999
+    #define S_MIN   0
+    #define S_MAX   50
+    #define S_REVERSE   1
+
+#elif I2C1_SLAVE_DEFAULT_ADDRESS == 21
+    //KUJAKU senaka
+    #include "../wave_korokoro_orgel.h"
+    #include "../wave_test2.h"
+    #define FADEIN 0.25
+    #define FADEOUT 0.9999
+    #define S_MIN   0
+    #define S_MAX   100
+    #define S_REVERSE   0
+
+#elif I2C1_SLAVE_DEFAULT_ADDRESS == 22
+    //KUJAKU sippo
+    #include "../wave_korokoro_orgel.h"
+    #include "../wave_test2.h"
+    #define FADEIN 0.25
+    #define FADEOUT 0.9999
+    #define S_MIN   30
+    #define S_MAX   100
+    #define S_REVERSE   1
+
+#elif I2C1_SLAVE_DEFAULT_ADDRESS == 23
+    //KOJUKEI 1
+    #include "../wavetable1.h"
+    #include "../wave_test2.h"
+    #define FADEIN 0.25
+    #define FADEOUT 0.9999
+    #define S_MIN   30
+    #define S_MAX   100
+    #define S_REVERSE   0
+
+#elif I2C1_SLAVE_DEFAULT_ADDRESS == 24
+    //KOJUKEI 2
+    #include "../wavetable1.h"
+    #include "../wave_test2.h"
+    #define FADEIN 0.25
+    #define FADEOUT 0.9999
+    #define S_MIN   30
+    #define S_MAX   100
+    #define S_REVERSE   0
+
+#elif I2C1_SLAVE_DEFAULT_ADDRESS == 25
+    //KOJUKEI 3
+    #include "../wavetable1.h"
+    #include "../wave_test2.h"
+    #define FADEIN 0.25
+    #define FADEOUT 0.9999
+    #define S_MIN   30
+    #define S_MAX   100
+    #define S_REVERSE   0
+
+#elif I2C1_SLAVE_DEFAULT_ADDRESS == 26
+    //KAKKO
+    #include "../wavetable1.h"
+    #include "../wave_test2.h"
+    #define FADEIN 0.25
+    #define FADEOUT 0.9999
+    #define S_MIN   0
+    #define S_MAX   70
+    #define S_REVERSE   0
+
+#elif I2C1_SLAVE_DEFAULT_ADDRESS == 27
+    //--
+    #include "../wavetable1.h"
+    #include "../wave_test2.h"
+    #define FADEIN 0.25
+    #define FADEOUT 0.9999
+    #define S_MIN   0
+    #define S_MAX   100
+    #define S_REVERSE   0
+#endif
+
 #include "../scale_table.h"
 #include "../pitches.h"
 
 
-
 #define _XTAL_FREQ  64000000UL
 
-#define POT1 10
-// power of two; must match with scale_table values
-#define POT2 8 // power of two; must match with scale_table values
 
-#define ENVPOT1 7
-#define ENVPOT2 5
-
-#define FADEIN 1
-#define FADEOUT 0.99999
 
 #define OSCILLATOR_COUNT 12 // 16 oscillators: 25% load with -O1 (64: 90%)
 #define CLIP 1016 // 127 * 8
-
 
 //static const volatile int8_t* wtp1 = wt_attack1;
 //static const volatile int8_t* wtp2 = wt_attack2;
@@ -85,10 +225,12 @@
 extern uint32_t increments_pot1[ OSCILLATOR_COUNT ];
 extern uint32_t phase_accu_pot1[ OSCILLATOR_COUNT ];
 extern uint32_t envelope_positions_envpot1[ OSCILLATOR_COUNT ];
+extern uint32_t env1[ OSCILLATOR_COUNT ];
 
 extern uint32_t increments_pot2[ OSCILLATOR_COUNT ];
 extern uint32_t phase_accu_pot2[ OSCILLATOR_COUNT ];
 extern uint32_t envelope_positions_envpot2[ OSCILLATOR_COUNT ];
+extern uint32_t env2[ OSCILLATOR_COUNT ];
 
 extern uint8_t next_osc1;
 extern uint8_t next_osc2;
@@ -130,35 +272,29 @@ extern float fadeout;
 
 extern uint8_t sensor_data;
 
+
+extern uint8_t EMULATE_EEPROM_Memory[64];
+extern uint8_t transpose;
+
 // for MATHRAX
 static const uint8_t scale[] = {
 
-    //    NOTE_D0, NOTE_E0, NOTE_G0, NOTE_A0, NOTE_B0,
-    //    NOTE_D1, NOTE_E1, NOTE_G1, NOTE_A1, NOTE_B1,
-    //
-    //    NOTE_D2, NOTE_E2, NOTE_G2, NOTE_A2, NOTE_B2,
-    //    NOTE_D3, NOTE_E3, NOTE_G3, NOTE_A3, NOTE_B3,
-    //    NOTE_D4, NOTE_E4, NOTE_G4, NOTE_A4, NOTE_B4,
-
-    NOTE_D3, NOTE_E3, NOTE_G3, NOTE_A3, NOTE_B3,
-    NOTE_D4, NOTE_E4, NOTE_G4, NOTE_A4, NOTE_B4,
-    NOTE_D5, NOTE_E5, NOTE_G5, NOTE_A5, NOTE_B5,
-    NOTE_D6, NOTE_E6, NOTE_G6, NOTE_A6, NOTE_B6,
-    NOTE_D7, NOTE_E7, NOTE_G7, NOTE_A7, NOTE_B7,
-    NOTE_D8, NOTE_E8, NOTE_G8, NOTE_A8, NOTE_B8,
-    NOTE_D9, NOTE_E9, NOTE_G9, NOTE_A9, NOTE_B9,
-
-
-    //    NOTE_D8, NOTE_E8, NOTE_G8, NOTE_A8, NOTE_B8,
-    //    NOTE_D9, NOTE_E9, NOTE_G9, NOTE_A9, NOTE_B9,
-
-    //        NOTE_Db3, NOTE_Eb3, NOTE_Gb3, NOTE_Ab3, NOTE_Bb3,
-    //        NOTE_Db4, NOTE_Eb4, NOTE_Gb4, NOTE_Ab4, NOTE_Bb4,
-    //        NOTE_Db5, NOTE_Eb5, NOTE_Gb5, NOTE_Ab5, NOTE_Bb5,
-    //        NOTE_Db6, NOTE_Eb6, NOTE_Gb6, NOTE_Ab6, NOTE_Bb6,
-    //        NOTE_Db7, NOTE_Eb7, NOTE_Gb7, NOTE_Ab7, NOTE_Bb7,
-    //        NOTE_Db8, NOTE_Eb8, NOTE_Gb8, NOTE_Ab8, NOTE_Bb8,
+    NOTE_Db3, NOTE_Eb3, NOTE_Gb3, NOTE_Ab3, NOTE_Bb3,
+    NOTE_Db4, NOTE_Eb4, NOTE_Gb4, NOTE_Ab4, NOTE_Bb4,
+    NOTE_Db5, NOTE_Eb5, NOTE_Gb5, NOTE_Ab5, NOTE_Bb5,
+    NOTE_Db6, NOTE_Eb6, NOTE_Gb6, NOTE_Ab6, NOTE_Bb6,
+    NOTE_Db7, NOTE_Eb7, NOTE_Gb7, NOTE_Ab7, NOTE_Bb7,
+    NOTE_Db8, NOTE_Eb8, NOTE_Gb8, NOTE_Ab8, NOTE_Bb8,
+    
+//    NOTE_D3, NOTE_E3, NOTE_G3, NOTE_A3, NOTE_B3,
+//    NOTE_D4, NOTE_E4, NOTE_G4, NOTE_A4, NOTE_B4,
+//    NOTE_D5, NOTE_E5, NOTE_G5, NOTE_A5, NOTE_B5,
+//    NOTE_D6, NOTE_E6, NOTE_G6, NOTE_A6, NOTE_B6,
+//    NOTE_D7, NOTE_E7, NOTE_G7, NOTE_A7, NOTE_B7,
+//    NOTE_D8, NOTE_E8, NOTE_G8, NOTE_A8, NOTE_B8,
+//    NOTE_D9, NOTE_E9, NOTE_G9, NOTE_A9, NOTE_B9,
 };
+
 
 /**
  * @Param

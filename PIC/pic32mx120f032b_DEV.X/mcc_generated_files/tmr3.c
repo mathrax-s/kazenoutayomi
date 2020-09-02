@@ -147,8 +147,6 @@ uint16_t TMR3_Counter16BitGet( void )
 
 void __attribute__((weak)) TMR3_CallBack(void) {
     
-
-        
 //    timeout ++;
 //    //timeout reset is I2C
 //    if (timeout > 250000) {
@@ -173,20 +171,44 @@ void __attribute__((weak)) TMR3_CallBack(void) {
             LATBbits.LATB5 = 1;
         }
     }
-    
+    if(receive_num>=0 && receive_num<=100){
+        int s_min = S_MIN;
+        int s_max = S_MAX;
+        
+        sensor_data = receive_num;  // I2C send to M5StickC
+
+        if(receive_num >=s_min && receive_num<=s_max){
+            
+            //Volume fade to MAX
+            if(EMULATE_EEPROM_Memory[1]>0){
+                EMULATE_EEPROM_Memory[1]--;
+            }
+            
+            float  s_range = (float) ((receive_num-s_min) / (float)(s_max-s_min));
+            
+            #if S_REVERSE == 0
+            my_sound_num = (float) (sizeof (scale)) * (float)(s_range); 
+            #elif S_REVERSE == 1
+            my_sound_num = (float) (sizeof (scale)) * (float)(1.0 - s_range); 
+            #endif
+            
+        }
+        
+    }
     if (my_i2c != last_my_i2c) {
         my_sound_num = (float) (sizeof (scale)) * (float) (my_i2c / 100.0);
     }
-
+    
+    
     //From PSoC 0~99
-    if ((my_sound_num != last_sound_num & my_sound_num > 0) || (my_i2c != last_my_i2c)) {
-
+    if ((my_sound_num != last_sound_num & my_sound_num > 0)){
         crossfade += fadein;
         if (crossfade > 1.0)crossfade = 1.0;
 
         increments_pot1[ next_osc1 ] = scale_table[ scale[ my_sound_num ]];
         phase_accu_pot1[ next_osc1 ] = 0;
         envelope_positions_envpot1[ next_osc1 ] = 0;
+        env1[ next_osc1 ] = EMULATE_EEPROM_Memory[1];   //I2C
         ++next_osc1;
         if (next_osc1 >= OSCILLATOR_COUNT) {
             next_osc1 = 0;
@@ -194,14 +216,21 @@ void __attribute__((weak)) TMR3_CallBack(void) {
         increments_pot1[ next_osc1 ] = scale_table[ scale[ my_sound_num ]] + 4;
         phase_accu_pot1[ next_osc1 ] = 0;
         envelope_positions_envpot1[ next_osc1 ] = 0;
+        env2[ next_osc1 ] = EMULATE_EEPROM_Memory[1];    //I2C
         ++next_osc1;
         if (next_osc1 >= OSCILLATOR_COUNT) {
             next_osc1 = 0;
         }
-
-        increments_pot2[ next_osc2 ] = scale_table[ scale[ my_sound_num ]] + 24;
+    }
+    
+    // From M5StickC (Auto Composer)
+    if(my_i2c != last_my_i2c) {
+        crossfade  *= fadeout;
+        if(crossfade < 0) crossfade=0;
+        increments_pot2[ next_osc2 ] = scale_table[ scale[ my_sound_num ]];
         phase_accu_pot2[ next_osc2 ] = 0;
         envelope_positions_envpot2[ next_osc2 ] = 0;
+        env2[ next_osc2 ] = EMULATE_EEPROM_Memory[2];    //I2C
         ++next_osc2;
         if (next_osc2 >= OSCILLATOR_COUNT) {
             next_osc2 = 0;
@@ -209,6 +238,7 @@ void __attribute__((weak)) TMR3_CallBack(void) {
         increments_pot2[ next_osc2 ] = scale_table[ scale[ my_sound_num ]] + 2;
         phase_accu_pot2[ next_osc2 ] = 0;
         envelope_positions_envpot2[ next_osc2 ] = 0;
+        env2[ next_osc2 ] = EMULATE_EEPROM_Memory[2];    //I2C
         ++next_osc2;
         if (next_osc2 >= OSCILLATOR_COUNT) {
             next_osc2 = 0;
@@ -217,6 +247,8 @@ void __attribute__((weak)) TMR3_CallBack(void) {
 
     last_my_i2c = my_i2c;
     last_sound_num = my_sound_num;
+    
+
 }
 
 void TMR3_Start(void) {

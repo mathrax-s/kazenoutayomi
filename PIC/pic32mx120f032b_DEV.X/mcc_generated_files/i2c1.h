@@ -128,7 +128,7 @@ typedef enum
 
 } DRV_I2C1_SLAVE_DRIVER_STATUS;
 
-#define I2C1_SLAVE_DEFAULT_ADDRESS          10
+#define I2C1_SLAVE_DEFAULT_ADDRESS          13
 
 /**
     @Summary
