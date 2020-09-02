@@ -1,0 +1,10 @@
+/Users/mathrax/Documents/GitHub/rokko2020/Processing/make_envelope11/data/sinwave.raw
+/Users/mathrax/Documents/GitHub/rokko2020/Processing/make_envelope11/data/sinwave.raw
+/Users/mathrax/Documents/GitHub/rokko2020/Processing/make_envelope11/data/001_bamboo_env.raw
+75.0
+1.017
+-0.060000002
+false
+4
+9
+7

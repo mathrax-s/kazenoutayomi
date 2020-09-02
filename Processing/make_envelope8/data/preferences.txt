@@ -1,4 +1,5 @@
-C:\Users\SHOZO\Documents\GitHub\rokko2020\Processing\make_envelope8\data\kizi_atk_sin8.raw
-C:\Users\SHOZO\Documents\GitHub\rokko2020\Processing\make_envelope8\data\kizi_sus_sin8.raw
-C:\Users\SHOZO\Documents\GitHub\rokko2020\Processing\make_envelope8\data\kizi_env_sin8.raw
-15.151516
+/Users/MATHRAX/Documents/GitHub/rokko2020/Processing/make_envelope8/data/aogera-atk-sin8.raw
+/Users/MATHRAX/Documents/GitHub/rokko2020/Processing/make_envelope8/data/001_bamboo_sus.raw
+/Users/MATHRAX/Documents/GitHub/rokko2020/Processing/make_envelope8/data/env_02.raw
+50.505047
+1.1211212

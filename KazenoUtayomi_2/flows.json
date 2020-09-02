@@ -1,0 +1,856 @@
+[
+    {
+        "id": "ef4d78fc.554688",
+        "type": "serial in",
+        "z": "9bce7c88.0746b",
+        "name": "",
+        "serial": "cfbbc417.709ef8",
+        "x": 110,
+        "y": 100,
+        "wires": [
+            [
+                "99705ddc.fbb96",
+                "dc0f78bf.c1bc68"
+            ]
+        ]
+    },
+    {
+        "id": "99705ddc.fbb96",
+        "type": "debug",
+        "z": "9bce7c88.0746b",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "x": 310,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "dc0f78bf.c1bc68",
+        "type": "csv",
+        "z": "9bce7c88.0746b",
+        "name": "",
+        "sep": ",",
+        "hdrin": "",
+        "hdrout": "",
+        "multi": "one",
+        "ret": "\\n",
+        "temp": "",
+        "skip": "0",
+        "strings": true,
+        "x": 290,
+        "y": 160,
+        "wires": [
+            [
+                "99087598.7612e8"
+            ]
+        ]
+    },
+    {
+        "id": "bb94b2fd.7ec7e",
+        "type": "udp out",
+        "z": "9bce7c88.0746b",
+        "name": "",
+        "addr": "localhost",
+        "iface": "",
+        "port": "10000",
+        "ipv": "udp4",
+        "outport": "",
+        "base64": false,
+        "multicast": "false",
+        "x": 700,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "cbb62073.171bc",
+        "type": "osc",
+        "z": "9bce7c88.0746b",
+        "name": "/RTC",
+        "path": "/RTC",
+        "metadata": false,
+        "x": 530,
+        "y": 160,
+        "wires": [
+            [
+                "bb94b2fd.7ec7e"
+            ]
+        ]
+    },
+    {
+        "id": "99087598.7612e8",
+        "type": "function",
+        "z": "9bce7c88.0746b",
+        "name": "",
+        "func": "let data = msg.payload;\nlet array = [0,0,0,0,0,0,0];\n\nmsg.topic = \"/RTC\";\n\narray[0]=data.col1;\narray[1]=data.col2;\narray[2]=data.col3;\narray[3]=data.col4;\narray[4]=data.col5;\narray[5]=data.col6;\narray[6]=data.col7;\n\nmsg.payload = array;\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 410,
+        "y": 160,
+        "wires": [
+            [
+                "cbb62073.171bc"
+            ]
+        ]
+    },
+    {
+        "id": "39bb8726.0d9518",
+        "type": "udp in",
+        "z": "9bce7c88.0746b",
+        "name": "",
+        "iface": "",
+        "port": "12001",
+        "ipv": "udp4",
+        "multicast": "false",
+        "group": "",
+        "datatype": "buffer",
+        "x": 100,
+        "y": 220,
+        "wires": [
+            [
+                "4cc64f52.1eb78"
+            ]
+        ]
+    },
+    {
+        "id": "4cc64f52.1eb78",
+        "type": "osc",
+        "z": "9bce7c88.0746b",
+        "name": "DMX",
+        "path": "",
+        "metadata": false,
+        "x": 230,
+        "y": 220,
+        "wires": [
+            [
+                "94a25e6f.d814d"
+            ]
+        ]
+    },
+    {
+        "id": "d2dbcfcc.6f6d2",
+        "type": "debug",
+        "z": "9bce7c88.0746b",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "x": 730,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "74529c21.fd0d34",
+        "type": "serial out",
+        "z": "9bce7c88.0746b",
+        "name": "",
+        "serial": "d03cbce7.8043b",
+        "x": 740,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "516685a6.9a19fc",
+        "type": "debug",
+        "z": "9bce7c88.0746b",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "x": 730,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "94a25e6f.d814d",
+        "type": "csv",
+        "z": "9bce7c88.0746b",
+        "name": "",
+        "sep": ",",
+        "hdrin": "",
+        "hdrout": "",
+        "multi": "one",
+        "ret": "\\n",
+        "temp": "",
+        "skip": "0",
+        "strings": true,
+        "x": 370,
+        "y": 220,
+        "wires": [
+            [
+                "74529c21.fd0d34",
+                "d2dbcfcc.6f6d2"
+            ]
+        ]
+    },
+    {
+        "id": "e64fe1e9.38074",
+        "type": "udp in",
+        "z": "9bce7c88.0746b",
+        "name": "",
+        "iface": "",
+        "port": "55555",
+        "ipv": "udp4",
+        "multicast": "false",
+        "group": "",
+        "datatype": "buffer",
+        "x": 100,
+        "y": 340,
+        "wires": [
+            [
+                "6af00dde.ff7a74"
+            ]
+        ]
+    },
+    {
+        "id": "6af00dde.ff7a74",
+        "type": "osc",
+        "z": "9bce7c88.0746b",
+        "name": "System1",
+        "path": "",
+        "metadata": false,
+        "x": 240,
+        "y": 340,
+        "wires": [
+            [
+                "31424848.17d2a8"
+            ]
+        ]
+    },
+    {
+        "id": "31424848.17d2a8",
+        "type": "csv",
+        "z": "9bce7c88.0746b",
+        "name": "",
+        "sep": ",",
+        "hdrin": "",
+        "hdrout": "",
+        "multi": "one",
+        "ret": "\\n",
+        "temp": "",
+        "skip": "0",
+        "strings": true,
+        "x": 370,
+        "y": 340,
+        "wires": [
+            [
+                "516685a6.9a19fc",
+                "cab1ab57.5525b8"
+            ]
+        ]
+    },
+    {
+        "id": "9d0f043e.0857b8",
+        "type": "udp out",
+        "z": "9bce7c88.0746b",
+        "name": "",
+        "addr": "localhost",
+        "iface": "",
+        "port": "55550",
+        "ipv": "udp4",
+        "outport": "",
+        "base64": false,
+        "multicast": "false",
+        "x": 720,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "e15d4565.3b5ba8",
+        "type": "osc",
+        "z": "9bce7c88.0746b",
+        "name": "/system1",
+        "path": "/system1",
+        "metadata": false,
+        "x": 540,
+        "y": 420,
+        "wires": [
+            [
+                "9d0f043e.0857b8"
+            ]
+        ]
+    },
+    {
+        "id": "cab1ab57.5525b8",
+        "type": "function",
+        "z": "9bce7c88.0746b",
+        "name": "",
+        "func": "let data = msg.payload;\nlet array = [0,0,0,0,0,0,0];\n\nmsg.topic = \"/RTC\";\n\narray[0]=data.col1;\narray[1]=data.col2;\narray[2]=data.col3;\narray[3]=data.col4;\narray[4]=data.col5;\narray[5]=data.col6;\narray[6]=data.col7;\n\nmsg.payload = array;\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 410,
+        "y": 420,
+        "wires": [
+            [
+                "e15d4565.3b5ba8"
+            ]
+        ]
+    },
+    {
+        "id": "78edff04.3bfeb",
+        "type": "debug",
+        "z": "9bce7c88.0746b",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "x": 730,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "f914d96f.3adde8",
+        "type": "udp in",
+        "z": "9bce7c88.0746b",
+        "name": "",
+        "iface": "",
+        "port": "55556",
+        "ipv": "udp4",
+        "multicast": "false",
+        "group": "",
+        "datatype": "buffer",
+        "x": 100,
+        "y": 500,
+        "wires": [
+            [
+                "10149924.cbea77"
+            ]
+        ]
+    },
+    {
+        "id": "10149924.cbea77",
+        "type": "osc",
+        "z": "9bce7c88.0746b",
+        "name": "System2",
+        "path": "",
+        "metadata": false,
+        "x": 240,
+        "y": 500,
+        "wires": [
+            [
+                "74a7933b.daa84c"
+            ]
+        ]
+    },
+    {
+        "id": "74a7933b.daa84c",
+        "type": "csv",
+        "z": "9bce7c88.0746b",
+        "name": "",
+        "sep": ",",
+        "hdrin": "",
+        "hdrout": "",
+        "multi": "one",
+        "ret": "\\n",
+        "temp": "",
+        "skip": "0",
+        "strings": true,
+        "x": 370,
+        "y": 500,
+        "wires": [
+            [
+                "78edff04.3bfeb",
+                "e73bb301.f537a"
+            ]
+        ]
+    },
+    {
+        "id": "c231454d.42c8d8",
+        "type": "udp out",
+        "z": "9bce7c88.0746b",
+        "name": "",
+        "addr": "localhost",
+        "iface": "",
+        "port": "55560",
+        "ipv": "udp4",
+        "outport": "",
+        "base64": false,
+        "multicast": "false",
+        "x": 720,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "a5e4fc27.3efd5",
+        "type": "osc",
+        "z": "9bce7c88.0746b",
+        "name": "/system2",
+        "path": "/system2",
+        "metadata": false,
+        "x": 540,
+        "y": 580,
+        "wires": [
+            [
+                "c231454d.42c8d8"
+            ]
+        ]
+    },
+    {
+        "id": "e73bb301.f537a",
+        "type": "function",
+        "z": "9bce7c88.0746b",
+        "name": "",
+        "func": "let data = msg.payload;\nlet array = [0,0,0,0,0,0,0];\n\nmsg.topic = \"/RTC\";\n\narray[0]=data.col1;\narray[1]=data.col2;\narray[2]=data.col3;\narray[3]=data.col4;\narray[4]=data.col5;\narray[5]=data.col6;\narray[6]=data.col7;\n\nmsg.payload = array;\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 410,
+        "y": 580,
+        "wires": [
+            [
+                "a5e4fc27.3efd5"
+            ]
+        ]
+    },
+    {
+        "id": "cff7b0f.b1d0b5",
+        "type": "file in",
+        "z": "9bce7c88.0746b",
+        "name": "",
+        "filename": "/home/pi/Desktop/KazenoUtayomi/color2.txt",
+        "format": "utf8",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "x": 390,
+        "y": 780,
+        "wires": [
+            [
+                "7f2f0ce0.934ce4"
+            ]
+        ]
+    },
+    {
+        "id": "834742a3.b5d26",
+        "type": "inject",
+        "z": "9bce7c88.0746b",
+        "name": "",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "x": 120,
+        "y": 780,
+        "wires": [
+            [
+                "cff7b0f.b1d0b5",
+                "a346290b.bdd9d8"
+            ]
+        ]
+    },
+    {
+        "id": "7f2f0ce0.934ce4",
+        "type": "csv",
+        "z": "9bce7c88.0746b",
+        "name": "",
+        "sep": ",",
+        "hdrin": "",
+        "hdrout": "",
+        "multi": "one",
+        "ret": "\\n",
+        "temp": "",
+        "skip": "0",
+        "strings": true,
+        "x": 630,
+        "y": 780,
+        "wires": [
+            [
+                "72b97a7d.05aa54"
+            ]
+        ]
+    },
+    {
+        "id": "c433a6fe.43c7e8",
+        "type": "function",
+        "z": "9bce7c88.0746b",
+        "name": "",
+        "func": "let length = Object.keys(msg['payload']).length;\n\nmsg.payload = length;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 410,
+        "y": 820,
+        "wires": [
+            [
+                "81e323e8.82445"
+            ]
+        ]
+    },
+    {
+        "id": "a335a78.b1a0858",
+        "type": "change",
+        "z": "9bce7c88.0746b",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "myData.color[0]",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 470,
+        "y": 860,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e865c478.eb27f8",
+        "type": "switch",
+        "z": "9bce7c88.0746b",
+        "name": "",
+        "property": "parts.index",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "0",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "2",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "3",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 4,
+        "x": 270,
+        "y": 880,
+        "wires": [
+            [
+                "a335a78.b1a0858",
+                "c433a6fe.43c7e8"
+            ],
+            [
+                "7f1ca9a.d1efe58"
+            ],
+            [
+                "70284823.c2e8b8"
+            ],
+            [
+                "6369830a.eaa1dc"
+            ]
+        ]
+    },
+    {
+        "id": "72b97a7d.05aa54",
+        "type": "link out",
+        "z": "9bce7c88.0746b",
+        "name": "csv_raw",
+        "links": [
+            "4ad80212.1730fc"
+        ],
+        "x": 715,
+        "y": 780,
+        "wires": []
+    },
+    {
+        "id": "4ad80212.1730fc",
+        "type": "link in",
+        "z": "9bce7c88.0746b",
+        "name": "csv_raw",
+        "links": [
+            "72b97a7d.05aa54"
+        ],
+        "x": 175,
+        "y": 880,
+        "wires": [
+            [
+                "e865c478.eb27f8"
+            ]
+        ]
+    },
+    {
+        "id": "7f1ca9a.d1efe58",
+        "type": "change",
+        "z": "9bce7c88.0746b",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "myData.color[1]",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 470,
+        "y": 900,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "70284823.c2e8b8",
+        "type": "change",
+        "z": "9bce7c88.0746b",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "myData.color[2]",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 470,
+        "y": 940,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "6369830a.eaa1dc",
+        "type": "change",
+        "z": "9bce7c88.0746b",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "myData.color[3]",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 470,
+        "y": 980,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "81e323e8.82445",
+        "type": "change",
+        "z": "9bce7c88.0746b",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "myData.count",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 580,
+        "y": 820,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a346290b.bdd9d8",
+        "type": "change",
+        "z": "9bce7c88.0746b",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "count",
+                "pt": "flow",
+                "to": "-1",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 300,
+        "y": 740,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "29526360.a1a91c",
+        "type": "inject",
+        "z": "9bce7c88.0746b",
+        "name": "",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "repeat": "1",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "x": 130,
+        "y": 1020,
+        "wires": [
+            [
+                "3bd37d2c.c36f42"
+            ]
+        ]
+    },
+    {
+        "id": "3bd37d2c.c36f42",
+        "type": "function",
+        "z": "9bce7c88.0746b",
+        "name": "",
+        "func": "let myCount  = flow.get(\"count\");\nlet maxCount = flow.get(\"myData\").count;\nlet myColor  = flow.get(\"myData\").color;\nlet array    = [0,0,0,0];\n\nif(myCount >= (maxCount-1)){\n    myCount = 0;\n}else{\n    myCount++;\n}\nflow.set(\"count\", myCount);\n\narray[0]=Object.entries(myColor[0])[myCount][1];\narray[1]=Object.entries(myColor[1])[myCount][1];\narray[2]=Object.entries(myColor[2])[myCount][1];\narray[3]=Object.entries(myColor[3])[myCount][1];\n\nmsg.payload = array;\nreturn msg;\n\n",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 290,
+        "y": 1020,
+        "wires": [
+            [
+                "d42c7257.1d6a7"
+            ]
+        ]
+    },
+    {
+        "id": "f39634ab.3b8958",
+        "type": "debug",
+        "z": "9bce7c88.0746b",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "x": 750,
+        "y": 1020,
+        "wires": []
+    },
+    {
+        "id": "d42c7257.1d6a7",
+        "type": "function",
+        "z": "9bce7c88.0746b",
+        "name": "",
+        "func": "let rgb = msg.payload;\nlet array = [0,0,0,0,0,0, 0,0,0,0,0,0, 0,0,0,0,0,0];\n\nfor(let i=0; i<4; i++){\n    array[i*6+0] = (rgb[i]>>16)&0xFF;\n    array[i*6+1] = (rgb[i]>>8)&0xFF;\n    array[i*6+2] = (rgb[i]>>0)&0xFF;\n    array[i*6+3] = 0;\n    array[i*6+4] = 0;\n    array[i*6+5] = 0;\n}\nmsg.payload = array;\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 450,
+        "y": 1020,
+        "wires": [
+            [
+                "f39634ab.3b8958",
+                "e6348f93.bc6b6"
+            ]
+        ]
+    },
+    {
+        "id": "8a96bad.c8e8e48",
+        "type": "udp out",
+        "z": "9bce7c88.0746b",
+        "name": "",
+        "addr": "localhost",
+        "iface": "",
+        "port": "30000",
+        "ipv": "udp4",
+        "outport": "",
+        "base64": false,
+        "multicast": "false",
+        "x": 780,
+        "y": 1080,
+        "wires": []
+    },
+    {
+        "id": "e6348f93.bc6b6",
+        "type": "osc",
+        "z": "9bce7c88.0746b",
+        "name": "/led",
+        "path": "/led",
+        "metadata": false,
+        "x": 590,
+        "y": 1080,
+        "wires": [
+            [
+                "8a96bad.c8e8e48"
+            ]
+        ]
+    },
+    {
+        "id": "cfbbc417.709ef8",
+        "type": "serial-port",
+        "z": "",
+        "serialport": "/dev/ttyUSB0",
+        "serialbaud": "115200",
+        "databits": "8",
+        "parity": "none",
+        "stopbits": "1",
+        "waitfor": "",
+        "dtr": "none",
+        "rts": "none",
+        "cts": "none",
+        "dsr": "none",
+        "newline": "\\n",
+        "bin": "false",
+        "out": "char",
+        "addchar": "",
+        "responsetimeout": "10000"
+    },
+    {
+        "id": "d03cbce7.8043b",
+        "type": "serial-port",
+        "z": "",
+        "serialport": "/dev/ttyACM0",
+        "serialbaud": "115200",
+        "databits": "8",
+        "parity": "none",
+        "stopbits": "1",
+        "waitfor": "",
+        "dtr": "none",
+        "rts": "none",
+        "cts": "none",
+        "dsr": "none",
+        "newline": "\\n",
+        "bin": "false",
+        "out": "char",
+        "addchar": "",
+        "responsetimeout": "10000"
+    }
+]

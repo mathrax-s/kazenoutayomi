@@ -1,0 +1,6 @@
+/Users/mathrax/Documents/GitHub/rokko2020/Processing/make_envelope10/data/001_bamboo_att.raw
+/Users/mathrax/Documents/GitHub/rokko2020/Processing/make_envelope10/data/001_bamboo_sus.raw
+/Users/mathrax/Documents/GitHub/rokko2020/Processing/make_envelope10/data/env_02.raw
+11.0
+1.089
+0.0

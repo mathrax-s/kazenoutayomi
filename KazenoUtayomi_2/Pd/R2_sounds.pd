@@ -1,0 +1,37 @@
+#N canvas 858 23 450 300 8;
+#X obj 101 85 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+1;
+#X obj 209 85 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+1;
+#X obj 111 145 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+1;
+#X obj 219 145 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+1;
+#X obj 101 209 outlet~;
+#X obj 369 22 inlet;
+#X obj 369 41 t f f f f;
+#X obj 40 22 inlet;
+#X obj 80 22 inlet;
+#X obj 120 22 inlet;
+#X obj 160 22 inlet;
+#X obj 101 103 playfile sound2-1;
+#X obj 209 103 playfile sound2-2;
+#X obj 219 163 playfile sound2-4;
+#X obj 111 163 playfile sound2-3;
+#X connect 0 0 11 0;
+#X connect 1 0 12 0;
+#X connect 2 0 14 0;
+#X connect 3 0 13 0;
+#X connect 5 0 6 0;
+#X connect 6 0 11 1;
+#X connect 6 1 12 1;
+#X connect 6 2 14 1;
+#X connect 6 3 13 1;
+#X connect 7 0 0 0;
+#X connect 8 0 1 0;
+#X connect 9 0 2 0;
+#X connect 10 0 3 0;
+#X connect 11 0 4 0;
+#X connect 12 0 4 0;
+#X connect 13 0 4 0;
+#X connect 14 0 4 0;

@@ -1,0 +1,10 @@
+/Users/mathrax/Documents/GitHub/rokko2020/Processing/make_envelope11/data/ORGEL_ATTAK.raw
+/Users/mathrax/Documents/GitHub/rokko2020/Processing/make_envelope11/data/ORGEL_SUS.raw
+/Users/mathrax/Documents/GitHub/rokko2020/Processing/make_envelope11/data/kizi_env_sin8.raw
+61.0
+1.017
+-0.14000005
+false
+4
+12
+7

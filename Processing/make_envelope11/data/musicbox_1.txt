@@ -1,0 +1,10 @@
+/Users/mathrax/Documents/GitHub/rokko2020/Processing/make_envelope11/data/attack.raw
+/Users/mathrax/Documents/GitHub/rokko2020/Processing/make_envelope11/data/sinwave.raw
+/Users/mathrax/Documents/GitHub/rokko2020/Processing/make_envelope11/data/env.raw
+87.0
+1.07
+-0.18
+false
+4
+9
+7

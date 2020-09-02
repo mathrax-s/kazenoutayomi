@@ -1,0 +1,110 @@
+#N canvas 0 23 693 397 8;
+#X obj 425 106 metro 20;
+#X obj 425 36 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 1
+1;
+#X obj 425 10 loadbang;
+#X msg 433 61 \; pd dsp \$1;
+#X text 498 67 dsp on;
+#X obj 258 359 dac~;
+#X obj 109 136 cnv 15 60 40 empty empty empty 20 12 0 14 -262144 -66577
+0;
+#N canvas 0 50 450 278 (subpatch) 0;
+#X array \$0-out-L 100 float 5;
+#A 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0;
+#X coords 0 -1 99 1 60 40 2 0 0;
+#X restore 110 136 graph;
+#X obj 40 9 inlet~;
+#X obj 176 141 vsl 15 32 0 1 0 1 empty empty empty 0 -9 0 10 -204786
+-1 -1 1800 1;
+#X text 175 102 VOL;
+#X obj 40 41 *~;
+#X obj 141 278 lop~ 16000;
+#X obj 141 305 hip~ 5;
+#X msg 424 182 room 0.9 \, damp 1.8 \, dry 0.4 \, wet 0.8;
+#X obj 424 155 loadbang;
+#X obj 176 118 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 1
+1;
+#X obj 142 334 *~;
+#X obj 141 246 vfreeverb~;
+#X obj 202 109 vsl 15 64 0 1 0 1 empty empty empty 0 -9 0 10 -204800
+-1 -1 3600 1;
+#X obj 39 203 expr~ $v1*(1-$f2);
+#X obj 140 203 expr~ $v1*$f2;
+#X msg 316 76 1;
+#X obj 316 53 loadbang;
+#X text 103 102 LEFT;
+#X obj 425 130 tabwrite~ \$0-out-L;
+#X obj 525 130 tabwrite~ \$0-out-R;
+#X obj 475 106 r~ \$0-final-L;
+#X obj 557 106 r~ \$0-final-R;
+#X obj 142 357 s~ \$0-final-L;
+#X obj 342 278 lop~ 16000;
+#X obj 342 305 hip~ 5;
+#X obj 343 334 *~;
+#X obj 342 246 vfreeverb~;
+#X obj 343 357 s~ \$0-final-R;
+#N canvas 0 50 450 278 (subpatch) 0;
+#X array \$0-out-R 100 float 5;
+#A 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0;
+#X coords 0 -1 99 1 60 40 1 0 0;
+#X restore 250 136 graph;
+#X obj 316 141 vsl 15 32 0 1 0 1 empty empty empty 0 -9 0 10 -204786
+-1 -1 1700 1;
+#X text 315 102 VOL;
+#X obj 316 118 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 1
+1;
+#X obj 342 109 vsl 15 64 0 1 0 1 empty empty empty 0 -9 0 10 -204800
+-1 -1 2400 1;
+#X obj 241 203 expr~ $v1*(1-$f2);
+#X obj 342 203 expr~ $v1*$f2;
+#X obj 230 9 inlet~;
+#X obj 230 41 *~;
+#X text 243 102 RIGHT;
+#X connect 0 0 25 0;
+#X connect 0 0 26 0;
+#X connect 1 0 0 0;
+#X connect 1 0 3 0;
+#X connect 2 0 1 0;
+#X connect 8 0 11 0;
+#X connect 9 0 11 1;
+#X connect 11 0 20 0;
+#X connect 11 0 21 0;
+#X connect 12 0 13 0;
+#X connect 13 0 17 0;
+#X connect 14 0 18 2;
+#X connect 14 0 33 2;
+#X connect 15 0 14 0;
+#X connect 16 0 17 1;
+#X connect 17 0 29 0;
+#X connect 17 0 5 0;
+#X connect 18 0 12 0;
+#X connect 19 0 20 1;
+#X connect 19 0 21 1;
+#X connect 20 0 12 0;
+#X connect 21 0 18 0;
+#X connect 22 0 16 0;
+#X connect 22 0 38 0;
+#X connect 23 0 22 0;
+#X connect 27 0 25 0;
+#X connect 28 0 26 0;
+#X connect 30 0 31 0;
+#X connect 31 0 32 0;
+#X connect 32 0 34 0;
+#X connect 32 0 5 1;
+#X connect 33 0 30 0;
+#X connect 36 0 43 1;
+#X connect 38 0 32 1;
+#X connect 39 0 41 0;
+#X connect 39 0 40 0;
+#X connect 40 0 30 0;
+#X connect 41 0 33 0;
+#X connect 42 0 43 0;
+#X connect 43 0 40 0;
+#X connect 43 0 41 0;
+#X coords 0 -1 1 1 275 80 2 100 100;
