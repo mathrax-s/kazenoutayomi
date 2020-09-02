@@ -219,9 +219,6 @@
 #define OSCILLATOR_COUNT 12 // 16 oscillators: 25% load with -O1 (64: 90%)
 #define CLIP 1016 // 127 * 8
 
-//static const volatile int8_t* wtp1 = wt_attack1;
-//static const volatile int8_t* wtp2 = wt_attack2;
-
 extern uint32_t increments_pot1[ OSCILLATOR_COUNT ];
 extern uint32_t phase_accu_pot1[ OSCILLATOR_COUNT ];
 extern uint32_t envelope_positions_envpot1[ OSCILLATOR_COUNT ];
