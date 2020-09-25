@@ -1,37 +1,28 @@
-## Welcome to GitHub Pages
+# 風のうたよみ
 
-You can use the [editor on GitHub](https://github.com/mathrax-s/rokko2020/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## 作品の紹介
 
-### Markdown
+[![風のうたよみ](http://img.youtube.com/vi/Kt1RpMQv_q4/0.jpg)](http://www.youtube.com/watch?v=Kt1RpMQv_q4 "風のうたよみ")
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+六甲オルゴールミュージアムの中庭に、鳥の木彫が10体おいてあります。
 
-```markdown
-Syntax highlighted code block
+その鳥の背中を撫でると、オルゴールの音色の音や、風の流れるような響が聞こえます。
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
+---
 
-**Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
-```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+## システム
 
-### Jekyll Themes
+### ハードウェア
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/mathrax-s/rokko2020/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+[![システムボックス1](https://github.com/mathrax-s/rokko2020/blob/garage/kazenoutayomi_system1.png?raw=true)]("system_1")
 
-### Support or Contact
+[![システムボックス2](https://github.com/mathrax-s/rokko2020/blob/garage/kazenoutayomi_system2.png?raw=true)]("system_2")
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+
+
+---
