@@ -19,7 +19,7 @@
 
 ### ハードウェア
 
-[![システムボックス1](https://github.com/mathrax-s/rokko2020/blob/garage/kazenoutayomi_system1.png?raw=true)]("system_1")
+[![システムボックス1](https://github.com/mathrax-s/rokko2020/blob/garage/kazenoutayomi_system1.svg?raw=true)]("system_1")
 
 [![システムボックス2](https://github.com/mathrax-s/rokko2020/blob/garage/kazenoutayomi_system2.png?raw=true)]("system_2")
 
