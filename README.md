@@ -31,11 +31,15 @@
 
 ##### System 1
 
+System1をより詳細に見ていきます。
+
 [![システムボックス1](https://github.com/mathrax-s/rokko2020/blob/gh-pages/kazenoutayomi_system1.svg?raw=true)]("system_1")
 
 ---
 
 ##### System 2
+
+System2をより詳細に見ていきます。
 
 [![システムボックス2](https://github.com/mathrax-s/rokko2020/blob/gh-pages/kazenoutayomi_system2.svg?raw=true)]("system_2")
 
