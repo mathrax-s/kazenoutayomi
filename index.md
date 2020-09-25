@@ -19,13 +19,15 @@
 
 ### ハードウェア
 
-#### システムボックス1
+#### システム全体![システム全体](https://github.com/mathrax-s/rokko2020/blob/gh-pages/kazenoutayomi_system.svg?raw=true)
+
+##### System 1
 
 [![システムボックス1](https://github.com/mathrax-s/rokko2020/blob/gh-pages/kazenoutayomi_system1.svg?raw=true)]("system_1")
 
 
 
-#### システムボックス2
+##### System 2
 
 [![システムボックス2](https://github.com/mathrax-s/rokko2020/blob/gh-pages/kazenoutayomi_system2.svg?raw=true)]("system_2")
 
