@@ -13,7 +13,7 @@
 
 デジタル技術が発展するにつれ、視覚と聴覚に特化したコンテンツが多くなったように思います。でもデジタル技術の恩恵はとてもありがたいものでもあります。
 
-この作品は、そんなデジタル技術と自然と人のよい関わり方を、音で模索した作品となっています。
+この作品は、そんなデジタル技術と自然と人との関わり方を、音を足がかりに模索した作品です。
 
 
 
@@ -29,20 +29,13 @@
 
 ---
 
-#### System 1
-
-System1をより詳細に見ていきます。
+##### System 1
 
 [![システムボックス1](https://github.com/mathrax-s/rokko2020/blob/gh-pages/kazenoutayomi_system1.svg?raw=true)]("system_1")
 
 ---
 
-#### System 2
-
-System2をより詳細に見ていきます。
+##### System 2
 
 [![システムボックス2](https://github.com/mathrax-s/rokko2020/blob/gh-pages/kazenoutayomi_system2.svg?raw=true)]("system_2")
 
-
-
----
